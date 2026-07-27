@@ -22,7 +22,7 @@ Die Skripte deduplizieren gegen `jobs/rohdaten/gesehen.yaml` und geben NUR NEUES
 ## 2 · Triage & Scoring (Kopfarbeit — Regeln in career/preferences.md)
 
 1. **KO-Filter zuerst:** Sperrliste (gesamte thyssenkrupp-Gruppe!), Beratung unterhalb PM-Einstieg, sicher < 100k Gesamtpaket, reine Koordination ohne Mandat, Pampa ohne Ausgleich.
-2. Für Plausible: **Volltext archivieren** → `jobs/archiv/<id>/posting.md` (+ `meta.yaml`). Anzeigen verschwinden — Volltext ist Pflicht, BEVOR bewertet wird.
+2. Für Plausible: **Volltext archivieren** → `jobs/archiv/<id>/posting.md` — mit Meta-Kopf inkl. **Arbeitsort/Adresse aus den Quelldaten**. Anzeigen verschwinden — Volltext ist Pflicht, BEVOR bewertet wird. Vor Mappen-Fertigstellung: Firmensitz/Adresse extern verifizieren (Impressum/Register) — Lektor-Learning vom 27.07.
 3. Score nach Rubrik v2 (Gewichte in preferences.md), 2–3 Sätze Begründung, **Konfidenz** (hoch/mittel/niedrig + warum). Eintrag in `jobs/jobs.yaml` (Schema: Kopfkommentar dort).
 4. Kurz-Recherche pro ernstem Kandidaten: Firmen-Gesundheit, Kultur-Signale (kununu-Muster, Anzeigen-Sprache), Gehaltsindizien, Stadt-Kosten.
 

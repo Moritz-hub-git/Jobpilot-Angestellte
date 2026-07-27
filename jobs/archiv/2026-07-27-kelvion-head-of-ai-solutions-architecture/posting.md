@@ -1,6 +1,7 @@
 # Head of AI Solutions & Architecture (m/w/d)
 
 - **Firma:** Kelvion Holding GmbH
+- **Arbeitsort (BA-Daten):** Von-der-Heydt-Straße 2, 44623 Herne — am 27.07. gegen Impressum/Handelsregister verifiziert (Registergericht Bochum, HRB 14670)
 - **Quelle:** ba
 - **URL:** https://www.arbeitsagentur.de/jobsuche/jobdetail/19663-0066225648-S
 - **Archiviert:** 2026-07-27 (Volltext im Original-Wortlaut)

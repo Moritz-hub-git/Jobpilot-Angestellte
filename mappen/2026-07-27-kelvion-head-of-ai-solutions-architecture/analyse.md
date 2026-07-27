@@ -1,6 +1,6 @@
 # Analyse — Kelvion Holding GmbH: Head of AI Solutions & Architecture (m/w/d)
 
-> Score 7,4 (Konfidenz mittel) · Standort Herne · veröffentlicht 21.07.2026 · Volltext: `jobs/archiv/2026-07-27-kelvion-head-of-ai-solutions-architecture/posting.md`
+> Score 7,4 (Konfidenz mittel) · Standort Herne — **verifiziert 27.07.** (Zentrale: Von-der-Heydt-Straße 2, 44623 Herne; Registergericht Bochum, HRB 14670 — Quelle: Kelvion-Impressum + Handelsregister) · veröffentlicht 21.07.2026 · Volltext: `jobs/archiv/2026-07-27-kelvion-head-of-ai-solutions-architecture/posting.md`
 > **Kalibrier-Mappe des Probelaufs:** knapp unter der 7,5-Schwelle gebaut, damit wir an einem realen Grenzfall Scoring und Stimme eichen.
 
 ## Warum es (weitgehend) passt

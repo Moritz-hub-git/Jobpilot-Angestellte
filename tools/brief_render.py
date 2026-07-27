@@ -27,7 +27,8 @@ def main():
 
     bloecke = [b.strip() for b in re.split(r"\n\s*\n", rest) if b.strip()]
     anrede = bloecke[0]
-    gruss_idx = next(i for i, b in enumerate(bloecke) if b.splitlines()[0].strip() in GRUSS)
+    gruss_idx = next(i for i, b in enumerate(bloecke)
+                     if b.splitlines()[0].strip().rstrip(",") in GRUSS)
     absaetze = bloecke[1:gruss_idx]
     grussformel = bloecke[gruss_idx].splitlines()[0].strip()
 
@@ -46,7 +47,8 @@ def main():
              else f"Dortmund, den {d.day}. {monate[d.month - 1]} {d.year}")
 
     tpl = (ROOT / "tools" / "templates" / "brief.html").read_text(encoding="utf-8")
-    out = (tpl.replace("{{SPRACHE}}", "en" if args.en else "de")
+    out = (tpl.replace("{{ORT_LAND}}", "Dortmund, Germany" if args.en else "Dortmund, Deutschland")
+              .replace("{{SPRACHE}}", "en" if args.en else "de")
               .replace("{{EMPFAENGER}}", esc(args.empfaenger.replace("\\n", "\n")))
               .replace("{{ORT_DATUM}}", datum)
               .replace("{{BETREFF}}", esc(betreff))

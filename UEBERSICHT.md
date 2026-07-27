@@ -8,6 +8,8 @@
 - **Mappe reviewen:** Kelvion Holding GmbH — Head of AI Solutions & Architecture (m/w/d) (Score 7.4): `mappen/2026-07-27-kelvion-head-of-ai-solutions-architecture/`
 - **Klären:** exakte Monatsgrenze EA→PMO — Alt-CV und Dossier widersprechen sich _(→ career/cv/notizen.md)_
 - **Klären:** sind diese drei Initiativen belegbar? Dann ins Dossier aufnehmen _(→ career/cv/notizen.md)_
+- **Klären:** Amazon-Praktikum in Berlin? — Ort steht nur im Alt-CV _(→ career/cv/notizen.md)_
+- **Klären:** Fechtabteilungs-Vorsitz 10/2017–03/2021? — Daten stehen nur im Alt-CV _(→ career/cv/notizen.md)_
 
 ## Zahlen
 

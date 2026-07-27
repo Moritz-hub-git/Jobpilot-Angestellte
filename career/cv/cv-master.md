@@ -16,26 +16,26 @@ Digital strategist with a dual-track background: deep industrial DNA (thyssenkru
 *Project Manager AI, Digitalization* — 06/2026 – present
 - AI portfolio: company-wide mandate to identify and implement AI use cases — ~30 identified through workshops with business functions, 2 in production, more in delivery.
 - Production AI agents: service-inbox agent (reads, classifies, creates tickets, drafts replies — used by the entire service team); communications-inbox triage; RFQ-analysis agent that catalogs incoming requests and made product development data-driven for the first time.
-- LCOH platform: moved the company's core techno-economic KPI (levelized cost of hydrogen) from scattered Excel models into a web-based database tool — built AI-assisted (Claude Code) in the company's first approved AI-development pilot; an external build was quoted at several €100k.
+- LCOH platform: moved the company's core techno-economic KPI (levelized cost of hydrogen) from scattered Excel models into a web-based database tool — built AI-assisted (Claude Code) in the company's first approved AI-development pilot; an external build would have cost several €100k and covered less.
 - Presented "Data & AI Use Cases" to the Executive Board (Spring Strategy Days 2026).
 
 *Strategic Program Manager, Corporate PMO* — 01/2025 – 05/2026
-- Digital PMO: replaced manual workstream reporting (SharePoint forms, Word consolidation) with an integrated Power Platform tool — database, input app, automated reminders, AI-drafted report texts (human in the loop), automated documents. Cut repetitive reporting workload by ~80% (>32h → ~6h per cycle); in unchanged daily use today.
+- Digital PMO: replaced manual workstream reporting (SharePoint forms, Word consolidation) with an integrated Power Platform tool — database, input app, automated reminders, AI-drafted report texts (human in the loop), automated documents. Cut repetitive reporting workload by ~80% (>32h → ~6h per cycle); in unchanged use today.
 - Steered 4+ strategic workstreams (Partnership, Cost Down, Sales Scope, New Technology Venture) as sparring partner to senior leads; prepared the monthly executive steering meeting — later automated it end-to-end.
 
 *Executive Assistant to the CEO* — 06/2024 – 01/2025
-- Led cross-functional CEO initiatives: cost and business-case analyses, technology benchmarks, M&A assessment, carve-out/legal-structure assessment incl. cost-benefit recommendation.
+- Led cross-functional CEO initiatives: cost and business-case analyses, technology benchmarks, M&A assessment, carve-out/legal-structure assessment incl. cost-benefit analysis.
 - Sparring on Board materials and C-level messaging; consolidated the company's scattered LCOH cost knowledge for a major-investor inquiry (Norges Bank).
 
 **Hubert Burda Media** (media & tech group) | Munich, Hamburg, Bangkok
 *Management Trainee Program* (rotations across 9 businesses) — 09/2022 – 05/2024
-- AI venture building (BurdaForward): pitched an own AI-personalization thesis right after the ChatGPT release, secured €60k internal funding, formed a distributed dev team and delivered prototype, business case and validated user problem.
+- AI venture building (BurdaForward): pitched his own AI-personalization thesis right after the ChatGPT release, secured €60k internal funding, formed a distributed dev team and delivered prototype, business case and validated user problem.
 - XING / New Work SE: ran the PMO for the largest product transformation to date (pivot to a jobs platform) — launched on time, a first for a project of this size there.
 - Also: steered BurdaForward's Q4 profit program (seven-figure P&L impact); built M&A valuation models; developed a SEA market-entry strategy in Bangkok.
 
 **Conciso GmbH** (IT consulting) | Dortmund
 *Working Student, Strategy & Operations* — 02/2018 – 06/2022
-- Won a €250k software-development project in a solo pitch and managed it commercially end-to-end (contracts, subcontracted dev team, delivery steering) — as a working student, while the firm grew from ~10 to ~80 people.
+- Won a €250k software-development project in a solo pitch and managed it commercially end-to-end (contracts, subcontracted dev team, delivery steering) — as a working student, at a firm that has since grown from ~10 to ~80 people.
 
 **Amazon Germany** | Berlin — *Business Development Intern, Pan-EU program* — 06/2021 – 08/2021
 - Onboarded marketplace sellers to cross-border selling; met and exceeded targets.

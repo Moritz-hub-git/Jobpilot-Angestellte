@@ -17,4 +17,4 @@ Einseitiger englischer CV, geschrieben ~Mitte/Ende 2025, erkennbar für die **in
 | Conciso „scaling from **20 to 70+** employees" | „von ~10 auf heute ~80 gewachsen" (Zeitraum Moritz' Mitarbeit) | „from ~20 to 70+ during my tenure" vermeiden → neutral „scaled from ~10 to ~80" nur als Kontext; sein Beitrag: Operations + €250k-Projekt |
 | Q4: „Led a Q4 cost-optimizing program, realizing seven-figure savings" | Gate: Programm-Steuerung + Programmwirkung, nicht persönliche Einsparung | „Steered a Q4 profit program (seven-figure P&L impact)" |
 
-Offen für Moritz (gesammelt, nicht dringend): die beiden `[KLÄREN]`-Punkte oben.
+Offen für Moritz (gesammelt, nicht dringend): die beiden `[KLÄREN]`-Punkte oben, plus zwei nur im Alt-CV belegte Details, die der Lektor zu Recht angemerkt hat: `[KLÄREN: Amazon-Praktikum in Berlin? — Ort steht nur im Alt-CV]` und `[KLÄREN: Fechtabteilungs-Vorsitz 10/2017–03/2021? — Daten stehen nur im Alt-CV]`. Nach Bestätigung ins Dossier nachtragen.
