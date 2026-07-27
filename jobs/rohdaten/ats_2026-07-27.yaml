@@ -1,0 +1,1937 @@
+quelle: ats
+datum: '2026-07-27'
+neu:
+- firma: Aleph Alpha
+  typ: ashby
+  id: 2faca6ec-69bd-4e04-b055-05f24ddf0f4d
+  titel: Senior AI R&D Engineer - Performance - Pre-training (f/m/d)
+  ort: Heidelberg
+  url: https://jobs.ashbyhq.com/alephalpha/2faca6ec-69bd-4e04-b055-05f24ddf0f4d
+- firma: Aleph Alpha
+  typ: ashby
+  id: af5ac8a9-31a7-4017-9cd9-0a8b360ad937
+  titel: 'Senior AI R&D Engineer – Pre-training Data (f/m/d) '
+  ort: Heidelberg
+  url: https://jobs.ashbyhq.com/alephalpha/af5ac8a9-31a7-4017-9cd9-0a8b360ad937
+- firma: Aleph Alpha
+  typ: ashby
+  id: ed326a0a-1cab-425a-b9c1-ae617d6d1cce
+  titel: Senior AI Researcher- Reinforcement learning (f/m/d)
+  ort: Heidelberg
+  url: https://jobs.ashbyhq.com/alephalpha/ed326a0a-1cab-425a-b9c1-ae617d6d1cce
+- firma: Aleph Alpha
+  typ: ashby
+  id: 0628691f-7d3e-416d-9358-3b55859e1bbb
+  titel: Senior AI Researcher - Pre-training Data (m/f/d)
+  ort: Heidelberg
+  url: https://jobs.ashbyhq.com/alephalpha/0628691f-7d3e-416d-9358-3b55859e1bbb
+- firma: Aleph Alpha
+  typ: ashby
+  id: 80dc6ee6-dece-4d4b-9906-ea930338f245
+  titel: Senior AI Researcher- Pre-training (f/m/d)
+  ort: Heidelberg
+  url: https://jobs.ashbyhq.com/alephalpha/80dc6ee6-dece-4d4b-9906-ea930338f245
+- firma: Aleph Alpha
+  typ: ashby
+  id: 0ed0c9ef-8e9f-4161-80e6-55fc95c93736
+  titel: Senior AI R&D Engineer – Model Training  (f/m/d)
+  ort: Heidelberg
+  url: https://jobs.ashbyhq.com/alephalpha/0ed0c9ef-8e9f-4161-80e6-55fc95c93736
+- firma: DeepL
+  typ: ashby
+  id: ee1e5089-4652-4ea2-b233-8c3ab0fe729d
+  titel: VP of Sales, AMER
+  ort: Austin
+  url: https://jobs.ashbyhq.com/deepl/ee1e5089-4652-4ea2-b233-8c3ab0fe729d
+- firma: DeepL
+  typ: ashby
+  id: 0f8a70b7-d28a-4db6-be61-5886863c22ea
+  titel: Developer Growth, API & Agentic AI Products
+  ort: Austin
+  url: https://jobs.ashbyhq.com/deepl/0f8a70b7-d28a-4db6-be61-5886863c22ea
+- firma: DeepL
+  typ: ashby
+  id: e28bd54a-b551-4e5c-b8e0-94297dd084f5
+  titel: Lead Solutions Consultant
+  ort: Tokyo
+  url: https://jobs.ashbyhq.com/deepl/e28bd54a-b551-4e5c-b8e0-94297dd084f5
+- firma: DeepL
+  typ: ashby
+  id: 3b316de2-a255-440a-a2e4-af07f59b9bcc
+  titel: Senior ABM Digital Marketing Lead - Global (12-Month Maternity Cover)
+  ort: London
+  url: https://jobs.ashbyhq.com/deepl/3b316de2-a255-440a-a2e4-af07f59b9bcc
+- firma: Parloa
+  typ: greenhouse
+  id: '4809098101'
+  titel: 'Director Of Security Engineering '
+  ort: Berlin Office; Remotely in Germany
+  url: https://job-boards.eu.greenhouse.io/parloa/jobs/4809098101
+- firma: Parloa
+  typ: greenhouse
+  id: '4922351101'
+  titel: Lead/Senior Solution Engineer - Turkey
+  ort: 'Istanbul; Remotely in Europe '
+  url: https://job-boards.eu.greenhouse.io/parloa/jobs/4922351101
+- firma: Parloa
+  typ: greenhouse
+  id: '4861871101'
+  titel: Principal Applied Scientist
+  ort: Berlin Office; Munich Office; Remotely in Germany
+  url: https://job-boards.eu.greenhouse.io/parloa/jobs/4861871101
+- firma: Parloa
+  typ: greenhouse
+  id: '4828560101'
+  titel: Principal Product Marketing Manager
+  ort: New York Office
+  url: https://job-boards.eu.greenhouse.io/parloa/jobs/4828560101
+- firma: Parloa
+  typ: greenhouse
+  id: '4917838101'
+  titel: Principal Security Engineer
+  ort: Berlin Office
+  url: https://job-boards.eu.greenhouse.io/parloa/jobs/4917838101
+- firma: Parloa
+  typ: greenhouse
+  id: '4857704101'
+  titel: Principal Software Engineer - Real-Time Voice
+  ort: Berlin Office
+  url: https://job-boards.eu.greenhouse.io/parloa/jobs/4857704101
+- firma: Parloa
+  typ: greenhouse
+  id: '4843389101'
+  titel: Senior Data Engineer - Internal Platform
+  ort: Berlin Office
+  url: https://job-boards.eu.greenhouse.io/parloa/jobs/4843389101
+- firma: Parloa
+  typ: greenhouse
+  id: '4905260101'
+  titel: Staff/Principal Product Manager, Infrastructure Platform
+  ort: Berlin Office
+  url: https://job-boards.eu.greenhouse.io/parloa/jobs/4905260101
+- firma: Parloa
+  typ: greenhouse
+  id: '4896674101'
+  titel: Staff/Principal Software Engineer (Frontend)
+  ort: Berlin Office
+  url: https://job-boards.eu.greenhouse.io/parloa/jobs/4896674101
+- firma: n8n
+  typ: ashby
+  id: d195a389-6af5-4b95-82e5-2258953c7297
+  titel: Sr AI Engineer | Remote - Europe | TS/Vue/NodeJS
+  ort: Berlin Office
+  url: https://jobs.ashbyhq.com/n8n/d195a389-6af5-4b95-82e5-2258953c7297
+- firma: n8n
+  typ: ashby
+  id: 443669df-8d0d-4169-929a-2f9cb293c6df
+  titel: Director of Engineering | Europe | Remote
+  ort: Berlin Office
+  url: https://jobs.ashbyhq.com/n8n/443669df-8d0d-4169-929a-2f9cb293c6df
+- firma: n8n
+  typ: ashby
+  id: e34d0a51-253b-4ca0-96ec-f3685d0fad9e
+  titel: Head of Forward Deployment
+  ort: United Kingdom
+  url: https://jobs.ashbyhq.com/n8n/e34d0a51-253b-4ca0-96ec-f3685d0fad9e
+- firma: n8n
+  typ: ashby
+  id: 443fd5c2-6501-45cf-b8c8-851fe94d48f9
+  titel: Head of Solutions Engineering
+  ort: Berlin Office
+  url: https://jobs.ashbyhq.com/n8n/443fd5c2-6501-45cf-b8c8-851fe94d48f9
+- firma: n8n
+  typ: ashby
+  id: bf526af6-784c-49e8-8233-d69595423b4d
+  titel: Senior Data Engineer
+  ort: Germany
+  url: https://jobs.ashbyhq.com/n8n/bf526af6-784c-49e8-8233-d69595423b4d
+- firma: n8n
+  typ: ashby
+  id: 569612ef-9772-4351-9ea7-56c359225301
+  titel: Field Marketing Lead, US
+  ort: Boston
+  url: https://jobs.ashbyhq.com/n8n/569612ef-9772-4351-9ea7-56c359225301
+- firma: Merantix Momentum
+  typ: personio
+  id: '2459250'
+  titel: Growth & Sales Intern (f/m/d) (Stealth AI Energy Venture)
+  ort: Berlin
+  url: https://merantix.jobs.personio.de/job/2459250
+- firma: Merantix Momentum
+  typ: personio
+  id: '2531725'
+  titel: Founding GTM Operator @ Stealth AI Recruiting Venture
+  ort: Berlin
+  url: https://merantix.jobs.personio.de/job/2531725
+- firma: Merantix Momentum
+  typ: personio
+  id: '2532243'
+  titel: Founding Engineer @ Stealth AI Recruiting Venture
+  ort: Berlin
+  url: https://merantix.jobs.personio.de/job/2532243
+- firma: Merantix Momentum
+  typ: personio
+  id: '2618237'
+  titel: Founding Marketing Manager @ Briink (AI x ESG SaaS)
+  ort: Berlin,Remote / Hybrid
+  url: https://merantix.jobs.personio.de/job/2618237
+- firma: Merantix Momentum
+  typ: personio
+  id: '2633475'
+  titel: VC Growth & Community Lead
+  ort: Berlin
+  url: https://merantix.jobs.personio.de/job/2633475
+- firma: Merantix Momentum
+  typ: personio
+  id: '2668419'
+  titel: Growth Intern (Merantix AI Campus)
+  ort: Berlin
+  url: https://merantix.jobs.personio.de/job/2668419
+- firma: Merantix Momentum
+  typ: personio
+  id: '2726447'
+  titel: Strategy & Operations Intern (Merantix AI Campus)
+  ort: Berlin
+  url: https://merantix.jobs.personio.de/job/2726447
+- firma: Helsing
+  typ: greenhouse
+  id: '4865187101'
+  titel: Accounts Payable Lead
+  ort: Munich
+  url: https://helsing.ai/jobs/4865187101?gh_jid=4865187101
+- firma: Helsing
+  typ: greenhouse
+  id: '4911999101'
+  titel: AI Research Engineer -  3D Computer Vision
+  ort: Berlin; London; Munich; Paris
+  url: https://helsing.ai/jobs/4911999101?gh_jid=4911999101
+- firma: Helsing
+  typ: greenhouse
+  id: '4334849101'
+  titel: AI Research Engineer - AI Safety
+  ort: Berlin; London; Munich
+  url: https://helsing.ai/jobs/4334849101?gh_jid=4334849101
+- firma: Helsing
+  typ: greenhouse
+  id: '4334842101'
+  titel: AI Research Engineer -  Computer Vision
+  ort: Berlin; London; Munich
+  url: https://helsing.ai/jobs/4334842101?gh_jid=4334842101
+- firma: Helsing
+  typ: greenhouse
+  id: '4766708101'
+  titel: AI Research Engineer - Foundation Models
+  ort: Berlin; London; Munich; Paris
+  url: https://helsing.ai/jobs/4766708101?gh_jid=4766708101
+- firma: Helsing
+  typ: greenhouse
+  id: '4778869101'
+  titel: AI Research Engineer - ML Engineering
+  ort: Berlin; London; Munich
+  url: https://helsing.ai/jobs/4778869101?gh_jid=4778869101
+- firma: Helsing
+  typ: greenhouse
+  id: '4372802101'
+  titel: AI Research Engineer - ML & Signal Processing
+  ort: Berlin; Munich
+  url: https://helsing.ai/jobs/4372802101?gh_jid=4372802101
+- firma: Helsing
+  typ: greenhouse
+  id: '4676357101'
+  titel: AI Research Engineer - Reinforcement Learning
+  ort: Barcelona; Berlin; London; Munich; Paris
+  url: https://helsing.ai/jobs/4676357101?gh_jid=4676357101
+- firma: Helsing
+  typ: greenhouse
+  id: '4423924101'
+  titel: AI Research Engineer - Robotics
+  ort: Barcelona; Paris
+  url: https://helsing.ai/jobs/4423924101?gh_jid=4423924101
+- firma: Helsing
+  typ: greenhouse
+  id: '4516967101'
+  titel: Deployed AI Engineer
+  ort: Berlin; London; Munich; Paris; Stockholm; Tallinn
+  url: https://helsing.ai/jobs/4516967101?gh_jid=4516967101
+- firma: Helsing
+  typ: greenhouse
+  id: '4927386101'
+  titel: Director Finance Platform
+  ort: Munich
+  url: https://helsing.ai/jobs/4927386101?gh_jid=4927386101
+- firma: Helsing
+  typ: greenhouse
+  id: '4860864101'
+  titel: 'Director of Production  '
+  ort: Washington, DC
+  url: https://helsing.ai/jobs/4860864101?gh_jid=4860864101
+- firma: Helsing
+  typ: greenhouse
+  id: '4876472101'
+  titel: DMU (Digital Mock-Up) Engineer
+  ort: Munich
+  url: https://helsing.ai/jobs/4876472101?gh_jid=4876472101
+- firma: Helsing
+  typ: greenhouse
+  id: '4871604101'
+  titel: Finance Data Engineer
+  ort: Munich
+  url: https://helsing.ai/jobs/4871604101?gh_jid=4871604101
+- firma: Helsing
+  typ: greenhouse
+  id: '4865202101'
+  titel: Head of Accounting
+  ort: Munich
+  url: https://helsing.ai/jobs/4865202101?gh_jid=4865202101
+- firma: Helsing
+  typ: greenhouse
+  id: '4897813101'
+  titel: Head of Aerodynamics & Thermal
+  ort: Munich
+  url: https://helsing.ai/jobs/4897813101?gh_jid=4897813101
+- firma: Helsing
+  typ: greenhouse
+  id: '4929843101'
+  titel: 'Head of Communications  '
+  ort: Washington, DC
+  url: https://helsing.ai/jobs/4929843101?gh_jid=4929843101
+- firma: Helsing
+  typ: greenhouse
+  id: '4812310101'
+  titel: 'HRIS & Systems Lead '
+  ort: Munich - London
+  url: https://helsing.ai/jobs/4812310101?gh_jid=4812310101
+- firma: Helsing
+  typ: greenhouse
+  id: '4899205101'
+  titel: 'Lead Engineer – Ground Control Station (GCS) & Hardware Simulator '
+  ort: Munich
+  url: https://helsing.ai/jobs/4899205101?gh_jid=4899205101
+- firma: Helsing
+  typ: greenhouse
+  id: '4906726101'
+  titel: Lead Field Engineer
+  ort: Washington, DC
+  url: https://helsing.ai/jobs/4906726101?gh_jid=4906726101
+- firma: Helsing
+  typ: greenhouse
+  id: '4900888101'
+  titel: Lead Systems Engineer - Active RF Sensing
+  ort: Munich
+  url: https://helsing.ai/jobs/4900888101?gh_jid=4900888101
+- firma: Helsing
+  typ: greenhouse
+  id: '4879138101'
+  titel: 'Lead Systems Engineer - Avionics Communication '
+  ort: Munich
+  url: https://helsing.ai/jobs/4879138101?gh_jid=4879138101
+- firma: Helsing
+  typ: greenhouse
+  id: '4782393101'
+  titel: Lead Systems Engineer - EO/IR Sensing
+  ort: Munich
+  url: https://helsing.ai/jobs/4782393101?gh_jid=4782393101
+- firma: Helsing
+  typ: greenhouse
+  id: '4782354101'
+  titel: Lead Systems Engineer - LO Emission Control & RF Interoperability
+  ort: Munich
+  url: https://helsing.ai/jobs/4782354101?gh_jid=4782354101
+- firma: Helsing
+  typ: greenhouse
+  id: '4908213101'
+  titel: Lead Systems Engineer - Maritime
+  ort: Munich - Berlin
+  url: https://helsing.ai/jobs/4908213101?gh_jid=4908213101
+- firma: Helsing
+  typ: greenhouse
+  id: '4924405101'
+  titel: Lead Systems Engineer – Military Communications
+  ort: Munich
+  url: https://helsing.ai/jobs/4924405101?gh_jid=4924405101
+- firma: Helsing
+  typ: greenhouse
+  id: '4888238101'
+  titel: Lead Systems Engineer - Passive RF Sensing
+  ort: Munich
+  url: https://helsing.ai/jobs/4888238101?gh_jid=4888238101
+- firma: Helsing
+  typ: greenhouse
+  id: '4902953101'
+  titel: Machine Learning Engineer, Detection and Tracking
+  ort: Washington, DC
+  url: https://helsing.ai/jobs/4902953101?gh_jid=4902953101
+- firma: Helsing
+  typ: greenhouse
+  id: '4871611101'
+  titel: Process & Internal Control System Lead
+  ort: Munich
+  url: https://helsing.ai/jobs/4871611101?gh_jid=4871611101
+- firma: Helsing
+  typ: greenhouse
+  id: '4936025101'
+  titel: Product Manager
+  ort: Munich - Berlin
+  url: https://helsing.ai/jobs/4936025101?gh_jid=4936025101
+- firma: Helsing
+  typ: greenhouse
+  id: '4869481101'
+  titel: Product Manager — Electronic Warfare (Offboard & Cross-Platform)
+  ort: Munich - Berlin
+  url: https://helsing.ai/jobs/4869481101?gh_jid=4869481101
+- firma: Helsing
+  typ: greenhouse
+  id: '4870670101'
+  titel: 'Senior Lead Engineer Electronic Warfare and Survivability '
+  ort: Munich
+  url: https://helsing.ai/jobs/4870670101?gh_jid=4870670101
+- firma: Helsing
+  typ: greenhouse
+  id: '4888975101'
+  titel: Technical Lead Engineer, UAV Development
+  ort: Munich
+  url: https://helsing.ai/jobs/4888975101?gh_jid=4888975101
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8044891'
+  titel: AI and Automation Specialist
+  ort: Manila, Manila, Philippines
+  url: https://careers.hellofresh.com/global/en/job/8044891?gh_jid=8044891
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7953660'
+  titel: App Marketing Team Lead (all genders)
+  ort: Berlin, Berlin, Germany
+  url: https://careers.hellofresh.com/global/en/job/7953660?gh_jid=7953660
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8025059'
+  titel: Associate Director, FSQA
+  ort: Aurora, IL, United States; Phoenix, AZ, United States
+  url: https://careers.hellofresh.com/global/en/job/8025059?gh_jid=8025059
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8052044'
+  titel: Associate Director, Maintenance and Reliability Engineering
+  ort: Irving, TX, United States; Newark, NJ, United States
+  url: https://careers.hellofresh.com/global/en/job/8052044?gh_jid=8052044
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7517506'
+  titel: Associate Director of Ingredient Quality & Continuous Improvement
+  ort: Irving, TX, United States; Newark, NJ, United States; Phoenix, AZ, United States
+  url: https://careers.hellofresh.com/global/en/job/7517506?gh_jid=7517506
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8077027'
+  titel: 'Associate Director of Logistics UK & Ireland '
+  ort: London, England, United Kingdom
+  url: https://careers.hellofresh.com/global/en/job/8077027?gh_jid=8077027
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8074231'
+  titel: 'Associate Director of Logistics UK & Ireland '
+  ort: Derby, England, United Kingdom
+  url: https://careers.hellofresh.com/global/en/job/8074231?gh_jid=8074231
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7978795'
+  titel: Associate Director Outbound Sales Operations (all genders)
+  ort: Berlin, Berlin, Germany
+  url: https://careers.hellofresh.com/global/en/job/7978795?gh_jid=7978795
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7908796'
+  titel: Associate Director, Planning
+  ort: Aurora, IL, United States; Goodyear, AZ, United States
+  url: https://careers.hellofresh.com/global/en/job/7908796?gh_jid=7908796
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8051295'
+  titel: Associate Director, Supply Chain Management
+  ort: Toronto, Ontario, Canada
+  url: https://careers.hellofresh.com/global/en/job/8051295?gh_jid=8051295
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8071245'
+  titel: '[DACH MAG] Shift Lead Maintenance (all genders)'
+  ort: Magdeburg, Saxony-Anhalt, Germany
+  url: https://careers.hellofresh.com/global/en/job/8071245?gh_jid=8071245
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8053356'
+  titel: Delivery Experience Insights & Experimentation Lead
+  ort: Amsterdam, North Holland, Netherlands
+  url: https://careers.hellofresh.com/global/en/job/8053356?gh_jid=8053356
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7946306'
+  titel: Digital Designer
+  ort: Manila, Manila, Philippines
+  url: https://careers.hellofresh.com/global/en/job/7946306?gh_jid=7946306
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7982991'
+  titel: Director, Commercial Sales, Retail & Foodservice
+  ort: New York, NY, United States
+  url: https://careers.hellofresh.com/global/en/job/7982991?gh_jid=7982991
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8034974'
+  titel: Director of Engineering, Payments
+  ort: Warszawa, Masovian Voivodeship, Poland
+  url: https://careers.hellofresh.com/global/en/job/8034974?gh_jid=8034974
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8034967'
+  titel: Director of Engineering, Payments
+  ort: Berlin, Berlin, Germany
+  url: https://careers.hellofresh.com/global/en/job/8034967?gh_jid=8034967
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7963135'
+  titel: Director, Planning Value Stream
+  ort: Berlin, Berlin, Germany
+  url: https://careers.hellofresh.com/global/en/job/7963135?gh_jid=7963135
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7967828'
+  titel: Director - Strategic Sourcing, Packaging, North America
+  ort: Toronto, Ontario, Canada
+  url: https://careers.hellofresh.com/global/en/job/7967828?gh_jid=7967828
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7967829'
+  titel: Director - Strategic Sourcing, Packaging, North America
+  ort: New York, NY, United States
+  url: https://careers.hellofresh.com/global/en/job/7967829?gh_jid=7967829
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8030038'
+  titel: Director UX Design
+  ort: Berlin, Berlin, Germany
+  url: https://careers.hellofresh.com/global/en/job/8030038?gh_jid=8030038
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7942234'
+  titel: Finance Director, HelloFresh Holding (all genders)
+  ort: Berlin, Berlin, Germany
+  url: https://careers.hellofresh.com/global/en/job/7942234?gh_jid=7942234
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8025791'
+  titel: Global Director, People Technology
+  ort: New York, NY, United States
+  url: https://careers.hellofresh.com/global/en/job/8025791?gh_jid=8025791
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8025786'
+  titel: Global Director, People Technology
+  ort: Berlin, Berlin, Germany
+  url: https://careers.hellofresh.com/global/en/job/8025786?gh_jid=8025786
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7704587'
+  titel: Growth Strategy Data Analyst - Intern (M/F/N)
+  ort: Paris, Paris, France
+  url: https://careers.hellofresh.com/global/en/job/7704587?gh_jid=7704587
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8064177'
+  titel: Head of Warehouse Operations (f/m/x)
+  ort: Bleiswijk, South Holland, Netherlands
+  url: https://careers.hellofresh.com/global/en/job/8064177?gh_jid=8064177
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8015299'
+  titel: '[HELLOCONNECT] Head of Finance'
+  ort: Manila, Manila, Philippines
+  url: https://careers.hellofresh.com/global/en/job/8015299?gh_jid=8015299
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7387627'
+  titel: '[HelloConnect] Product Data Analyst (SQL/Python)'
+  ort: Manila, Manila, Philippines
+  url: https://careers.hellofresh.com/global/en/job/7387627?gh_jid=7387627
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7486803'
+  titel: '[HELLOCONNECT] Team Leader, HR Data Management - US'
+  ort: Manila, Manila, Philippines
+  url: https://careers.hellofresh.com/global/en/job/7486803?gh_jid=7486803
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8068899'
+  titel: '[HELLOCONNECT] Workplace, Safety, and Benefits Lead'
+  ort: Manila, Manila, Philippines
+  url: https://careers.hellofresh.com/global/en/job/8068899?gh_jid=8068899
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7965496'
+  titel: IT Support Engineer - Enterprise AI
+  ort: Manila, Manila, Philippines
+  url: https://careers.hellofresh.com/global/en/job/7965496?gh_jid=7965496
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8083290'
+  titel: Kitchen Lead
+  ort: Goodyear, AZ, United States
+  url: https://careers.hellofresh.com/global/en/job/8083290?gh_jid=8083290
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8025063'
+  titel: Lead Automation Engineer
+  ort: Irving, TX, United States; Newark, NJ, United States; Phoenix, AZ, United States
+  url: https://careers.hellofresh.com/global/en/job/8025063?gh_jid=8025063
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8028367'
+  titel: Lead Data Analyst
+  ort: London, England, United Kingdom
+  url: https://careers.hellofresh.com/global/en/job/8028367?gh_jid=8028367
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7990136'
+  titel: Lead, Global Pricing Strategy  & Discount Strategy (all genders)
+  ort: Berlin, Berlin, Germany
+  url: https://careers.hellofresh.com/global/en/job/7990136?gh_jid=7990136
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8063645'
+  titel: 'Lead Maintenance Technician '
+  ort: Goodyear, AZ, United States
+  url: https://careers.hellofresh.com/global/en/job/8063645?gh_jid=8063645
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8030662'
+  titel: 'Lead Maintenance Technician '
+  ort: Newark, NJ, United States
+  url: https://careers.hellofresh.com/global/en/job/8030662?gh_jid=8030662
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7929851'
+  titel: Lead New Social Platforms & Growth Channels (x/f/m)
+  ort: Berlin, Berlin, Germany
+  url: https://careers.hellofresh.com/global/en/job/7929851?gh_jid=7929851
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7956652'
+  titel: Machine Learning Engineer, Operations Technology
+  ort: Toronto, Ontario, Canada
+  url: https://careers.hellofresh.com/global/en/job/7956652?gh_jid=7956652
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7769097'
+  titel: Manager, Brand Media Strategy & Planning
+  ort: New York, NY, United States
+  url: https://careers.hellofresh.com/global/en/job/7769097?gh_jid=7769097
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7766761'
+  titel: Manager, Global Price & Discount Strategy
+  ort: New York, NY, United States
+  url: https://careers.hellofresh.com/global/en/job/7766761?gh_jid=7766761
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8018112'
+  titel: Marketing Lead, Referrals (all genders)
+  ort: Berlin, Berlin, Germany
+  url: https://careers.hellofresh.com/global/en/job/8018112?gh_jid=8018112
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8044889'
+  titel: 'Operational Transformation Manager '
+  ort: Manila, Manila, Philippines
+  url: https://careers.hellofresh.com/global/en/job/8044889?gh_jid=8044889
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7748757'
+  titel: Operations Shift Lead – Production (all genders)
+  ort: Barleben, Saxony-Anhalt, Germany; Magdeburg, Saxony-Anhalt, Germany
+  url: https://careers.hellofresh.com/global/en/job/7748757?gh_jid=7748757
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8028134'
+  titel: 'People Technology Integrations & Data Manager '
+  ort: Berlin, Berlin, Germany
+  url: https://careers.hellofresh.com/global/en/job/8028134?gh_jid=8028134
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7916926'
+  titel: Principal Product Manager, Loyalty & Referrals
+  ort: Warszawa, Masovian Voivodeship, Poland
+  url: https://careers.hellofresh.com/global/en/job/7916926?gh_jid=7916926
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7916922'
+  titel: 'Principal Product Manager, Loyalty & Referrals '
+  ort: Toronto, Ontario, Canada
+  url: https://careers.hellofresh.com/global/en/job/7916922?gh_jid=7916922
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8049106'
+  titel: Production Lead
+  ort: Mississauga, Ontario, Canada
+  url: https://careers.hellofresh.com/global/en/job/8049106?gh_jid=8049106
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8065540'
+  titel: Production Lead
+  ort: Edmonton, Alberta, Canada
+  url: https://careers.hellofresh.com/global/en/job/8065540?gh_jid=8065540
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7912821'
+  titel: Production Lead
+  ort: Mississauga, Ontario, Canada
+  url: https://careers.hellofresh.com/global/en/job/7912821?gh_jid=7912821
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8064183'
+  titel: 'Production Lead '
+  ort: Irving, TX, United States
+  url: https://careers.hellofresh.com/global/en/job/8064183?gh_jid=8064183
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8075630'
+  titel: Production Lead (Plating)
+  ort: Calgary, Alberta, Canada
+  url: https://careers.hellofresh.com/global/en/job/8075630?gh_jid=8075630
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7748754'
+  titel: Production Shift Lead (all genders)
+  ort: Barleben, Saxony-Anhalt, Germany; Magdeburg, Saxony-Anhalt, Germany
+  url: https://careers.hellofresh.com/global/en/job/7748754?gh_jid=7748754
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8018870'
+  titel: Product Manager
+  ort: Toronto, Ontario, Canada
+  url: https://careers.hellofresh.com/global/en/job/8018870?gh_jid=8018870
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8030076'
+  titel: Senior CRM Strategy Manager, Reactivations (all genders)
+  ort: Berlin, Berlin, Germany
+  url: https://careers.hellofresh.com/global/en/job/8030076?gh_jid=8030076
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7966472'
+  titel: Senior Data Engineer, Marketing Customer Profile (f/m/x)
+  ort: Warszawa, Masovian Voivodeship, Poland
+  url: https://careers.hellofresh.com/global/en/job/7966472?gh_jid=7966472
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7627764'
+  titel: Senior Data Scientist, AdTech Tribe, Growth Alliance (f/m/x)
+  ort: Warszawa, Masovian Voivodeship, Poland
+  url: https://careers.hellofresh.com/global/en/job/7627764?gh_jid=7627764
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7603810'
+  titel: Senior Data Scientist, Growth
+  ort: Toronto, Ontario, Canada
+  url: https://careers.hellofresh.com/global/en/job/7603810?gh_jid=7603810
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7618799'
+  titel: Senior Data Scientist, Growth Alliance (m/f/d)
+  ort: Warszawa, Masovian Voivodeship, Poland
+  url: https://careers.hellofresh.com/global/en/job/7618799?gh_jid=7618799
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7610158'
+  titel: Senior Data Scientist, Risk and Fraud Management, Growth Alliance
+  ort: Warszawa, Masovian Voivodeship, Poland
+  url: https://careers.hellofresh.com/global/en/job/7610158?gh_jid=7610158
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7972435'
+  titel: Senior Director of Product, Engagement
+  ort: Toronto, Ontario, Canada
+  url: https://careers.hellofresh.com/global/en/job/7972435?gh_jid=7972435
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8015774'
+  titel: Senior Director of Product, Engagement
+  ort: Warszawa, Masovian Voivodeship, Poland
+  url: https://careers.hellofresh.com/global/en/job/8015774?gh_jid=8015774
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7979508'
+  titel: (Senior) ESG Data & Reporting Manager (all genders)
+  ort: Berlin, Berlin, Germany
+  url: https://careers.hellofresh.com/global/en/job/7979508?gh_jid=7979508
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7744069'
+  titel: Senior Machine Learning Engineer, Growth
+  ort: Toronto, Ontario, Canada
+  url: https://careers.hellofresh.com/global/en/job/7744069?gh_jid=7744069
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7963148'
+  titel: Senior Machine Learning Engineer, Menu Personalization
+  ort: Warszawa, Masovian Voivodeship, Poland
+  url: https://careers.hellofresh.com/global/en/job/7963148?gh_jid=7963148
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7694661'
+  titel: Senior Manager, Global Price & Discount Strategy
+  ort: Berlin, Berlin, Germany
+  url: https://careers.hellofresh.com/global/en/job/7694661?gh_jid=7694661
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7957494'
+  titel: Senior Manager, Global Pricing & Discount Strategy
+  ort: New York, NY, United States
+  url: https://careers.hellofresh.com/global/en/job/7957494?gh_jid=7957494
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7646125'
+  titel: Senior Manager, Product Strategy & Innovation
+  ort: Toronto, Ontario, Canada
+  url: https://careers.hellofresh.com/global/en/job/7646125?gh_jid=7646125
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7982995'
+  titel: Senior Manager, Sales Strategy & Planning, Retail & Foodservice
+  ort: New York, NY, United States
+  url: https://careers.hellofresh.com/global/en/job/7982995?gh_jid=7982995
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8025707'
+  titel: Senior Product Manager
+  ort: Dublin, Dublin, Ireland
+  url: https://careers.hellofresh.com/global/en/job/8025707?gh_jid=8025707
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7988923'
+  titel: Senior Staff Machine Learning Engineer, Menu Personalisation
+  ort: Warszawa, Masovian Voivodeship, Poland
+  url: https://careers.hellofresh.com/global/en/job/7988923?gh_jid=7988923
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7988919'
+  titel: Senior Staff Machine Learning Engineer, Menu Personalisation
+  ort: Toronto, Ontario, Canada
+  url: https://careers.hellofresh.com/global/en/job/7988919?gh_jid=7988919
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7988916'
+  titel: 'Senior Staff Machine Learning Engineer, Menu Personalisation (m,f,x) '
+  ort: Berlin, Berlin, Germany
+  url: https://careers.hellofresh.com/global/en/job/7988916?gh_jid=7988916
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8051466'
+  titel: 'Shipping Lead '
+  ort: Aurora, Colorado, United States
+  url: https://careers.hellofresh.com/global/en/job/8051466?gh_jid=8051466
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7974427'
+  titel: Site Director
+  ort: Mississauga, Ontario, Canada
+  url: https://careers.hellofresh.com/global/en/job/7974427?gh_jid=7974427
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8076708'
+  titel: 'Staff AI Content Designer '
+  ort: Toronto, Ontario, Canada
+  url: https://careers.hellofresh.com/global/en/job/8076708?gh_jid=8076708
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8043204'
+  titel: Staff Product Manager, Benefits Platform (all genders)
+  ort: Warszawa, Masovian Voivodeship, Poland
+  url: https://careers.hellofresh.com/global/en/job/8043204?gh_jid=8043204
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8031742'
+  titel: Staff Product Manager, Customer Decisioning & CLV
+  ort: New York, NY, United States
+  url: https://careers.hellofresh.com/global/en/job/8031742?gh_jid=8031742
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7808684'
+  titel: Staff Product Manager, Marketing Science & Optimization
+  ort: New York, NY, United States
+  url: https://careers.hellofresh.com/global/en/job/7808684?gh_jid=7808684
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8028102'
+  titel: 'Staff Product Manager, Organic Growth '
+  ort: Toronto, Ontario, Canada
+  url: https://careers.hellofresh.com/global/en/job/8028102?gh_jid=8028102
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7790204'
+  titel: Strategic CRM Marketing Lead (all genders)
+  ort: Berlin, Berlin, Germany
+  url: https://careers.hellofresh.com/global/en/job/7790204?gh_jid=7790204
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8048772'
+  titel: Strategy Manager, New Concepts
+  ort: Boulder, Colorado, United States; New York, NY, United States
+  url: https://careers.hellofresh.com/global/en/job/8048772?gh_jid=8048772
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7988877'
+  titel: Team Lead FSQA (all genders)
+  ort: Verden, Niedersachsen, Germany
+  url: https://careers.hellofresh.com/global/en/job/7988877?gh_jid=7988877
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7989271'
+  titel: Team Lead Supplier FSQA (all genders)
+  ort: 'UK '
+  url: https://careers.hellofresh.com/global/en/job/7989271?gh_jid=7989271
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8026035'
+  titel: '[TECH] Senior Data Scientist [GROWTH]'
+  ort: Warszawa, Masovian Voivodeship, Poland
+  url: https://careers.hellofresh.com/global/en/job/8026035?gh_jid=8026035
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8003705'
+  titel: '[US-DC] Director, Fulfillment'
+  ort: Newark, NJ, United States
+  url: https://careers.hellofresh.com/global/en/job/8003705?gh_jid=8003705
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8081866'
+  titel: '[US HFDN] PT Lead Sorter- Aurora CO'
+  ort: Aurora, Colorado, United States
+  url: https://careers.hellofresh.com/global/en/job/8081866?gh_jid=8081866
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7972630'
+  titel: '[US HQ] Director, Value Stream Fulfillment'
+  ort: Aurora, IL, United States; Boulder, Colorado, United States; Irving, TX, United States; Newark, NJ, United States;
+    Phoenix, AZ, United States
+  url: https://careers.hellofresh.com/global/en/job/7972630?gh_jid=7972630
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7967793'
+  titel: '[US HQ] Director, Value Stream Manufacturing'
+  ort: Aurora, IL, United States; Boulder, Colorado, United States; Irving, TX, United States; Newark, NJ, United States;
+    Phoenix, AZ, United States
+  url: https://careers.hellofresh.com/global/en/job/7967793?gh_jid=7967793
+- firma: HelloFresh
+  typ: greenhouse
+  id: '7722089'
+  titel: '[US-HQ] Senior Director, FSQA'
+  ort: Irving, TX, United States; Newark, NJ, United States; Toronto, Ontario, Canada
+  url: https://careers.hellofresh.com/global/en/job/7722089?gh_jid=7722089
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8054522'
+  titel: Warehouse Lead
+  ort: Calgary, Alberta, Canada
+  url: https://careers.hellofresh.com/global/en/job/8054522?gh_jid=8054522
+- firma: HelloFresh
+  typ: greenhouse
+  id: '8015924'
+  titel: Warehouse Lead
+  ort: Goodyear, AZ, United States
+  url: https://careers.hellofresh.com/global/en/job/8015924?gh_jid=8015924
+- firma: Delivery Hero
+  typ: smartrecruiters
+  id: '744000140037599'
+  titel: Data Engineer II, Operations - Quick Commerce
+  ort: Berlin
+  url: https://jobs.smartrecruiters.com/deliveryhero/744000140037599
+- firma: Delivery Hero
+  typ: smartrecruiters
+  id: '744000140006309'
+  titel: Regional Lead, Rider Compliance
+  ort: Kuala Lumpur
+  url: https://jobs.smartrecruiters.com/deliveryhero/744000140006309
+- firma: Delivery Hero
+  typ: smartrecruiters
+  id: '744000139640565'
+  titel: Senior Data Analyst (They/She/He)
+  ort: Warsaw
+  url: https://jobs.smartrecruiters.com/deliveryhero/744000139640565
+- firma: Delivery Hero
+  typ: smartrecruiters
+  id: '744000139561289'
+  titel: Strategic Accounts Lead
+  ort: Barcelona
+  url: https://jobs.smartrecruiters.com/deliveryhero/744000139561289
+- firma: Delivery Hero
+  typ: smartrecruiters
+  id: '744000139540710'
+  titel: Manager, Commercial & Operational Strategy
+  ort: Kuala Lumpur
+  url: https://jobs.smartrecruiters.com/deliveryhero/744000139540710
+- firma: Delivery Hero
+  typ: smartrecruiters
+  id: '744000139537654'
+  titel: ' Analytics Engineering Manager (AI & Agentic Analytics)'
+  ort: Singapore
+  url: https://jobs.smartrecruiters.com/deliveryhero/744000139537654
+- firma: Delivery Hero
+  typ: smartrecruiters
+  id: '744000139534319'
+  titel: Senior Manager/Manager, Vendor Growth Strategy & Performance Management
+  ort: Kuala Lumpur
+  url: https://jobs.smartrecruiters.com/deliveryhero/744000139534319
+- firma: Delivery Hero
+  typ: smartrecruiters
+  id: '744000139441899'
+  titel: Senior Manager, Regional Ads Strategy
+  ort: Kuala Lumpur
+  url: https://jobs.smartrecruiters.com/deliveryhero/744000139441899
+- firma: Delivery Hero
+  typ: smartrecruiters
+  id: '744000139310530'
+  titel: Global Affairs Lead
+  ort: Abidjan
+  url: https://jobs.smartrecruiters.com/deliveryhero/744000139310530
+- firma: Delivery Hero
+  typ: smartrecruiters
+  id: '744000139311120'
+  titel: Global Affairs Lead
+  ort: Kampala
+  url: https://jobs.smartrecruiters.com/deliveryhero/744000139311120
+- firma: Delivery Hero
+  typ: smartrecruiters
+  id: '744000139310107'
+  titel: Global Affairs Lead
+  ort: Lagos
+  url: https://jobs.smartrecruiters.com/deliveryhero/744000139310107
+- firma: Delivery Hero
+  typ: smartrecruiters
+  id: '744000139275039'
+  titel: Growth Lead - Romania
+  ort: Bucharest
+  url: https://jobs.smartrecruiters.com/deliveryhero/744000139275039
+- firma: Delivery Hero
+  typ: smartrecruiters
+  id: '744000139273449'
+  titel: Jefe/Director de Prevención de Riesgos Laborales  (They/She/He)
+  ort: Barcelona
+  url: https://jobs.smartrecruiters.com/deliveryhero/744000139273449
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '7738772'
+  titel: AI Governance Lead
+  ort: Berlin
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/7738772
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '7602318'
+  titel: Data Engineering Manager, Supply
+  ort: Berlin
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/7602318
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '7748635'
+  titel: Director of Lifecycle & CRM (Growth Marketing)
+  ort: Berlin
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/7748635
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '8071476'
+  titel: Group Product Manager, B2C
+  ort: Zurich
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/8071476
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '7957341'
+  titel: Head of Global Customer & Market Insights
+  ort: Berlin
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/7957341
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '7950294'
+  titel: Head of Growth Channels Partnerships
+  ort: Berlin
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/7950294
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '7695642'
+  titel: Head of Strategic Programs - Marketing
+  ort: Berlin
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/7695642
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '8025801'
+  titel: Head of Strategic Programs - Supply
+  ort: Berlin
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/8025801
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '8016369'
+  titel: Head of Strategy and Operations — Partnerships
+  ort: Berlin
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/8016369
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '7938858'
+  titel: Head of Supplier Enablement
+  ort: Berlin
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/7938858
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '7950326'
+  titel: Head of Supply Marketing
+  ort: Berlin
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/7950326
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '7657103'
+  titel: Lead Product Manager, Paid Search
+  ort: Berlin
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/7657103
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '7806344'
+  titel: ' Partnerships Lead - DMO '
+  ort: Tokyo
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/7806344
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '7979054'
+  titel: Senior Business Development Team Lead
+  ort: Bangkok
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/7979054
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '7962548'
+  titel: 'Senior Data Analyst, Customer Care Analytics '
+  ort: Berlin
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/7962548
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '8043161'
+  titel: Senior Data Scientist, Growth Data Products
+  ort: Berlin
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/8043161
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '7837883'
+  titel: Senior Legal Counsel - Data, Privacy & AI
+  ort: Berlin
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/7837883
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '7594703'
+  titel: Senior ML Ops Engineer, AI Platform Team
+  ort: Berlin
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/7594703
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '7865219'
+  titel: 'Senior Product Manager, B2C (Landing Pages)  '
+  ort: Berlin
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/7865219
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '7552392'
+  titel: 'Senior Product Manager, Connectivity '
+  ort: Berlin
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/7552392
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '7887400'
+  titel: 'Senior Product Manager, Supplier Portal  '
+  ort: Berlin
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/7887400
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '8066983'
+  titel: Senior Strategy Manager
+  ort: Berlin
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/8066983
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '7997068'
+  titel: Senior Team Lead - Categories
+  ort: Berlin
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/7997068
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '7906547'
+  titel: Staff Data Analyst, Marketing Analytics
+  ort: Berlin
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/7906547
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '7731706'
+  titel: Staff Data Scientist, Growth Data Products
+  ort: Berlin
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/7731706
+- firma: GetYourGuide
+  typ: greenhouse
+  id: '8044106'
+  titel: ' Tech Recruitment Lead'
+  ort: Berlin
+  url: https://job-boards.greenhouse.io/getyourguide/jobs/8044106
+- firma: Check24
+  typ: smartrecruiters
+  id: '744000139998229'
+  titel: 'Werkstudent (m/w/d) Data Analyst - Internet '
+  ort: München
+  url: https://jobs.smartrecruiters.com/check24/744000139998229
+- firma: Check24
+  typ: smartrecruiters
+  id: '744000139288599'
+  titel: (Junior) Produktmanager (m/w/d) KI & Digitale Innovation für Reise
+  ort: Leipzig
+  url: https://jobs.smartrecruiters.com/check24/744000139288599
+- firma: Check24
+  typ: smartrecruiters
+  id: '744000139290124'
+  titel: (Junior) Produktmanager (m/w/d) – Dein Einstieg in KI-Produktentwicklung Reise
+  ort: Leipzig
+  url: https://jobs.smartrecruiters.com/check24/744000139290124
+- firma: Check24
+  typ: smartrecruiters
+  id: '744000139286534'
+  titel: Werkstudent (m/w/d) Produktmanagement – Dein Einstieg in die KI-Produktentwicklung Reise
+  ort: Leipzig
+  url: https://jobs.smartrecruiters.com/check24/744000139286534
+- firma: Check24
+  typ: smartrecruiters
+  id: '744000139286319'
+  titel: (Junior) Produktmanager (m/w/d) – Technical Product Manager Reise
+  ort: Leipzig
+  url: https://jobs.smartrecruiters.com/check24/744000139286319
+- firma: Check24
+  typ: smartrecruiters
+  id: '744000139010019'
+  titel: Technical Product Manager (m/w/d) AI & Data Analytics Mietwagen
+  ort: Augsburg
+  url: https://jobs.smartrecruiters.com/check24/744000139010019
+- firma: Check24
+  typ: smartrecruiters
+  id: '744000138784028'
+  titel: (Junior) Produktmanager (m/w/d) AI Reiseplaner - Individualreisen
+  ort: Düsseldorf
+  url: https://jobs.smartrecruiters.com/check24/744000138784028
+- firma: Check24
+  typ: smartrecruiters
+  id: '744000137844539'
+  titel: Werkstudent (m/w/d) Data Engineering / CFO Office
+  ort: München
+  url: https://jobs.smartrecruiters.com/check24/744000137844539
+- firma: Check24
+  typ: smartrecruiters
+  id: '744000137828808'
+  titel: Full-Stack Entwickler (m/w/d) – AI & Digital Innovation Explorer
+  ort: Erfurt
+  url: https://jobs.smartrecruiters.com/check24/744000137828808
+- firma: Check24
+  typ: smartrecruiters
+  id: '744000137653498'
+  titel: Quereinsteiger als Kundenserviceberater (m/w/d) Kredite Digital
+  ort: Dortmund
+  url: https://jobs.smartrecruiters.com/check24/744000137653498
+- firma: Check24
+  typ: smartrecruiters
+  id: '744000137653478'
+  titel: Quereinsteiger als Kundenserviceberater (m/w/d) Kredite Digital
+  ort: Mehrere Standorte
+  url: https://jobs.smartrecruiters.com/check24/744000137653478
+- firma: Check24
+  typ: smartrecruiters
+  id: '744000137653278'
+  titel: Quereinsteiger als Kundenserviceberater (m/w/d) Kredite Digital
+  ort: München
+  url: https://jobs.smartrecruiters.com/check24/744000137653278
+- firma: Check24
+  typ: smartrecruiters
+  id: '744000137647163'
+  titel: (Junior) Digital Product Manager (m/w/d) Mobilfunk
+  ort: Köln
+  url: https://jobs.smartrecruiters.com/check24/744000137647163
+- firma: Check24
+  typ: smartrecruiters
+  id: '744000137386979'
+  titel: Praktikant (m/w/d) Management Consulting im Strategy Office
+  ort: München
+  url: https://jobs.smartrecruiters.com/check24/744000137386979
+- firma: Check24
+  typ: smartrecruiters
+  id: '744000137173619'
+  titel: (Junior) Produktmanager (m/w/d) Digital Ferienwohnungen
+  ort: Düsseldorf
+  url: https://jobs.smartrecruiters.com/check24/744000137173619
+- firma: Check24
+  typ: smartrecruiters
+  id: '744000136738985'
+  titel: Werkstudent (m/w/d) Data Science - Hotel
+  ort: Münster
+  url: https://jobs.smartrecruiters.com/check24/744000136738985
+- firma: Check24
+  typ: smartrecruiters
+  id: '744000135255968'
+  titel: Werkstudent (m/w/d) AI-Produkte – Kreditvergleich
+  ort: München
+  url: https://jobs.smartrecruiters.com/check24/744000135255968
+- firma: ImmoScout24
+  typ: greenhouse
+  id: '7761018'
+  titel: (Senior) Group Strategy & M&A Manager - German required (m/w/d)
+  ort: Berlin
+  url: https://www.immobilienscout24.de/unternehmen/karriere/jobs/7761018?gh_jid=7761018
+- firma: ImmoScout24
+  typ: greenhouse
+  id: '8078778'
+  titel: Senior Manager Corporate Strategy & Strategic Initiatives (d/w/m)
+  ort: Berlin
+  url: https://www.immobilienscout24.de/unternehmen/karriere/jobs/8078778?gh_jid=8078778
+- firma: ImmoScout24
+  typ: greenhouse
+  id: '7950106'
+  titel: Team Lead Sales (m/w/d)
+  ort: Berlin
+  url: https://www.immobilienscout24.de/unternehmen/karriere/jobs/7950106?gh_jid=7950106
+- firma: Flix
+  typ: greenhouse
+  id: '8622028002'
+  titel: Business Analyst- Automation & AI Solutions (m/f/d)
+  ort: Sofia
+  url: https://flix.careers/job/8622028002?gh_jid=8622028002
+- firma: Flix
+  typ: greenhouse
+  id: '8648745002'
+  titel: Business Analyst- Automation & AI Solutions (m/f/d)
+  ort: Gurugram
+  url: https://flix.careers/job/8648745002?gh_jid=8648745002
+- firma: Flix
+  typ: greenhouse
+  id: '8364246002'
+  titel: Commercial Data Analyst
+  ort: Mexico City
+  url: https://flix.careers/job/8364246002?gh_jid=8364246002
+- firma: Flix
+  typ: greenhouse
+  id: '8582137002'
+  titel: Data Platform Engineer (Mid-Level) (m/f/d)
+  ort: Berlin
+  url: https://flix.careers/job/8582137002?gh_jid=8582137002
+- firma: Flix
+  typ: greenhouse
+  id: '8585275002'
+  titel:  Digital CS Operations Manager (m/f/d)
+  ort: Lisbon
+  url: https://flix.careers/job/8585275002?gh_jid=8585275002
+- firma: Flix
+  typ: greenhouse
+  id: '8641234002'
+  titel: 'Government Affairs & Strategic Partnership Lead '
+  ort: New York
+  url: https://flix.careers/job/8641234002?gh_jid=8641234002
+- firma: Flix
+  typ: greenhouse
+  id: '8647909002'
+  titel: 'Government Affairs & Strategic Partnership Lead '
+  ort: Washington
+  url: https://flix.careers/job/8647909002?gh_jid=8647909002
+- firma: Flix
+  typ: greenhouse
+  id: '8642328002'
+  titel: Ground Operations Lead -Chennai (Contractual)
+  ort: Chennai
+  url: https://flix.careers/job/8642328002?gh_jid=8642328002
+- firma: Flix
+  typ: greenhouse
+  id: '8395464002'
+  titel: Head of Commercial Network Planning (m/w/d)
+  ort: Berlin
+  url: https://flix.careers/job/8395464002?gh_jid=8395464002
+- firma: Flix
+  typ: greenhouse
+  id: '8630871002'
+  titel: Head of Safety (m/w/d)
+  ort: Berlin
+  url: https://flix.careers/job/8630871002?gh_jid=8630871002
+- firma: Flix
+  typ: greenhouse
+  id: '8579934002'
+  titel: Principal Corporate Law & Corporate Financing (m/f/d)
+  ort: Munich
+  url: https://flix.careers/job/8579934002?gh_jid=8579934002
+- firma: Flix
+  typ: greenhouse
+  id: '8637926002'
+  titel: Principal Corporate Law & Corporate Financing (m/f/d)
+  ort: Berlin
+  url: https://flix.careers/job/8637926002?gh_jid=8637926002
+- firma: Flix
+  typ: greenhouse
+  id: '8588145002'
+  titel: Principal Legal Counsel - Corporate Law (m/f/d)
+  ort: Munich
+  url: https://flix.careers/job/8588145002?gh_jid=8588145002
+- firma: Flix
+  typ: greenhouse
+  id: '8640350002'
+  titel: Senior Data Analyst (m/f/d)
+  ort: Berlin
+  url: https://flix.careers/job/8640350002?gh_jid=8640350002
+- firma: Flix
+  typ: greenhouse
+  id: '8636433002'
+  titel: Senior Data Analyst (m/f/d)
+  ort: Munich
+  url: https://flix.careers/job/8636433002?gh_jid=8636433002
+- firma: Flix
+  typ: greenhouse
+  id: '8617408002'
+  titel: (Senior) L&D Specialist (m/f/d) – Digital Learning, AI & Programs
+  ort: Sofia
+  url: https://flix.careers/job/8617408002?gh_jid=8617408002
+- firma: Flix
+  typ: greenhouse
+  id: '8622479002'
+  titel: Shop Shift Lead (m/f/d)
+  ort: Tallinn
+  url: https://flix.careers/job/8622479002?gh_jid=8622479002
+- firma: Sixt
+  typ: smartrecruiters
+  id: '744000139953124'
+  titel: Lead AI Deployment Strategist (m/f/d)
+  ort: Munich
+  url: https://jobs.smartrecruiters.com/sixt/744000139953124
+- firma: Sixt
+  typ: smartrecruiters
+  id: '744000139941603'
+  titel: Duales Studium Data Science – in Kooperation mit der DHBW Stuttgart
+  ort: Stuttgart
+  url: https://jobs.smartrecruiters.com/sixt/744000139941603
+- firma: Sixt
+  typ: smartrecruiters
+  id: '744000139937942'
+  titel: Duales Studium Data Science – in Kooperation mit der DHBW Stuttgart
+  ort: Munich
+  url: https://jobs.smartrecruiters.com/sixt/744000139937942
+- firma: Sixt
+  typ: smartrecruiters
+  id: '744000139595781'
+  titel: Applied AI Engineer (m/w/d)
+  ort: Munich
+  url: https://jobs.smartrecruiters.com/sixt/744000139595781
+- firma: Sixt
+  typ: smartrecruiters
+  id: '744000139580209'
+  titel: Security Engineer II (AI)
+  ort: Bengaluru, Karnataka
+  url: https://jobs.smartrecruiters.com/sixt/744000139580209
+- firma: Sixt
+  typ: smartrecruiters
+  id: '744000139351299'
+  titel: Director of Logistics
+  ort: Tulsa
+  url: https://jobs.smartrecruiters.com/sixt/744000139351299
+- firma: Sixt
+  typ: smartrecruiters
+  id: '744000139337999'
+  titel: 'Director Rental Operations (Dallas) '
+  ort: Dallas
+  url: https://jobs.smartrecruiters.com/sixt/744000139337999
+- firma: Sixt
+  typ: smartrecruiters
+  id: '744000139271235'
+  titel: Coordinator Digital (m/f/d) - Bilingual (German & English)
+  ort: Málaga
+  url: https://jobs.smartrecruiters.com/sixt/744000139271235
+- firma: Sixt
+  typ: smartrecruiters
+  id: '744000139276608'
+  titel: Coordinator Digital (m/f/d) - Bilingual (German & English)
+  ort: Altea
+  url: https://jobs.smartrecruiters.com/sixt/744000139276608
+- firma: Sixt
+  typ: smartrecruiters
+  id: '744000139276370'
+  titel: Coordinator Digital (m/f/d) - Bilingual (German & English)
+  ort: Castelló de la Plana
+  url: https://jobs.smartrecruiters.com/sixt/744000139276370
+- firma: Sixt
+  typ: smartrecruiters
+  id: '744000139276419'
+  titel: Coordinator Digital (m/f/d) - Bilingual (German & English)
+  ort: València
+  url: https://jobs.smartrecruiters.com/sixt/744000139276419
+- firma: Sixt
+  typ: smartrecruiters
+  id: '744000139274285'
+  titel: Coordinator Digital (m/f/d) - Bilingual (German & English)
+  ort: Alicante
+  url: https://jobs.smartrecruiters.com/sixt/744000139274285
+- firma: Sixt
+  typ: smartrecruiters
+  id: '744000139274170'
+  titel: ' Coordinator Digital (m/f/d) - Bilingual (German & English)'
+  ort: Madrid
+  url: https://jobs.smartrecruiters.com/sixt/744000139274170
+- firma: Sixt
+  typ: smartrecruiters
+  id: '744000139274236'
+  titel: Coordinator Digital (m/f/d) - Bilingual (German & English)
+  ort: Barcelona
+  url: https://jobs.smartrecruiters.com/sixt/744000139274236
+- firma: Sixt
+  typ: smartrecruiters
+  id: '744000139275539'
+  titel: Coordinator Digital (m/f/d) - Bilingual (German & English)
+  ort: Palma
+  url: https://jobs.smartrecruiters.com/sixt/744000139275539
+- firma: Sixt
+  typ: smartrecruiters
+  id: '744000139273903'
+  titel: Coordinator Digital (m/f/d) - Bilingual (German & English)
+  ort: Port de Sóller
+  url: https://jobs.smartrecruiters.com/sixt/744000139273903
+- firma: Sixt
+  typ: smartrecruiters
+  id: '744000139247889'
+  titel: 'Product Manager Personalization & Revenue Growth (m/f/d) '
+  ort: Munich
+  url: https://jobs.smartrecruiters.com/sixt/744000139247889
+- firma: Sixt
+  typ: smartrecruiters
+  id: '744000139227720'
+  titel: 'Director (m/f/d) Revenue Management Product - Capacity and Fleet Optimization '
+  ort: Munich
+  url: https://jobs.smartrecruiters.com/sixt/744000139227720
+- firma: Enpal
+  typ: ashby
+  id: ecbef193-cd70-4305-8a69-d55c4e39b51e
+  titel: Director of Software Engineering (f/m/x)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/ecbef193-cd70-4305-8a69-d55c4e39b51e
+- firma: Enpal
+  typ: ashby
+  id: ebd82c09-b4de-4101-a243-0b5dc73ed1d8
+  titel: Growth & Commercial Strategy Internship (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/ebd82c09-b4de-4101-a243-0b5dc73ed1d8
+- firma: Enpal
+  typ: ashby
+  id: d6b6c689-528f-4f7c-81bd-75229babe780
+  titel: Associate Strategy & CGO Office (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/d6b6c689-528f-4f7c-81bd-75229babe780
+- firma: Enpal
+  typ: ashby
+  id: 0f5c0e4c-e79c-495b-b95e-c1c43fd7aee3
+  titel: Lead D365 F&O Solutions Architect Finance (f/m/x)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/0f5c0e4c-e79c-495b-b95e-c1c43fd7aee3
+- firma: Enpal
+  typ: ashby
+  id: 6420a1d3-b0b6-4334-9a0e-56c72aea4730
+  titel: Principal Strategy & Operations (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/6420a1d3-b0b6-4334-9a0e-56c72aea4730
+- firma: Enpal
+  typ: ashby
+  id: 04a4eabe-88f2-4e0a-aa2f-7e4d6081c98b
+  titel: AI Agents & Automations Internship (f/m/x)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/04a4eabe-88f2-4e0a-aa2f-7e4d6081c98b
+- firma: Enpal
+  typ: ashby
+  id: 582558e4-d040-4d0a-9a7b-a3095667b087
+  titel: Head of SEO (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/582558e4-d040-4d0a-9a7b-a3095667b087
+- firma: Enpal
+  typ: ashby
+  id: 0eb6d07d-31da-4c3d-bf8f-91d661d65b28
+  titel: 'SEO Lead (w/m/d) '
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/0eb6d07d-31da-4c3d-bf8f-91d661d65b28
+- firma: Enpal
+  typ: ashby
+  id: a88fc697-759d-407d-893e-b92c048f7139
+  titel: Growth Development Manager:in in AI Performance Marketing (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/a88fc697-759d-407d-893e-b92c048f7139
+- firma: Enpal
+  typ: ashby
+  id: f7b0d547-8793-4909-92eb-5d7e3b74b6eb
+  titel: Staff Product Manager - Fulfillment Domain
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/f7b0d547-8793-4909-92eb-5d7e3b74b6eb
+- firma: Enpal
+  typ: ashby
+  id: 208c7c58-f0db-4c37-942a-aad765b1c539
+  titel: AI Platform Engineer (f/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/208c7c58-f0db-4c37-942a-aad765b1c539
+- firma: Enpal
+  typ: ashby
+  id: 1d3b754e-df34-48c2-9a55-2b043680afc1
+  titel: Director Business Development - Commercial & Industrial (f/m/x)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/1d3b754e-df34-48c2-9a55-2b043680afc1
+- firma: Enpal
+  typ: ashby
+  id: e6878df1-297f-4566-8d83-bdf4bf99401b
+  titel: Principal of Venture Development Manager:in (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/e6878df1-297f-4566-8d83-bdf4bf99401b
+- firma: Enpal
+  typ: ashby
+  id: 93613fa5-99c2-45ef-8381-8ff33e78af78
+  titel: Process Flow Specialist (Data Entry) | Back Office (f/m/x)
+  ort: Tirana
+  url: https://jobs.ashbyhq.com/enpal/93613fa5-99c2-45ef-8381-8ff33e78af78
+- firma: Enpal
+  typ: ashby
+  id: 19036e12-fe94-4c70-b168-150d56229029
+  titel: Product Manager (f/m/x)_metrify
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/19036e12-fe94-4c70-b168-150d56229029
+- firma: Enpal
+  typ: ashby
+  id: 7276312e-cfc6-4ddd-a94c-6019a914cb93
+  titel: Data Analyst - Marketing (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/7276312e-cfc6-4ddd-a94c-6019a914cb93
+- firma: Enpal
+  typ: ashby
+  id: 1748035a-8c48-4a8e-87a5-6ee34d6393f0
+  titel: AI & Data analyst Intern (f/m/x)
+  ort: Milan
+  url: https://jobs.ashbyhq.com/enpal/1748035a-8c48-4a8e-87a5-6ee34d6393f0
+- firma: Enpal
+  typ: ashby
+  id: db3ea037-b27d-4d4d-a46e-0025cc2c8f04
+  titel: Werkstudent Data & Growth im Sales (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/db3ea037-b27d-4d4d-a46e-0025cc2c8f04
+- firma: Enpal
+  typ: ashby
+  id: 24ebfa69-5689-49f1-bf69-f7224d6b2ff4
+  titel: AI Data & Automation Intern (f/m/x)
+  ort: Milan
+  url: https://jobs.ashbyhq.com/enpal/24ebfa69-5689-49f1-bf69-f7224d6b2ff4
+- firma: Enpal
+  typ: ashby
+  id: e0f9ba57-7ef3-4a47-8411-326732ca41de
+  titel: Junior Product Manager:in (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/e0f9ba57-7ef3-4a47-8411-326732ca41de
+- firma: Enpal
+  typ: ashby
+  id: cc582e0b-588b-4cd8-accc-31d2368fe185
+  titel: Analyst Strategy & Operations (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/cc582e0b-588b-4cd8-accc-31d2368fe185
+- firma: Enpal
+  typ: ashby
+  id: 471d8c63-5d5b-43bc-b680-9e01a190baeb
+  titel: 'Technical Product Manager – Sistemi Energetici '
+  ort: Milan
+  url: https://jobs.ashbyhq.com/enpal/471d8c63-5d5b-43bc-b680-9e01a190baeb
+- firma: Enpal
+  typ: ashby
+  id: 11d442eb-444f-4c63-bbaf-ef76660ca28e
+  titel: Hardware Product Manager:in (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/11d442eb-444f-4c63-bbaf-ef76660ca28e
+- firma: Enpal
+  typ: ashby
+  id: d12520b5-827c-4247-9059-2c4c47ee72e4
+  titel: Principal Power Portfolio Management (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/d12520b5-827c-4247-9059-2c4c47ee72e4
+- firma: Enpal
+  typ: ashby
+  id: d06dc868-734e-4815-8821-2c497a6382fd
+  titel: Finance Data & AI Analyst Internship (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/d06dc868-734e-4815-8821-2c497a6382fd
+- firma: Enpal
+  typ: ashby
+  id: a950c29c-f560-46ce-a052-d2638d9bdb73
+  titel: Principal Revenue Strategy & Operations (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/a950c29c-f560-46ce-a052-d2638d9bdb73
+- firma: Enpal
+  typ: ashby
+  id: 0083d70f-3fa1-4bf9-9f34-01625202c9ef
+  titel: Sales Team Lead Assistant Intern I Lavoro full-time in sede a Milano (f/m/x)
+  ort: Milan
+  url: https://jobs.ashbyhq.com/enpal/0083d70f-3fa1-4bf9-9f34-01625202c9ef
+- firma: Enpal
+  typ: ashby
+  id: 4c1108bb-a234-479e-a510-03f313187b49
+  titel: Data Platform Architect (f/m/x)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/4c1108bb-a234-479e-a510-03f313187b49
+- firma: Enpal
+  typ: ashby
+  id: b133deb6-24e6-4106-8292-aeb76665919d
+  titel: Associate Strategy Operations (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/b133deb6-24e6-4106-8292-aeb76665919d
+- firma: Enpal
+  typ: ashby
+  id: 9c2c0387-df6a-41d4-8c9b-9473928dd4fd
+  titel: Director - Commercial & Industrial (f/m/x)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/9c2c0387-df6a-41d4-8c9b-9473928dd4fd
+- firma: Enpal
+  typ: ashby
+  id: 3a2a5aed-1216-4782-a211-225272e69361
+  titel: Head of Commercial & Industrial Development (f/m/x)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/3a2a5aed-1216-4782-a211-225272e69361
+- firma: Enpal
+  typ: ashby
+  id: 9ad0e3d4-0c01-4f57-9737-c7d06f214d97
+  titel: Team Lead Data Science (f/m/x)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/9ad0e3d4-0c01-4f57-9737-c7d06f214d97
+- firma: Enpal
+  typ: ashby
+  id: 01853ce8-848e-445c-8629-355b3f47c2df
+  titel: Cyber Security Strategy Internship (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/01853ce8-848e-445c-8629-355b3f47c2df
+- firma: Enpal
+  typ: ashby
+  id: 39398ac3-a86e-4a4f-9972-d9c9715b84fa
+  titel: Principal Venture Development (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/39398ac3-a86e-4a4f-9972-d9c9715b84fa
+- firma: Enpal
+  typ: ashby
+  id: b71cc988-68e5-4d07-9f87-0d2c58925e70
+  titel: Strategy & Venture Intern (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/b71cc988-68e5-4d07-9f87-0d2c58925e70
+- firma: Enpal
+  typ: ashby
+  id: 6e156e4a-58fd-46b8-b224-b52bfe0345e5
+  titel: Strategy & Operations Intern (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/6e156e4a-58fd-46b8-b224-b52bfe0345e5
+- firma: Enpal
+  typ: ashby
+  id: 9aedd3ae-5921-4c99-af46-0118a0641a96
+  titel: Principal / Senior Consultant (w/m/d) – International Projects
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/9aedd3ae-5921-4c99-af46-0118a0641a96
+- firma: Enpal
+  typ: ashby
+  id: 262348f4-5c9e-475a-82d2-68573df3b183
+  titel: ERP Master Data Architect (f/m/x)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/262348f4-5c9e-475a-82d2-68573df3b183
+- firma: Enpal
+  typ: ashby
+  id: c10e6700-99eb-49d8-937c-48905e6869a1
+  titel: SCM Domain Lead - ERP (f/m/x)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/c10e6700-99eb-49d8-937c-48905e6869a1
+- firma: Enpal
+  typ: ashby
+  id: 9f01e5c4-509f-4959-a662-3e0e7078db1f
+  titel: AI & Revenue Strategy Manager (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/9f01e5c4-509f-4959-a662-3e0e7078db1f
+- firma: Enpal
+  typ: ashby
+  id: 41d4d550-e175-48b2-b8e8-2dffc5aa4134
+  titel: ' Strategy & Innovation Internship (f/m/x)'
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/41d4d550-e175-48b2-b8e8-2dffc5aa4134
+- firma: Enpal
+  typ: ashby
+  id: 0a5d0faf-a511-43d1-be99-448fac19fc39
+  titel: Intern Data & Analytics (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/0a5d0faf-a511-43d1-be99-448fac19fc39
+- firma: Enpal
+  typ: ashby
+  id: e5ee4783-6e94-45a2-8a43-fdede2332f92
+  titel: Business Analyst – Strategy & Operations (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/e5ee4783-6e94-45a2-8a43-fdede2332f92
+- firma: Enpal
+  typ: ashby
+  id: c4ffed99-1342-4948-bed0-3a748eed7796
+  titel: Strategy & Business Operations Analyst (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/c4ffed99-1342-4948-bed0-3a748eed7796
+- firma: Enpal
+  typ: ashby
+  id: bd67261d-6f98-4aca-99c7-4e52d3453bee
+  titel: Founder's Associate – Strategy & Operations (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/bd67261d-6f98-4aca-99c7-4e52d3453bee
+- firma: Enpal
+  typ: ashby
+  id: a6a3d100-d36d-4b3c-b616-348b704edb4a
+  titel: Principal Venture Strategy & Operations (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/a6a3d100-d36d-4b3c-b616-348b704edb4a
+- firma: Enpal
+  typ: ashby
+  id: d255c90f-7f61-4c17-a0c3-b25d572a2d7b
+  titel: Principal Business Operations (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/d255c90f-7f61-4c17-a0c3-b25d572a2d7b
+- firma: Enpal
+  typ: ashby
+  id: 7466a929-b03b-4af4-8c0a-402e23e4ddfb
+  titel: Principal Business Development (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/7466a929-b03b-4af4-8c0a-402e23e4ddfb
+- firma: Enpal
+  typ: ashby
+  id: 14ec835b-dbe3-48f5-bb43-2dbe0d3edf26
+  titel: Principal Strategy & Venture Development (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/14ec835b-dbe3-48f5-bb43-2dbe0d3edf26
+- firma: Enpal
+  typ: ashby
+  id: 65c203eb-6834-4a33-aa58-1a0ca1c7590f
+  titel: Principal Venture & Business Development (w/m/d)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/enpal/65c203eb-6834-4a33-aa58-1a0ca1c7590f
+- firma: Choco
+  typ: ashby
+  id: 9ec616ff-b3a0-4406-936c-60a9b5466b09
+  titel: Head of Revenue Operations
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/choco/9ec616ff-b3a0-4406-936c-60a9b5466b09
+- firma: Choco
+  typ: ashby
+  id: 2c124042-aea7-4f79-b2ac-3a959685d6b1
+  titel: Head of SMB Sales, EMEA
+  ort: 'London '
+  url: https://jobs.ashbyhq.com/choco/2c124042-aea7-4f79-b2ac-3a959685d6b1
+- firma: Babbel
+  typ: ashby
+  id: f8a1e261-4d36-4cfb-b764-20cec94d04ba
+  titel: VP of Finance
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/babbel/f8a1e261-4d36-4cfb-b764-20cec94d04ba
+- firma: Babbel
+  typ: ashby
+  id: 91779c86-7101-4dae-a22b-70ed7970c47a
+  titel: Senior Principal Engineer – AI Content Systems(all genders)
+  ort: Berlin
+  url: https://jobs.ashbyhq.com/babbel/91779c86-7101-4dae-a22b-70ed7970c47a
+- firma: adesso
+  typ: recruitee
+  id: '2673519'
+  titel: Solution Architect – Software & AI
+  ort: Utrecht, Utrecht, Netherlands
+  url: https://werkenbijadesso.recruitee.com/o/solution-architect-software-ai
+- firma: adesso
+  typ: recruitee
+  id: '2640787'
+  titel: Team Lead SAP S/4HANA Finance
+  ort: Utrecht, Utrecht, Nederland
+  url: https://werkenbijadesso.recruitee.com/o/team-lead-sap-s4hana-finance
+- firma: adesso
+  typ: recruitee
+  id: '2616612'
+  titel: Microsoft AI Lead consultant
+  ort: Utrecht, Utrecht, Netherlands
+  url: https://werkenbijadesso.recruitee.com/o/microsoft-ai-lead-consultant
+- firma: adesso
+  typ: recruitee
+  id: '2518954'
+  titel: Data Platform Architect (Snowflake)
+  ort: Utrecht, Utrecht, Nederland
+  url: https://werkenbijadesso.recruitee.com/o/data-platform-architect-snowflake-1
+- firma: adesso
+  typ: recruitee
+  id: '2465138'
+  titel: Data Governance Consultant
+  ort: Utrecht, Utrecht, Netherlands
+  url: https://werkenbijadesso.recruitee.com/o/data-governance-consultant
+- firma: adesso
+  typ: recruitee
+  id: '2285790'
+  titel: Senior GenAI Consultant
+  ort: Utrecht, Utrecht, Netherlands
+  url: https://werkenbijadesso.recruitee.com/o/senior-genai-consultant
+- firma: adesso
+  typ: recruitee
+  id: '2285722'
+  titel: Senior AI/ML Consultant
+  ort: Utrecht, Utrecht, Netherlands
+  url: https://werkenbijadesso.recruitee.com/o/senior-aiml-consultant
+- firma: adesso
+  typ: recruitee
+  id: '2104793'
+  titel: Senior Data Scientist bij adesso Data & AI
+  ort: Utrecht, Utrecht, Netherlands
+  url: https://werkenbijadesso.recruitee.com/o/data-scientist-2-3
+- firma: adesso
+  typ: recruitee
+  id: '2072713'
+  titel: Power Platform Consultant | Customer Engagement & AI
+  ort: Utrecht, Utrecht, Netherlands
+  url: https://werkenbijadesso.recruitee.com/o/power-platform-consultant-customer-engagement-ai
+- firma: adesso
+  typ: recruitee
+  id: '2072697'
+  titel: Power Platform Consultant – bouw slimme AI-oplossingen met Copilot Studio
+  ort: Utrecht, Utrecht, Netherlands
+  url: https://werkenbijadesso.recruitee.com/o/power-platform-consultant-met-ervaring-in-copilot-studio-2
+- firma: adesso
+  typ: recruitee
+  id: '2072553'
+  titel: Data Engineer
+  ort: Utrecht, Utrecht, Netherlands
+  url: https://werkenbijadesso.recruitee.com/o/data-engineer-1
+- firma: adesso
+  typ: recruitee
+  id: '2072552'
+  titel: Data Management consultant
+  ort: Utrecht, Utrecht, Netherlands
+  url: https://werkenbijadesso.recruitee.com/o/data-management-consultant-2-4
+- firma: Hubert Burda Media
+  typ: smartrecruiters
+  id: '743999675411817'
+  titel: Digital Content Manager (m/w) für den Bereich Fitness & Workout bei BurdaNews in Hamburg
+  ort: Hamburg
+  url: https://jobs.smartrecruiters.com/hubertburdamedia/743999675411817
+- firma: Hubert Burda Media
+  typ: smartrecruiters
+  id: '743999675184840'
+  titel: Digital Content Manager (m/w) für den Bereich Fitness & Workout.
+  ort: Ismaning
+  url: https://jobs.smartrecruiters.com/hubertburdamedia/743999675184840
+- firma: Hubert Burda Media
+  typ: smartrecruiters
+  id: '743999674413837'
+  titel: Senior Sales Manager Digital Publishing (m/w)
+  ort: München
+  url: https://jobs.smartrecruiters.com/hubertburdamedia/743999674413837
+- firma: RTL Deutschland
+  typ: recruitee
+  id: '2570483'
+  titel: Data / Distributie Redacteur RTL Nieuws
+  ort: Hilversum, Noord-Holland, Nederland
+  url: https://rtl.recruitee.com/o/data-distributie-redacteur-rtl-nieuws
+- firma: RTL Deutschland
+  typ: recruitee
+  id: '2550781'
+  titel: Creative AI Motion Graphic Designer
+  ort: Hilversum, Noord-Holland, Nederland
+  url: https://rtl.recruitee.com/o/creative-ai-motion-graphic-designer
+- firma: RTL Deutschland
+  typ: recruitee
+  id: '2427525'
+  titel: Data Platform Engineer
+  ort: Hilversum, Noord-Holland, Nederland
+  url: https://rtl.recruitee.com/o/data-platform-engineer

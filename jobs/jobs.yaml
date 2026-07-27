@@ -1,0 +1,164 @@
+# Bewertete Jobliste — einzige maschinenlesbare Wahrheit (D1). Ansichten werden generiert: tools/uebersicht.py
+#
+# Schema je Eintrag:
+#   id:            YYYY-MM-DD-firma-rolle-kurz (Datum = Entdeckung)
+#   firma, rolle, standort, quelle (ba|arbeitnow|ats:<typ>|websuche|moritz), url
+#   entdeckt, veroeffentlicht
+#   score:         1–10 (Rubrik v2 in career/preferences.md) | null solange unbewertet
+#   konfidenz:     hoch | mittel | niedrig  (+ kurzer Grund in begruendung)
+#   begruendung:   2–3 Sätze
+#   status:        neu → bewertet → empfohlen → mappe → gesendet → antwort → interview → angebot
+#                  Endzustände: verworfen | absage | ghosting
+#   ko:            null | Grund (bei KO-Aus)
+#   frist:         Bewerbungsfrist falls bekannt
+#   gesendet_am:   Datum (für Follow-up-Logik ab 12 Tagen)
+#   archiv:        Pfad zum Volltext (Pflicht ab Status bewertet)
+#   mappe:         Pfad zur Mappe (ab Status mappe)
+#
+# Hinweis D11 (Entscheidungslog): Titel-Sichtung von Rohdaten zählt nicht als Prüfung.
+# Hier stehen nur ernsthaft geprüfte Stellen (Volltext gelesen, Rubrik angewendet).
+
+jobs:
+  - id: 2026-07-27-sixt-lead-ai-deployment-strategist
+    firma: Sixt SE
+    rolle: Lead AI Deployment Strategist (m/f/d)
+    standort: Pullach bei München
+    quelle: ats:smartrecruiters
+    url: https://jobs.smartrecruiters.com/Sixt/744000139953124
+    entdeckt: 2026-07-27
+    veroeffentlicht: 2026-07-27
+    score: 7.9
+    konfidenz: mittel
+    begruendung: >-
+      Das Anforderungsprofil (Programm-Management im Konzern + AI/Automatisierung mit messbarem Impact +
+      Business Cases/P&L + Executive-Stakeholder + Agentic-AI-Verständnis) deckt sich fast deckungsgleich mit
+      Moritz' Profil — ohne die üblichen Lücken (kein Dev-Team-Führungszwang, keine Promotion). Klares Ownership
+      der Adoption-Strategie, heute veröffentlicht (Frühbewerber-Vorteil), Sixt zahlt stark und München ist
+      top-urban. Konfidenz mittel: Team-/Budgetverantwortung nicht explizit, Kultur intensiv-fordernd
+      (für Moritz laut Präferenzen eher ein Plus), Gehaltsband unbestätigt.
+    status: mappe
+    ko: null
+    archiv: jobs/archiv/2026-07-27-sixt-lead-ai-deployment-strategist/
+    mappe: mappen/2026-07-27-sixt-lead-ai-deployment-strategist/
+
+  - id: 2026-07-27-kelvion-head-of-ai-solutions-architecture
+    firma: Kelvion Holding GmbH
+    rolle: Head of AI Solutions & Architecture (m/w/d)
+    standort: Herne (Ruhrgebiet)
+    quelle: ba
+    url: https://www.arbeitsagentur.de/jobsuche/jobdetail/19663-0066225648-S
+    entdeckt: 2026-07-27
+    veroeffentlicht: 2026-07-21
+    score: 7.4
+    konfidenz: mittel
+    begruendung: >-
+      Echtes Head-of-Mandat (AI-Team führen, Use-Case-Portfolio, Build-vs-Buy, Betriebsmodell) im exakt
+      passenden Microsoft-Ökosystem (Azure AI, Copilot, Power Platform) — dazu Wasserstoff- und
+      Rechenzentrums-Bezug der Produkte und quasi Heimspiel (Herne). Dämpfer: Die Rolle ist spürbar
+      architekturlastig (Referenzarchitekturen, MLOps/LLMOps, SAP BW, Fabric als geforderte Tiefe) — das ist
+      nicht Moritz' Kernprofil und wird im Prozess ehrlich adressiert; zudem „mehrere Jahre Führungserfahrung"
+      gefordert. Knapp unter Mappen-Schwelle; Mappe trotzdem als Kalibrier-Beispiel des Probelaufs gebaut,
+      Empfehlung mit ausgewiesenem Stretch.
+    status: mappe
+    ko: null
+    archiv: jobs/archiv/2026-07-27-kelvion-head-of-ai-solutions-architecture/
+    mappe: mappen/2026-07-27-kelvion-head-of-ai-solutions-architecture/
+
+  - id: 2026-07-27-flh-head-of-digital-products-ai
+    firma: FLH GmbH (FLH DIGITAL)
+    rolle: Head of Digital Products & AI (m/w/d)
+    standort: Leipzig
+    quelle: ba
+    url: https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-73df3f6a_JB5200393-S
+    entdeckt: 2026-07-27
+    veroeffentlicht: 2026-07-20
+    score: 7.3
+    konfidenz: niedrig
+    begruendung: >-
+      Unternehmerischste Rolle des Tages: Software-/AI-Division von null aufbauen, gesamter Produktlebenszyklus,
+      Budget, Teamaufbau, direkt an der Geschäftsführung — genau Moritz' Mandats-Schmerzpunkt. Seine Stärken
+      (LLM-Integration, Steuerung externer Entwicklungspartner, Business-Übersetzung) treffen die Must-haves gut;
+      Stretch bei „fundierten" Web-Stack-Kenntnissen (TypeScript/React). Konfidenz niedrig: Firma unbekannt
+      (Marketing-Services im LEH-Segment), Gehaltsband für Leipzig-Mittelstand könnte unter der 100k-Untergrenze
+      liegen, Produkt-Sinn nur mittel. Nächster Schritt: Firmen-Recherche, dann Hochstufung oder Verwerfen.
+    status: bewertet
+    ko: null
+    archiv: jobs/archiv/2026-07-27-flh-head-of-digital-products-ai/
+
+  - id: 2026-07-27-zeiss-head-of-ai-applications
+    firma: Carl Zeiss AG (Zeiss Digital Partners)
+    rolle: Head of AI Applications (f/m/x)
+    standort: München
+    quelle: ba
+    url: https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003437860-S
+    entdeckt: 2026-07-27
+    veroeffentlicht: 2026-07-24
+    score: 7.0
+    konfidenz: hoch
+    begruendung: >-
+      Starkes Mandat (disziplinarische Führung inkl. Gehaltsentscheidungen, PoC-bis-Skalierung) bei einem
+      sinnstiftenden Weltmarktführer, München als Standort top. Aber der Kern der Rolle ist technische Führung
+      von Entwicklungsteams — gefordert sind herausragender MINT-Abschluss (Promotion von Vorteil), mehrjährige
+      KI-Entwicklungserfahrung und nachgewiesene Dev-Team-Führung. Das trifft Moritz' ehrlich dokumentierte
+      Grenze (kein SWE-Hintergrund, keine Dev-Team-Führung) frontal — Bewerbung wäre ein weiter Stretch mit
+      geringer Erfolgswahrscheinlichkeit. Beobachten; kein Mappen-Bau.
+    status: bewertet
+    ko: null
+    archiv: jobs/archiv/2026-07-27-zeiss-head-of-ai-applications/
+
+  - id: 2026-07-27-synqony-ai-solution-lead
+    firma: SYNQONY GmbH
+    rolle: AI Solution Lead (m/w/d)
+    standort: Recklinghausen
+    quelle: ba
+    url: https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-4871f606_JB5200358-S
+    entdeckt: 2026-07-27
+    veroeffentlicht: 2026-07-20
+    score: 5.5
+    konfidenz: hoch
+    begruendung: >-
+      Inhaltlich moderne AI-Engineering-Rolle (RAG, Embeddings, LangChain, Python als tägliche Praxis) in einem
+      kleinen Softwarehaus — aber eine Fachspezialisten-Rolle ohne erkennbares Führungs-, Budget- oder
+      P&L-Mandat und damit außerhalb von Moritz' Präferenzordnung. Gehalt in dieser Konstellation sehr
+      wahrscheinlich unter dem Zielband.
+    status: verworfen
+    ko: Fachrolle ohne Mandat (Präferenzordnung), Gehaltsband sehr wahrscheinlich unter Untergrenze
+    archiv: jobs/archiv/2026-07-27-synqony-ai-solution-lead/
+
+  - id: 2026-07-27-3c-ai-implementation-lead
+    firma: 3C Holding GmbH
+    rolle: AI Implementation Lead (m/w/d)
+    standort: Rheda-Wiedenbrück (OWL)
+    quelle: ba
+    url: https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207256688-S
+    entdeckt: 2026-07-27
+    veroeffentlicht: 2026-07-21
+    score: 5.0
+    konfidenz: hoch
+    begruendung: >-
+      Rollenzuschnitt (Use-Case-Portfolio, Hands-on-Prototyping, KI-Champions-Enablement, Stabsstelle der
+      Geschäftsführung) ähnelt Moritz' heutiger Tätigkeit auffallend — aber am Standort Rheda-Wiedenbrück ohne
+      vollwertigen Remote-Ausgleich („teilweise remote") greift das Standort-KO, und Möbel-Mittelstand dürfte
+      das Gehaltsband deutlich verfehlen.
+    status: verworfen
+    ko: Standort Provinz ohne Remote-Ausgleich (KO-Kriterium); Gehaltsband sehr wahrscheinlich unter Untergrenze
+    archiv: jobs/archiv/2026-07-27-3c-ai-implementation-lead/
+
+  - id: 2026-07-27-motelone-manager-it-ai-automation
+    firma: Motel One GmbH
+    rolle: Manager IT — AI & Automation (m/w/d)
+    standort: München
+    quelle: ba
+    url: https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-8R5KFR-Q8M-S
+    entdeckt: 2026-07-27
+    veroeffentlicht: 2026-07-23
+    score: 4.5
+    konfidenz: hoch
+    begruendung: >-
+      Thematisch Moritz' Welt (GenAI-Agenten, Power Automate, Enablement), aber ausgeschrieben auf
+      Einsteiger-Niveau („erste praktische Erfahrungen") als Einzelrolle in der IT — kein Mandat, kein Team,
+      kein Budget. Für sein Profil ein Rückschritt; Gehalt in Hotellerie-IT sehr wahrscheinlich klar unter dem
+      Zielband.
+    status: verworfen
+    ko: Level unter Profil, Rolle ohne Mandat; Gehaltsband sehr wahrscheinlich unter Untergrenze
+    archiv: jobs/archiv/2026-07-27-motelone-manager-it-ai-automation/
