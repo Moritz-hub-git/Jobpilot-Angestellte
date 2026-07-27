@@ -26,67 +26,74 @@
 }
 * { box-sizing:border-box; margin:0; }
 body { background:var(--bg); color:var(--ink); font:16px/1.55 -apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
-       padding:0 16px 64px; overflow-wrap:anywhere; }
-.shell { max-width:760px; margin:0 auto; }
+       padding:0 14px 64px; overflow-wrap:anywhere; }
+.shell { max-width:720px; margin:0 auto; }
 a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
 code { font:.85em ui-monospace,"SF Mono","Cascadia Code",Consolas,monospace; background:var(--dead-bg); padding:1px 5px; border-radius:4px; }
 .eyebrow { font:600 11px/1 ui-monospace,"SF Mono",Consolas,monospace; letter-spacing:.14em; text-transform:uppercase; color:var(--mut); }
-header.top { padding:28px 0 18px; border-bottom:2px solid var(--ink); }
-header.top h1 { font-size:26px; letter-spacing:-.01em; text-wrap:balance; }
+header.top { padding:26px 0 14px; border-bottom:2px solid var(--ink); }
+header.top h1 { font-size:24px; letter-spacing:-.01em; text-wrap:balance; }
 header.top h1 b { color:var(--accent); }
-.standzeile { display:flex; flex-wrap:wrap; gap:6px 18px; margin-top:8px; color:var(--mut); font-size:13.5px; }
+.standzeile { display:flex; flex-wrap:wrap; gap:5px 16px; margin-top:8px; color:var(--mut); font-size:13px; }
 .standzeile span b { color:var(--ink); font-variant-numeric:tabular-nums; }
-section { margin-top:30px; }
-section > h2 { font-size:15px; margin-bottom:12px; display:flex; align-items:baseline; gap:10px; }
-section > h2 .eyebrow { font-size:11px; }
-.karte { background:var(--surface); border:1px solid var(--line); border-radius:10px; padding:16px 18px; }
-ul.act { list-style:none; display:flex; flex-direction:column; gap:10px; }
-ul.act li { padding-left:14px; border-left:3px solid var(--act); }
+section { margin-top:26px; }
+section > h2 { font-size:14.5px; margin-bottom:10px; display:flex; align-items:baseline; gap:10px; }
+section > h2 .eyebrow { font-size:10.5px; }
+.karte { background:var(--surface); border:1px solid var(--line); border-radius:10px; padding:13px 16px; }
+ul.act { list-style:none; display:flex; flex-direction:column; gap:8px; }
+ul.act li { padding-left:12px; border-left:3px solid var(--act); font-size:14.5px; }
+ul.act a { color:var(--ink); } ul.act a b { color:var(--accent); }
 .mut { color:var(--mut); }
-.tiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(140px,45%),1fr)); gap:10px; }
-.tile { background:var(--surface); border:1px solid var(--line); border-radius:10px; padding:14px 16px; }
-.tile .num { font-size:30px; font-weight:700; font-variant-numeric:tabular-nums; line-height:1.1; }
-.tile .lbl { font-size:12.5px; color:var(--mut); margin-top:2px; }
-.filter { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:14px; }
-.chip { border:1px solid var(--line); background:var(--surface); color:var(--mut); border-radius:999px;
-        padding:5px 14px; font-size:13.5px; cursor:pointer; }
-.chip[aria-pressed="true"] { background:var(--accent); border-color:var(--accent); color:var(--accent-ink); }
-.chip:focus-visible, summary:focus-visible, a:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
-.jobs { display:flex; flex-direction:column; gap:14px; }
-.job { background:var(--surface); border:1px solid var(--line); border-radius:10px; padding:16px 18px; min-width:0; }
-.job[data-status="mappe"] { border-left:4px solid var(--act); }
-.jobkopf { display:flex; gap:14px; align-items:flex-start; }
-.score { font:700 26px/1.15 ui-monospace,"SF Mono",Consolas,monospace; font-variant-numeric:tabular-nums;
-         color:var(--accent); min-width:2.1em; }
-.jobtitel { flex:1; min-width:0; }
-.jobtitel h3 { font-size:16.5px; }
-.rolle { font-size:14.5px; }
-.meta { font-size:12.5px; color:var(--mut); margin-top:2px; }
-.pill { font-size:12px; font-weight:600; padding:4px 10px; border-radius:999px; white-space:nowrap; }
+h3.gruppe { font-size:12px; letter-spacing:.1em; text-transform:uppercase; color:var(--mut);
+            margin:20px 0 8px; display:flex; align-items:center; gap:8px; }
+h3.gruppe .anz { background:var(--dead-bg); color:var(--mut); border-radius:999px; padding:1px 8px;
+                 font-variant-numeric:tabular-nums; }
+.jobrow { background:var(--surface); border:1px solid var(--line); border-radius:10px; margin-bottom:8px; }
+.jobrow[data-status="mappe"], .jobrow[data-status="empfohlen"] { border-left:4px solid var(--act); }
+.jobrow > summary { display:flex; align-items:center; gap:12px; padding:11px 14px; cursor:pointer; list-style:none; }
+.jobrow > summary::-webkit-details-marker { display:none; }
+.jobrow > summary::after { content:"▸"; color:var(--mut); margin-left:2px; }
+.jobrow[open] > summary::after { content:"▾"; }
+.jobrow[open] > summary { border-bottom:1px solid var(--line); }
+.score { font:700 19px/1 ui-monospace,"SF Mono",Consolas,monospace; font-variant-numeric:tabular-nums;
+         color:var(--accent); min-width:2.2em; text-align:right; }
+.jmain { flex:1; min-width:0; display:flex; flex-direction:column; gap:1px; }
+.jmain b { font-size:15px; }
+.rolle { font-size:13px; color:var(--ink); opacity:.85; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.jmeta { font-size:12px; color:var(--mut); }
+.pill { font-size:11.5px; font-weight:600; padding:3px 9px; border-radius:999px; white-space:nowrap; }
 .st-action { background:var(--act-bg); color:var(--act); }
 .st-good { background:var(--good-bg); color:var(--good); }
 .st-bad { background:var(--bad-bg); color:var(--bad); }
 .st-info { background:var(--info-bg); color:var(--info); }
-.st-neutral, .st-dead { background:var(--dead-bg); color:var(--dead); }
-.beg { margin-top:10px; font-size:14.5px; }
+.st-dead { background:var(--dead-bg); color:var(--dead); }
+.jbody { padding:12px 16px 14px; }
+.beg { font-size:14.5px; }
 .ko { margin-top:8px; font-size:13.5px; color:var(--bad); }
-details { margin-top:10px; border:1px solid var(--line); border-radius:8px; background:var(--bg); }
-summary { cursor:pointer; padding:9px 14px; font-size:13.5px; font-weight:600; color:var(--mut); list-style:none; }
-summary::before { content:"▸ "; color:var(--accent); }
-details[open] summary::before { content:"▾ "; }
-.dbody { padding:4px 16px 14px; font-size:14px; }
-.dbody h4 { margin:12px 0 6px; font-size:13px; } .dbody p { margin:7px 0; }
+.links { margin-top:10px; font-size:13px; }
+details.sub { margin-top:10px; border:1px solid var(--line); border-radius:8px; background:var(--bg); }
+details.sub summary { cursor:pointer; padding:8px 13px; font-size:13.5px; font-weight:600; color:var(--mut); list-style:none; }
+details.sub summary::-webkit-details-marker { display:none; }
+details.sub summary::before { content:"▸ "; color:var(--accent); }
+details.sub[open] summary::before { content:"▾ "; }
+.dbody { padding:2px 15px 13px; font-size:14px; }
+.dbody h4 { margin:12px 0 5px; font-size:12.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--mut); }
+.dbody p { margin:7px 0; }
 .dbody ul { margin:7px 0 7px 20px; } .dbody li { margin:3px 0; }
-.dbody blockquote { border-left:3px solid var(--line); padding-left:12px; color:var(--mut); margin:8px 0; }
+.dbody blockquote { border-left:3px solid var(--line); padding-left:12px; color:var(--mut); margin:8px 0; font-size:13px; }
 .dbody hr { border:0; border-top:1px solid var(--line); margin:12px 0; }
 .tblwrap { overflow-x:auto; margin:8px 0; }
 .tblwrap table { border-collapse:collapse; font-size:13px; min-width:420px; }
 .tblwrap th, .tblwrap td { border:1px solid var(--line); padding:6px 9px; text-align:left; vertical-align:top; }
 .tblwrap th { color:var(--mut); font-weight:600; }
-ol.klaeren { margin-left:20px; display:flex; flex-direction:column; gap:8px; font-size:14.5px; }
-footer { margin-top:40px; padding-top:16px; border-top:1px solid var(--line); color:var(--mut); font-size:13px; }
+ol.klaeren { margin-left:20px; display:flex; flex-direction:column; gap:8px; font-size:14px; }
+ul.quellen { list-style:none; display:flex; flex-direction:column; gap:9px; font-size:13.5px; }
+ul.quellen li { padding-left:12px; border-left:3px solid var(--line); }
+footer { margin-top:36px; padding-top:14px; border-top:1px solid var(--line); color:var(--mut); font-size:12.5px; }
 footer p { margin:4px 0; }
-@media (prefers-reduced-motion: no-preference) { details .dbody { animation:auf .12s ease-out; }
+summary:focus-visible, a:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+@media (prefers-reduced-motion: no-preference) {
+  .jbody, .dbody { animation:auf .12s ease-out; }
   @keyframes auf { from { opacity:.4; } to { opacity:1; } } }
 </style>
 <div class="shell">
@@ -94,46 +101,30 @@ footer p { margin:4px 0; }
   <p class="eyebrow">Jobpilot · privat — Link nicht weitergeben</p>
   <h1>Karriere-Cockpit <b>Moritz</b></h1>
   <div class="standzeile">
-    <span>Stand <b>2026-07-27</b></span><span>Pipeline aktiv <b>4</b></span>
+    <span>Stand <b>2026-07-27</b></span>
+    <span>geprüft (7 T) <b>7</b></span>
+    <span>Review offen <b>2</b></span>
+    <span>Pipeline aktiv <b>4</b></span>
     <span>Probezeit-Tag <b>1</b>/14</span>
   </div>
 </header>
 
 <section id="handeln">
   <h2><span class="eyebrow">Deine ≤ 15 Minuten</span>Handeln erforderlich</h2>
-  <div class="karte"><ul class="act"><li><a href='#job-2026-07-27-sixt-lead-ai-deployment-strategist'><b>Mappe reviewen: Sixt SE</b></a><span class='mut'> — Score 7.9 — Analyse, Anschreiben und Original unten in der Karte</span></li><li><a href='#job-2026-07-27-kelvion-head-of-ai-solutions-architecture'><b>Mappe reviewen: Kelvion Holding GmbH</b></a><span class='mut'> — Score 7.4 — Analyse, Anschreiben und Original unten in der Karte</span></li></ul></div>
-</section>
-
-<section id="zahlen">
-  <h2><span class="eyebrow">7 Tage</span>Kennzahlen</h2>
-  <div class="tiles">
-    <div class="tile"><div class="num">7</div><div class="lbl">Stellen ernsthaft geprüft</div></div>
-    <div class="tile"><div class="num">2</div><div class="lbl">Mappen zum Review</div></div>
-    <div class="tile"><div class="num">4</div><div class="lbl">aktiv in der Pipeline</div></div>
-    <div class="tile"><div class="num">3</div><div class="lbl">verworfen (mit Begründung)</div></div>
-  </div>
+  <div class="karte"><ul class="act"><li><a href='#job-2026-07-27-sixt-lead-ai-deployment-strategist'><b>Sixt SE</b> — Mappe reviewen — Score 7,9</a></li><li><a href='#job-2026-07-27-kelvion-head-of-ai-solutions-architecture'><b>Kelvion Holding GmbH</b> — Mappe reviewen — Score 7,4</a></li></ul></div>
 </section>
 
 <section id="stellen">
-  <h2><span class="eyebrow">nach Score</span>Geprüfte Stellen</h2>
-  <div class="filter" role="group" aria-label="Filter">
-    <button class="chip" data-f="alle" aria-pressed="true">Alle</button>
-    <button class="chip" data-f="aktiv" aria-pressed="false">Aktiv</button>
-    <button class="chip" data-f="mappe" aria-pressed="false">Mappen</button>
-    <button class="chip" data-f="raus" aria-pressed="false">Aussortiert</button>
-  </div>
-  <div class="jobs">
-<article class="job" id="job-2026-07-27-sixt-lead-ai-deployment-strategist" data-status="mappe">
-  <div class="jobkopf">
-    <div class="score">7.9</div>
-    <div class="jobtitel">
-      <h3>Sixt SE</h3>
-      <p class="rolle"><a href="https://jobs.smartrecruiters.com/Sixt/744000139953124" target="_blank" rel="noopener">Lead AI Deployment Strategist (m/f/d)</a></p>
-      <p class="meta">Pullach bei München · Quelle: ats:smartrecruiters · entdeckt 2026-07-27 · Konfidenz: mittel</p>
-    </div>
+  <h2><span class="eyebrow">Zeile antippen = alles Weitere</span>Stellen</h2>
+  <h3 class='gruppe'>Dein Review <span class='anz'>2</span></h3>
+<details class="jobrow" id="job-2026-07-27-sixt-lead-ai-deployment-strategist" data-status="mappe">
+  <summary>
+    <span class="score">7,9</span>
+    <span class="jmain"><b>Sixt SE</b><span class="rolle">Lead AI Deployment Strategist (m/f/d)</span>
+      <span class="jmeta">Pullach bei München</span></span>
     <span class="pill st-action">Review nötig</span>
-  </div>
-  <p class='beg'>Das Anforderungsprofil (Programm-Management im Konzern + AI/Automatisierung mit messbarem Impact + Business Cases/P&amp;L + Executive-Stakeholder + Agentic-AI-Verständnis) deckt sich fast deckungsgleich mit Moritz&#x27; Profil — ohne die üblichen Lücken (kein Dev-Team-Führungszwang, keine Promotion). Klares Ownership der Adoption-Strategie, heute veröffentlicht (Frühbewerber-Vorteil), Sixt zahlt stark und München ist top-urban. Konfidenz mittel: Team-/Budgetverantwortung nicht explizit, Kultur intensiv-fordernd (für Moritz laut Präferenzen eher ein Plus), Gehaltsband unbestätigt.</p><details><summary>Analyse (Warum · Gehalt · Risiken)</summary><div class='dbody'><blockquote>Score 7,9 (Konfidenz mittel) · Standort Pullach bei München · veröffentlicht 27.07.2026 (heute — Frühbewerber-Vorteil) · Volltext: <code>jobs/archiv/2026-07-27-sixt-lead-ai-deployment-strategist/posting.md</code></blockquote>
+  </summary>
+  <div class="jbody"><p class='beg'>Das Anforderungsprofil (Programm-Management im Konzern + AI/Automatisierung mit messbarem Impact + Business Cases/P&amp;L + Executive-Stakeholder + Agentic-AI-Verständnis) deckt sich fast deckungsgleich mit Moritz&#x27; Profil — ohne die üblichen Lücken (kein Dev-Team-Führungszwang, keine Promotion). Klares Ownership der Adoption-Strategie, heute veröffentlicht (Frühbewerber-Vorteil), Sixt zahlt stark und München ist top-urban. Konfidenz mittel: Team-/Budgetverantwortung nicht explizit, Kultur intensiv-fordernd (für Moritz laut Präferenzen eher ein Plus), Gehaltsband unbestätigt.</p><p class='links'><a href='https://jobs.smartrecruiters.com/Sixt/744000139953124' target='_blank' rel='noopener'>Anzeige online öffnen ↗</a><span class='mut'> · Konfidenz: mittel · Quelle: Karrierefeed (smartrecruiters) · entdeckt 2026-07-27</span></p><details class='sub'><summary>Analyse — Warum · Gehalt · Risiken</summary><div class='dbody'><blockquote>Score 7,9 (Konfidenz mittel) · Standort Pullach bei München · veröffentlicht 27.07.2026 (heute — Frühbewerber-Vorteil) · Volltext: <code>jobs/archiv/2026-07-27-sixt-lead-ai-deployment-strategist/posting.md</code></blockquote>
 <h4>Warum es passt (Anforderungs-Mapping)</h4>
 <div class='tblwrap'><table><tr><th>Anforderung (Anzeige)</th><th>Moritz&#x27; Beleg (career/)</th></tr><tr><td>Several years program mgmt / tech strategy in complex enterprises</td><td>XING-Pivot-PMO (Launch termingerecht), 4+ Workstreams nucera-PMO, Q4-Programm Burda</td></tr><tr><td>Proven success building &amp; scaling AI/automation with measurable impact</td><td>~30 Use Cases, 2 produktiv (ganzes Serviceteam); Digital PMO ~80 % Aufwandsreduktion (&gt;32h→~6h); LCOH-Tool</td></tr><tr><td>Business cases, ROI, P&amp;L mindset</td><td>Business-/Cost-Cases als Vorstandsreferent, M&amp;A-Bewertungsmodelle, €-Cases je AI-Use-Case (in Arbeit)</td></tr><tr><td>Align executive stakeholders, matrix navigation</td><td>Vorstandsreferent, Board-Materialien, Gremien-/Vorstandsfreigabe für KI-Pilot</td></tr><tr><td>AI/ML fundamentals, agentic architectures</td><td>Produktive Agenten (Service-/Info-Postfach, RFQ); 3 iOS-Apps mit KI-APIs; 4 KI-Prinzipien</td></tr><tr><td>Governance principles</td><td>HITL by design, Freigabeprozesse im Konzern durchlebt</td></tr></table></div>
 <p>Das Profil verlangt <b>nicht</b>: Dev-Team-Führung, Promotion, MLOps-Tiefe — die üblichen Lücken greifen hier nicht. Seltene Passung.</p>
@@ -144,7 +135,7 @@ footer p { margin:4px 0; }
 <h4>Diskretion</h4>
 <p>Keine nucera-Interna (Sales-Zahlen, Anlagen-Vorfall, Gremien-Details nur neutral als „Freigabeprozess&quot;). Kündigungsfrist 3 Monate offen nennen. Kein Kontakt ins nucera-Umfeld als Referenz.</p>
 <h4>Empfehlung</h4>
-<p><b>Bewerben, schnell</b> — die Anzeige ist von heute; Frühbewerber auf eine Rolle mit dieser Profilpassung haben überdurchschnittliche Antwortquoten. Mappe liegt bei; Versand ausschließlich durch Moritz.</p></div></details><details><summary>Anschreiben (Entwurf)</summary><div class='dbody'><blockquote>Sprache: Englisch (Anzeige englisch). ENTWURF — Versand nur durch Moritz. PDF: <code>anschreiben.pdf</code></blockquote>
+<p><b>Bewerben, schnell</b> — die Anzeige ist von heute; Frühbewerber auf eine Rolle mit dieser Profilpassung haben überdurchschnittliche Antwortquoten. Mappe liegt bei; Versand ausschließlich durch Moritz.</p></div></details><details class='sub'><summary>Anschreiben (Entwurf im Wortlaut)</summary><div class='dbody'><blockquote>Sprache: Englisch (Anzeige englisch). ENTWURF — Versand nur durch Moritz. PDF: <code>anschreiben.pdf</code></blockquote>
 <p><b>Betreff:</b> Application — Lead AI Deployment Strategist (m/f/d)</p>
 <p>Dear SIXT Hiring Team,</p>
 <p>Scaling AI from proof of concept to real business impact is what I do today. At thyssenkrupp nucera I hold the company-wide mandate to identify and implement AI use cases: ~30 identified in workshops across the business functions, two in production, more in delivery. The production agents are not demos — the entire service team works with an agent that reads, classifies, tickets and drafts a reply to every incoming request.</p>
@@ -152,28 +143,25 @@ footer p { margin:4px 0; }
 <p>I think in business cases by habit. As Executive Assistant to the CEO I ran cost and business-case analyses and M&amp;A assessments; as Strategic Program Manager I steered four strategic workstreams as sparring partner to their senior leads, and replaced the company&#x27;s manual workstream reporting with an integrated Power Platform tool — cutting repetitive effort by ~80% (from &gt;32h to ~6h per cycle). It remains in unchanged use after my internal move, which I consider the real test of adoption.</p>
 <p>Why SIXT: because you are serious about agentic AI at enterprise scale, and ONE — with 350,000 vehicles and millions of drivers — is an operations landscape where deployed agents translate directly into measurable value. I also work best at real pace: my principles are structured data before intelligence; automate the process, not just the output; build fast, iterate, deliver; keep the human in the loop by design. They are tested in production, not in slides.</p>
 <p>My notice period is three months. I would be glad to walk you through the artifacts behind every claim in this letter — the agents, the platform, the numbers.</p>
-<p>Kind regards, Moritz Schumacher</p></div></details><details><summary>CV-Variante (Delta zum Master)</summary><div class='dbody'><p>Basis: <code>career/cv/cv-master.md</code> (Fakten identisch, Fakten-Gate-geprüft). <b>Delta zum Master: nur der Summary-Absatz</b>, zugespitzt auf Adoption/Skalierung/Stakeholder:</p>
+<p>Kind regards, Moritz Schumacher</p></div></details><details class='sub'><summary>CV-Variante (Delta zum Master)</summary><div class='dbody'><p>Basis: <code>career/cv/cv-master.md</code> (Fakten identisch, Fakten-Gate-geprüft). <b>Delta zum Master: nur der Summary-Absatz</b>, zugespitzt auf Adoption/Skalierung/Stakeholder:</p>
 <blockquote>Digital strategist who scales AI from proof of concept to production in complex enterprises: company-wide AI mandate at thyssenkrupp nucera (~30 use cases, 2 agents in production), program leadership from XING&#x27;s platform pivot to board-level steering — and hands-on delivery of AI tools teams actually use. Thinks in business cases, presents to boards, ships.</blockquote>
-<p>Dateien: <code>cv.html</code> (editierbar) → <code>cv.pdf</code> (1 Seite A4, geprüft).</p></div></details><details><summary>Original-Anzeige (archivierter Volltext)</summary><div class='dbody'><ul><li><b>Firma:</b> Sixt SE</li><li><b>Quelle:</b> ats:smartrecruiters</li><li><b>URL:</b> https://jobs.smartrecruiters.com/Sixt/744000139953124</li><li><b>Archiviert:</b> 2026-07-27 (Volltext im Original-Wortlaut)</li></ul>
+<p>Dateien: <code>cv.html</code> (editierbar) → <code>cv.pdf</code> (1 Seite A4, geprüft).</p></div></details><details class='sub'><summary>Original-Anzeige (archivierter Volltext)</summary><div class='dbody'><ul><li><b>Firma:</b> Sixt SE</li><li><b>Quelle:</b> ats:smartrecruiters</li><li><b>URL:</b> https://jobs.smartrecruiters.com/Sixt/744000139953124</li><li><b>Archiviert:</b> 2026-07-27 (Volltext im Original-Wortlaut)</li></ul>
 <hr>
 <h4>Job Description</h4>
 <p>Are you passionate about scaling AI from proof of concept to real business impact? As our Lead AI Deployment Strategist (m/f/d) you will drive the adoption of AI powered agentic solutions across SIXT, turning high potential ideas into enterprise wide transformation. From identifying impactful use cases to aligning senior stakeholders and accelerating deployment, you will bridge strategy, technology and execution to unlock measurable value. Ready to shape the future of AI at SIXT in Pullach close to Munich? Apply now and join Team Orange! YOUR ROLE AT SIXT You own the adoption strategy and value roadmap for AI powered agentic solutions across SIXT operations, ensuring measurable business impact and scalable deployment success You identify, prioritize and sequence high impact use cases based on business value, technical feasibility and operational readiness You define scalable operating models for autonomous teams, establishing governance, success metrics, escalation paths and delivery structures You align executive stakeholders across divisions, creating a shared vision and driving strategic initiatives through clear milestones and transparent communication You remove organizational and technical blockers to accelerate time to value while building business cases, quantifying ROI and tracking realized value across deployment initiatives You design and drive change management initiatives while establishing cross functional rituals that ensure sustainable adoption, transparency and momentum beyond the pilot phase YOUR SKILLS MATTER Experience You bring several years of experience in client facing roles such as program management, management consulting or technology strategy within complex enterprise environments Track Record You have proven success building and scaling AI, automation and digital product initiatives with measurable business impact Business Acumen You are comfortable building business cases, quantifying value and thinking with a P&amp;amp;L mindset Stakeholder Management You confidently collaborate with senior leaders and navigate complex matrix organizations Know how You understand AI and ML fundamentals, agentic architectures and enterprise governance principles Communication You translate complex technical topics into clear and compelling narratives for both technical and non technical audiences and communicate fluently in English, while German is considered a strong plus WHAT WE OFFER Extra benefits Enjoy discounts on SIXT rent, share, ride and SIXT+, attractive vehicle leasing offers, and exclusive deals with partners for travel, tech, fashion and more Mobility boost We support you with a monthly mobility allowance of €20 per month for even more freedom Future security We contribute to your retirement plan and support you with capital-forming benefits to ensure you are well covered Feel-good atmosphere Stay active with our modern SIXT gym, various leisure activities like the gaming area or the SIXT choir, and enjoy our high-quality employee restaurant Flexibility Enjoy 30 days of vacation and a hybrid working model with flexible hours Giving back Take one day each year to volunteer at a charitable organization dedicated to supporting children</p>
 <h4>Additional Information</h4>
 <p>About us: We are a globally leading mobility service provider with a revenue of €4.00 billion and around 9,000 employees worldwide. Our mobility platform ONE combines our products SIXT rent (car rental), SIXT share (car sharing), SIXT ride (taxi, ride, and chauffeur services), and SIXT+ (car subscription), giving our customers access to our fleet of 350,000 vehicles, the services of 4,000 cooperation partners, and around 5 million drivers worldwide. Together with our franchise partners, we are present in more than 110 countries at 2,000 rental stations. At SIXT, top-tier customer experience and outstanding customer service are our highest priorities. We believe in true entrepreneurship and long-term stability and align our corporate strategy with foresight. Get started with us and apply now!</p>
 <h4>Company Description</h4>
-<p>&amp;#xa0;</p></div></details>
-</article>
-<article class="job" id="job-2026-07-27-kelvion-head-of-ai-solutions-architecture" data-status="mappe">
-  <div class="jobkopf">
-    <div class="score">7.4</div>
-    <div class="jobtitel">
-      <h3>Kelvion Holding GmbH</h3>
-      <p class="rolle"><a href="https://www.arbeitsagentur.de/jobsuche/jobdetail/19663-0066225648-S" target="_blank" rel="noopener">Head of AI Solutions &amp; Architecture (m/w/d)</a></p>
-      <p class="meta">Herne (Ruhrgebiet) · Quelle: ba · entdeckt 2026-07-27 · Konfidenz: mittel</p>
-    </div>
+<p>&amp;#xa0;</p></div></details></div>
+</details>
+<details class="jobrow" id="job-2026-07-27-kelvion-head-of-ai-solutions-architecture" data-status="mappe">
+  <summary>
+    <span class="score">7,4</span>
+    <span class="jmain"><b>Kelvion Holding GmbH</b><span class="rolle">Head of AI Solutions &amp; Architecture (m/w/d)</span>
+      <span class="jmeta">Herne (Ruhrgebiet)</span></span>
     <span class="pill st-action">Review nötig</span>
-  </div>
-  <p class='beg'>Echtes Head-of-Mandat (AI-Team führen, Use-Case-Portfolio, Build-vs-Buy, Betriebsmodell) im exakt passenden Microsoft-Ökosystem (Azure AI, Copilot, Power Platform) — dazu Wasserstoff- und Rechenzentrums-Bezug der Produkte und quasi Heimspiel (Herne). Dämpfer: Die Rolle ist spürbar architekturlastig (Referenzarchitekturen, MLOps/LLMOps, SAP BW, Fabric als geforderte Tiefe) — das ist nicht Moritz&#x27; Kernprofil und wird im Prozess ehrlich adressiert; zudem „mehrere Jahre Führungserfahrung&quot; gefordert. Knapp unter Mappen-Schwelle; Mappe trotzdem als Kalibrier-Beispiel des Probelaufs gebaut, Empfehlung mit ausgewiesenem Stretch.</p><details><summary>Analyse (Warum · Gehalt · Risiken)</summary><div class='dbody'><blockquote>Score 7,4 (Konfidenz mittel) · Standort Herne — <b>verifiziert 27.07.</b> (Zentrale: Von-der-Heydt-Straße 2, 44623 Herne; Registergericht Bochum, HRB 14670 — Quelle: Kelvion-Impressum + Handelsregister) · veröffentlicht 21.07.2026 · Volltext: <code>jobs/archiv/2026-07-27-kelvion-head-of-ai-solutions-architecture/posting.md</code> <b>Kalibrier-Mappe des Probelaufs:</b> knapp unter der 7,5-Schwelle gebaut, damit wir an einem realen Grenzfall Scoring und Stimme eichen.</blockquote>
+  </summary>
+  <div class="jbody"><p class='beg'>Echtes Head-of-Mandat (AI-Team führen, Use-Case-Portfolio, Build-vs-Buy, Betriebsmodell) im exakt passenden Microsoft-Ökosystem (Azure AI, Copilot, Power Platform) — dazu Wasserstoff- und Rechenzentrums-Bezug der Produkte und quasi Heimspiel (Herne). Dämpfer: Die Rolle ist spürbar architekturlastig (Referenzarchitekturen, MLOps/LLMOps, SAP BW, Fabric als geforderte Tiefe) — das ist nicht Moritz&#x27; Kernprofil und wird im Prozess ehrlich adressiert; zudem „mehrere Jahre Führungserfahrung&quot; gefordert. Knapp unter Mappen-Schwelle; Mappe trotzdem als Kalibrier-Beispiel des Probelaufs gebaut, Empfehlung mit ausgewiesenem Stretch.</p><p class='links'><a href='https://www.arbeitsagentur.de/jobsuche/jobdetail/19663-0066225648-S' target='_blank' rel='noopener'>Anzeige online öffnen ↗</a><span class='mut'> · Konfidenz: mittel · Quelle: Arbeitsagentur · entdeckt 2026-07-27</span></p><details class='sub'><summary>Analyse — Warum · Gehalt · Risiken</summary><div class='dbody'><blockquote>Score 7,4 (Konfidenz mittel) · Standort Herne — <b>verifiziert 27.07.</b> (Zentrale: Von-der-Heydt-Straße 2, 44623 Herne; Registergericht Bochum, HRB 14670 — Quelle: Kelvion-Impressum + Handelsregister) · veröffentlicht 21.07.2026 · Volltext: <code>jobs/archiv/2026-07-27-kelvion-head-of-ai-solutions-architecture/posting.md</code> <b>Kalibrier-Mappe des Probelaufs:</b> knapp unter der 7,5-Schwelle gebaut, damit wir an einem realen Grenzfall Scoring und Stimme eichen.</blockquote>
 <h4>Warum es (weitgehend) passt</h4>
 <div class='tblwrap'><table><tr><th>Anforderung (Anzeige)</th><th>Moritz&#x27; Beleg</th></tr><tr><td>AI-Use-Case-Portfolio priorisieren, PoC→Produktion skalieren, AI-Team führen</td><td>~30 Cases, 2 produktiv; laterale Führung (Bari-Team, externes Dev-Team); noch keine formale Führung — gewollt</td></tr><tr><td>Microsoft-Ökosystem (Azure AI, Copilot, Power Platform)</td><td>Digital PMO komplett im MS-Tenant (Dataverse, Power Apps, Automate, BI, Copilot) — ~80 % Aufwandsreduktion</td></tr><tr><td>AI-Governance, Responsible AI, Freigabeprozesse</td><td>HITL by design; Gremien-/Vorstandsfreigabe für ersten KI-Piloten persönlich erkämpft</td></tr><tr><td>Build-vs-Buy, Vendor-Steuerung, Kosten</td><td>LCOH-Tool statt Agentur (mehrere 100k € gespart); Sub-Team-Einkauf und Steuerung bei Conciso</td></tr><tr><td>Datenplattform-Denken</td><td>„Structured data before intelligence&quot;: RFQ-Datenbank, LCOH-Datenbank, Dataverse</td></tr><tr><td><b>Branchen-Bonus</b></td><td>Kelvion-Produkte bedienen Wasserstoffproduktion + Rechenzentrums-Kühlung — er kommt aus grünem Wasserstoff</td></tr></table></div>
 <h4>Der ehrliche Stretch (deshalb 7,4, nicht 8+)</h4>
@@ -185,7 +173,7 @@ footer p { margin:4px 0; }
 <h4>Diskretion</h4>
 <p>Wettbewerbsnähe gering (Kelvion liefert u. a. an Wasserstoff-Branche, ist aber kein Elektrolyseur-Hersteller) — dennoch keine nucera-Interna, LCOH nur als eigene Leistung neutral beschreiben. Kündigungsfrist 3 Monate.</p>
 <h4>Empfehlung</h4>
-<p><b>Bewerben mit ausgewiesenem Stretch</b> — das Mandat (Team, Portfolio, Betriebsmodell) trifft sein Zielbild, Stack und Branche sind Heimspiel; die Architektur-Anforderungen sind das offene Risiko, das wir bewusst eingehen und im Brief nicht verstecken. Versand ausschließlich durch Moritz.</p></div></details><details><summary>Anschreiben (Entwurf)</summary><div class='dbody'><blockquote>Sprache: Deutsch, Sie-Form (Anzeige siezt durchgehend). ENTWURF — Versand nur durch Moritz. PDF: <code>anschreiben.pdf</code></blockquote>
+<p><b>Bewerben mit ausgewiesenem Stretch</b> — das Mandat (Team, Portfolio, Betriebsmodell) trifft sein Zielbild, Stack und Branche sind Heimspiel; die Architektur-Anforderungen sind das offene Risiko, das wir bewusst eingehen und im Brief nicht verstecken. Versand ausschließlich durch Moritz.</p></div></details><details class='sub'><summary>Anschreiben (Entwurf im Wortlaut)</summary><div class='dbody'><blockquote>Sprache: Deutsch, Sie-Form (Anzeige siezt durchgehend). ENTWURF — Versand nur durch Moritz. PDF: <code>anschreiben.pdf</code></blockquote>
 <p><b>Betreff:</b> Bewerbung als Head of AI Solutions &amp; Architecture (m/w/d)</p>
 <p>Sehr geehrtes Recruiting-Team von Kelvion,</p>
 <p>Ihre Wärmetauscher arbeiten unter anderem in der Wasserstoffproduktion und in der Kühlung von Rechenzentren — das erste dieser Felder ist meine Herkunft. Bei thyssenkrupp nucera verantworte ich unternehmensweit die Identifikation und Umsetzung von KI-Use-Cases: rund 30 identifiziert, zwei produktiv im Einsatz, weitere in Umsetzung. Das gesamte Serviceteam arbeitet heute mit einem Agenten, der jede eingehende Anfrage liest, klassifiziert, ein Ticket anlegt und eine Antwort entwirft.</p>
@@ -193,9 +181,9 @@ footer p { margin:4px 0; }
 <p>Auch den Weg von der Freigabe bis in die Produktion kenne ich auf die harte Tour: Für unser LCOH-Tool — die Kennzahl, an der bei uns Investitionsentscheidungen hängen — habe ich die erste produktive KI-Entwicklungsumgebung des Unternehmens als Pilot durch Gremien und Vorstandstermine gebracht. Das Wirtschaftlichkeitsargument: Eine externe Alternative hätte mehrere hunderttausend Euro gekostet und weniger abgedeckt. Mein erstes Arbeitsprinzip lautet „Structured data before intelligence“ — jeder Use Case beginnt bei mir mit der Datenbasis, nicht mit dem Modell.</p>
 <p>Ein Punkt gehört offen auf den Tisch: Ich bin kein Enterprise-Architekt aus dem Lehrbuch. Meine Architektur-Erfahrung kommt aus Systemen, die ich selbst gebaut habe und die im Konzern produktiv laufen; wo formale Tiefe gefragt ist — etwa im MLOps-Betrieb oder der Security-Härtung — hole ich Spezialisten dazu. Was Sie dafür bekommen: jemanden, der ein AI-Team und ein Use-Case-Portfolio mit echtem Mandat führen will, Vorstandskommunikation beherrscht und liefert statt beschreibt.</p>
 <p>Sie nennen Build-vs-Buy-Entscheidungen ausdrücklich als Teil der Rolle — meine Antwort darauf: Ich bin überzeugt, dass in drei Jahren jede Funktion bei Kelvion KI-gestützt arbeitet, und die Frage ist nur, ob diese Lösungen eingekauft oder im Haus gebaut und verstanden werden. Ich stehe für den zweiten Weg. Meine Kündigungsfrist beträgt drei Monate; die Artefakte hinter jeder Zahl dieses Schreibens zeige ich Ihnen gern — von Dortmund aus habe ich es zu Ihnen nicht weit.</p>
-<p>Mit freundlichen Grüßen Moritz Schumacher</p></div></details><details><summary>CV-Variante (Delta zum Master)</summary><div class='dbody'><p>Basis: <code>career/cv/cv-master.md</code> (Fakten identisch, Fakten-Gate-geprüft). <b>Delta zum Master: nur der Summary-Absatz</b>, zugespitzt auf Enterprise-AI im Microsoft-Ökosystem + Industrie-Herkunft:</p>
+<p>Mit freundlichen Grüßen Moritz Schumacher</p></div></details><details class='sub'><summary>CV-Variante (Delta zum Master)</summary><div class='dbody'><p>Basis: <code>career/cv/cv-master.md</code> (Fakten identisch, Fakten-Gate-geprüft). <b>Delta zum Master: nur der Summary-Absatz</b>, zugespitzt auf Enterprise-AI im Microsoft-Ökosystem + Industrie-Herkunft:</p>
 <blockquote>Digital strategist from the green-hydrogen industry who builds enterprise AI in the Microsoft ecosystem: company-wide AI mandate (~30 use cases, 2 agents in production), a Power Platform tool that cut reporting effort by ~80%, and the company&#x27;s first approved AI-development pilot — taken through boards and IT governance personally. Builds what he proposes.</blockquote>
-<p>Dateien: <code>cv.html</code> (editierbar) → <code>cv.pdf</code> (1 Seite A4, geprüft).</p></div></details><details><summary>Original-Anzeige (archivierter Volltext)</summary><div class='dbody'><ul><li><b>Firma:</b> Kelvion Holding GmbH</li><li><b>Arbeitsort (BA-Daten):</b> Von-der-Heydt-Straße 2, 44623 Herne — am 27.07. gegen Impressum/Handelsregister verifiziert (Registergericht Bochum, HRB 14670)</li><li><b>Quelle:</b> ba</li><li><b>URL:</b> https://www.arbeitsagentur.de/jobsuche/jobdetail/19663-0066225648-S</li><li><b>Archiviert:</b> 2026-07-27 (Volltext im Original-Wortlaut)</li></ul>
+<p>Dateien: <code>cv.html</code> (editierbar) → <code>cv.pdf</code> (1 Seite A4, geprüft).</p></div></details><details class='sub'><summary>Original-Anzeige (archivierter Volltext)</summary><div class='dbody'><ul><li><b>Firma:</b> Kelvion Holding GmbH</li><li><b>Arbeitsort (BA-Daten):</b> Von-der-Heydt-Straße 2, 44623 Herne — am 27.07. gegen Impressum/Handelsregister verifiziert (Registergericht Bochum, HRB 14670)</li><li><b>Quelle:</b> ba</li><li><b>URL:</b> https://www.arbeitsagentur.de/jobsuche/jobdetail/19663-0066225648-S</li><li><b>Archiviert:</b> 2026-07-27 (Volltext im Original-Wortlaut)</li></ul>
 <hr>
 <p><b>Kelvion</b></p>
 <p>Unsere Mission ist es, mit Innovationskraft und Nachhaltigkeit die industrielle Transformation voranzutreiben. Ob bei der Optimierung von Rechenzentren, der Weiterentwicklung der Wasserstoffproduktion oder der Neugestaltung von Kühl- und Klimatechniksystemen – unsere thermischen Schlüsseltechnologien stärken zahlreiche Branchen weltweit. Als „One Kelvion“ arbeiten wir kontinuierlich an Lösungen, die unsere Kunden noch erfolgreicher machen und gleichzeitig zu einer nachhaltigeren Zukunft beitragen.</p>
@@ -219,19 +207,16 @@ footer p { margin:4px 0; }
 <p><b>Your Qualifications</b></p>
 <ul><li>You hold a degree in Computer Science, Information Technology, Engineering, or a related field.</li><li>You have several years of leadership experience in AI, data, cloud, or enterprise architecture roles.</li><li>You possess deep expertise in AI/ML technologies, data platforms, and cloud architectures within the Microsoft ecosystem (Azure AI, Copilot, Power Platform).</li><li>You have experience in AI governance, Responsible AI standards, and regulatory compliance such as GDPR and the EU AI Act, and you are familiar with enterprise and security architecture principles.</li><li>You bring strong technical competence in MLOps/LLMOps, SQL, SAP BW, Microsoft Fabric, and Power BI and understand the AI lifecycle end-to-end.</li><li>You think strategically, communicate effectively, and lead complex cross-functional initiatives.</li><li>Excellent German and English skills as well as willingness to travel internationally complete your profile.</li></ul>
 <p>At Kelvion we thrive on collaboration, embracing diversity of thought, and valuing every voice. Within Kelvion creativity shines because people are listened to, their contributions recognised, and their ideas welcomed. Our flexible approach to the way we work places people’s health and satisfaction as a priority, enhancing engagement and fostering career opportunities. We empower engaged individuals to grow, progress and carve their own paths within the company.</p>
-<p>Together, We Shape the Future</p></div></details>
-</article>
-<article class="job" id="job-2026-07-27-flh-head-of-digital-products-ai" data-status="bewertet">
-  <div class="jobkopf">
-    <div class="score">7.3</div>
-    <div class="jobtitel">
-      <h3>FLH GmbH (FLH DIGITAL)</h3>
-      <p class="rolle"><a href="https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-73df3f6a_JB5200393-S" target="_blank" rel="noopener">Head of Digital Products &amp; AI (m/w/d)</a></p>
-      <p class="meta">Leipzig · Quelle: ba · entdeckt 2026-07-27 · Konfidenz: niedrig</p>
-    </div>
+<p>Together, We Shape the Future</p></div></details></div>
+</details><h3 class='gruppe'>In Beobachtung <span class='anz'>2</span></h3>
+<details class="jobrow" id="job-2026-07-27-flh-head-of-digital-products-ai" data-status="bewertet">
+  <summary>
+    <span class="score">7,3</span>
+    <span class="jmain"><b>FLH GmbH (FLH DIGITAL)</b><span class="rolle">Head of Digital Products &amp; AI (m/w/d)</span>
+      <span class="jmeta">Leipzig</span></span>
     <span class="pill st-info">Bewertet</span>
-  </div>
-  <p class='beg'>Unternehmerischste Rolle des Tages: Software-/AI-Division von null aufbauen, gesamter Produktlebenszyklus, Budget, Teamaufbau, direkt an der Geschäftsführung — genau Moritz&#x27; Mandats-Schmerzpunkt. Seine Stärken (LLM-Integration, Steuerung externer Entwicklungspartner, Business-Übersetzung) treffen die Must-haves gut; Stretch bei „fundierten&quot; Web-Stack-Kenntnissen (TypeScript/React). Konfidenz niedrig: Firma unbekannt (Marketing-Services im LEH-Segment), Gehaltsband für Leipzig-Mittelstand könnte unter der 100k-Untergrenze liegen, Produkt-Sinn nur mittel. Nächster Schritt: Firmen-Recherche, dann Hochstufung oder Verwerfen.</p><details><summary>Original-Anzeige (archivierter Volltext)</summary><div class='dbody'><ul><li><b>Firma:</b> FLH GmbH (FLH DIGITAL)</li><li><b>Quelle:</b> ba</li><li><b>URL:</b> https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-73df3f6a_JB5200393-S</li><li><b>Archiviert:</b> 2026-07-27 (Volltext im Original-Wortlaut)</li></ul>
+  </summary>
+  <div class="jbody"><p class='beg'>Unternehmerischste Rolle des Tages: Software-/AI-Division von null aufbauen, gesamter Produktlebenszyklus, Budget, Teamaufbau, direkt an der Geschäftsführung — genau Moritz&#x27; Mandats-Schmerzpunkt. Seine Stärken (LLM-Integration, Steuerung externer Entwicklungspartner, Business-Übersetzung) treffen die Must-haves gut; Stretch bei „fundierten&quot; Web-Stack-Kenntnissen (TypeScript/React). Konfidenz niedrig: Firma unbekannt (Marketing-Services im LEH-Segment), Gehaltsband für Leipzig-Mittelstand könnte unter der 100k-Untergrenze liegen, Produkt-Sinn nur mittel. Nächster Schritt: Firmen-Recherche, dann Hochstufung oder Verwerfen.</p><p class='links'><a href='https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-73df3f6a_JB5200393-S' target='_blank' rel='noopener'>Anzeige online öffnen ↗</a><span class='mut'> · Konfidenz: niedrig · Quelle: Arbeitsagentur · entdeckt 2026-07-27</span></p><details class='sub'><summary>Original-Anzeige (archivierter Volltext)</summary><div class='dbody'><ul><li><b>Firma:</b> FLH GmbH (FLH DIGITAL)</li><li><b>Quelle:</b> ba</li><li><b>URL:</b> https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-73df3f6a_JB5200393-S</li><li><b>Archiviert:</b> 2026-07-27 (Volltext im Original-Wortlaut)</li></ul>
 <hr>
 <p>Kurzbeschreibung der Stelle • Rolle: Aufbau unserer neue Software- und AI-Division und Entwicklung skalierbarer digitaler Geschäftsfelder • Mission: Transformation zu einem technologiegetriebenen Anbieter intelligenter Software-, Plattform- und KI-Lösungen für KMU • Impact: Verantwortung für den gesamten Lebenszyklus der digitalen Produkte, von der Idee über Entwicklung und Markteinführung bis zum wirtschaftlichen Erfolg • Arbeitsweise: Verbindung von strategischen Denken mit operativer Umsetzung sowie aktive Gestaltung von Technologien und Produkten</p>
 <p>Diese Aufgaben erwarten DichStrategie &amp; Business • Entwicklung und Umsetzung der Software- und AI-Strategie • Aufbau eines skalierbaren Produktportfolios und neuer Geschäftsmodelle • Verantwortung für Produkt-Roadmap, Budget und Wirtschaftlichkeit</p>
@@ -245,19 +230,16 @@ footer p { margin:4px 0; }
 <p>Arbeitsstil / Mindset • Unternehmerisches Denken mit ausgeprägter Ownership • Hands-on-Mentalität sowie hoher Qualitäts- und Innovationsanspruch • Begeisterung für neue Technologien und die Fähigkeit, Menschen für Veränderungen zu gewinnen</p>
 <p>Wenn Du unternehmerisch denkst, gerne Verantwortung übernimmst und Innovation in marktfähige Lösungen verwandelst, freuen wir uns darauf, Dich kennenzulernen.</p>
 <p>Über uns FLH DIGITAL ist ein etabliertes Unternehmen mit führender und gefestigter Marktposition im Bereich Marketing Services im LEH-Segment.Mit klarem Fokus auf Innovation und nachhaltiges Wachstum treiben wir aktuell die nächste Entwicklungsstufe unseres Unternehmens voran: Durch neue Software- und Serviceprodukte, die Erschließung zusätzlicher Marktsegmente sowie die konsequente Internationalisierung.</p>
-<p>Wir steigern die Sichtbarkeit kleiner und mittelständischer Unternehmen – messbar, nachhaltig und skalierbar.</p></div></details>
-</article>
-<article class="job" id="job-2026-07-27-zeiss-head-of-ai-applications" data-status="bewertet">
-  <div class="jobkopf">
-    <div class="score">7.0</div>
-    <div class="jobtitel">
-      <h3>Carl Zeiss AG (Zeiss Digital Partners)</h3>
-      <p class="rolle"><a href="https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003437860-S" target="_blank" rel="noopener">Head of AI Applications (f/m/x)</a></p>
-      <p class="meta">München · Quelle: ba · entdeckt 2026-07-27 · Konfidenz: hoch</p>
-    </div>
+<p>Wir steigern die Sichtbarkeit kleiner und mittelständischer Unternehmen – messbar, nachhaltig und skalierbar.</p></div></details></div>
+</details>
+<details class="jobrow" id="job-2026-07-27-zeiss-head-of-ai-applications" data-status="bewertet">
+  <summary>
+    <span class="score">7,0</span>
+    <span class="jmain"><b>Carl Zeiss AG (Zeiss Digital Partners)</b><span class="rolle">Head of AI Applications (f/m/x)</span>
+      <span class="jmeta">München</span></span>
     <span class="pill st-info">Bewertet</span>
-  </div>
-  <p class='beg'>Starkes Mandat (disziplinarische Führung inkl. Gehaltsentscheidungen, PoC-bis-Skalierung) bei einem sinnstiftenden Weltmarktführer, München als Standort top. Aber der Kern der Rolle ist technische Führung von Entwicklungsteams — gefordert sind herausragender MINT-Abschluss (Promotion von Vorteil), mehrjährige KI-Entwicklungserfahrung und nachgewiesene Dev-Team-Führung. Das trifft Moritz&#x27; ehrlich dokumentierte Grenze (kein SWE-Hintergrund, keine Dev-Team-Führung) frontal — Bewerbung wäre ein weiter Stretch mit geringer Erfolgswahrscheinlichkeit. Beobachten; kein Mappen-Bau.</p><details><summary>Original-Anzeige (archivierter Volltext)</summary><div class='dbody'><ul><li><b>Firma:</b> Carl Zeiss AG (Zeiss Digital Partners)</li><li><b>Quelle:</b> ba</li><li><b>URL:</b> https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003437860-S</li><li><b>Archiviert:</b> 2026-07-27 (Volltext im Original-Wortlaut)</li></ul>
+  </summary>
+  <div class="jbody"><p class='beg'>Starkes Mandat (disziplinarische Führung inkl. Gehaltsentscheidungen, PoC-bis-Skalierung) bei einem sinnstiftenden Weltmarktführer, München als Standort top. Aber der Kern der Rolle ist technische Führung von Entwicklungsteams — gefordert sind herausragender MINT-Abschluss (Promotion von Vorteil), mehrjährige KI-Entwicklungserfahrung und nachgewiesene Dev-Team-Führung. Das trifft Moritz&#x27; ehrlich dokumentierte Grenze (kein SWE-Hintergrund, keine Dev-Team-Führung) frontal — Bewerbung wäre ein weiter Stretch mit geringer Erfolgswahrscheinlichkeit. Beobachten; kein Mappen-Bau.</p><p class='links'><a href='https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003437860-S' target='_blank' rel='noopener'>Anzeige online öffnen ↗</a><span class='mut'> · Konfidenz: hoch · Quelle: Arbeitsagentur · entdeckt 2026-07-27</span></p><details class='sub'><summary>Original-Anzeige (archivierter Volltext)</summary><div class='dbody'><ul><li><b>Firma:</b> Carl Zeiss AG (Zeiss Digital Partners)</li><li><b>Quelle:</b> ba</li><li><b>URL:</b> https://www.arbeitsagentur.de/jobsuche/jobdetail/10001-1003437860-S</li><li><b>Archiviert:</b> 2026-07-27 (Volltext im Original-Wortlaut)</li></ul>
 <hr>
 <h4><b>Ihre Rolle:</b></h4>
 <h4><b>Technische Führung</b></h4>
@@ -279,19 +261,16 @@ footer p { margin:4px 0; }
 <h4><b>Geschäftssinn</b></h4>
 <ul><li>Fähigkeit, den Hype zu durchschauen und die vielversprechendsten und wirkungsvollsten Anwendungsfälle zu identifizieren, während man Störfaktoren ausblendet</li><li>Ausgeprägter Geschäftssinn und Verständnis für relevante Aspekte von KI- und datengesteuerten Geschäftsmodellen</li><li>Fähigkeit, Kundenbedürfnisse in effektive technische Lösungen umzusetzen</li></ul>
 <h4><b>Soziale und kommunikative Kompetenzen</b></h4>
-<ul><li>Aufgeschlossenheit, Flexibilität und nachgewiesene Fähigkeit zur erfolgreichen Zusammenarbeit mit interdisziplinären und internationalen Teams – team- und abteilungsübergreifend</li><li>Ausgeprägte Kommunikations- und Präsentationsfähigkeiten sowie die Fähigkeit, Entscheidungsprozesse von der operativen Ebene bis hin zur CxO-Ebene voranzutreiben</li><li>Fähigkeit, sich sowohl im Unternehmensumfeld als auch in Führungs-, Geschäfts- und Technologieumgebungen sicher zu bewegen</li><li>Flüssiges Englisch und fortgeschrittene Deutschkenntnisse</li></ul></div></details>
-</article>
-<article class="job" id="job-2026-07-27-synqony-ai-solution-lead" data-status="verworfen">
-  <div class="jobkopf">
-    <div class="score">5.5</div>
-    <div class="jobtitel">
-      <h3>SYNQONY GmbH</h3>
-      <p class="rolle"><a href="https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-4871f606_JB5200358-S" target="_blank" rel="noopener">AI Solution Lead (m/w/d)</a></p>
-      <p class="meta">Recklinghausen · Quelle: ba · entdeckt 2026-07-27 · Konfidenz: hoch</p>
-    </div>
+<ul><li>Aufgeschlossenheit, Flexibilität und nachgewiesene Fähigkeit zur erfolgreichen Zusammenarbeit mit interdisziplinären und internationalen Teams – team- und abteilungsübergreifend</li><li>Ausgeprägte Kommunikations- und Präsentationsfähigkeiten sowie die Fähigkeit, Entscheidungsprozesse von der operativen Ebene bis hin zur CxO-Ebene voranzutreiben</li><li>Fähigkeit, sich sowohl im Unternehmensumfeld als auch in Führungs-, Geschäfts- und Technologieumgebungen sicher zu bewegen</li><li>Flüssiges Englisch und fortgeschrittene Deutschkenntnisse</li></ul></div></details></div>
+</details><h3 class='gruppe'>Aussortiert — mit Begründung <span class='anz'>3</span></h3>
+<details class="jobrow" id="job-2026-07-27-synqony-ai-solution-lead" data-status="verworfen">
+  <summary>
+    <span class="score">5,5</span>
+    <span class="jmain"><b>SYNQONY GmbH</b><span class="rolle">AI Solution Lead (m/w/d)</span>
+      <span class="jmeta">Recklinghausen</span></span>
     <span class="pill st-dead">Verworfen</span>
-  </div>
-  <p class='beg'>Inhaltlich moderne AI-Engineering-Rolle (RAG, Embeddings, LangChain, Python als tägliche Praxis) in einem kleinen Softwarehaus — aber eine Fachspezialisten-Rolle ohne erkennbares Führungs-, Budget- oder P&amp;L-Mandat und damit außerhalb von Moritz&#x27; Präferenzordnung. Gehalt in dieser Konstellation sehr wahrscheinlich unter dem Zielband.</p><p class='ko'>KO: Fachrolle ohne Mandat (Präferenzordnung), Gehaltsband sehr wahrscheinlich unter Untergrenze</p><details><summary>Original-Anzeige (archivierter Volltext)</summary><div class='dbody'><ul><li><b>Firma:</b> SYNQONY GmbH</li><li><b>Quelle:</b> ba</li><li><b>URL:</b> https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-4871f606_JB5200358-S</li><li><b>Archiviert:</b> 2026-07-27 (Volltext im Original-Wortlaut)</li></ul>
+  </summary>
+  <div class="jbody"><p class='beg'>Inhaltlich moderne AI-Engineering-Rolle (RAG, Embeddings, LangChain, Python als tägliche Praxis) in einem kleinen Softwarehaus — aber eine Fachspezialisten-Rolle ohne erkennbares Führungs-, Budget- oder P&amp;L-Mandat und damit außerhalb von Moritz&#x27; Präferenzordnung. Gehalt in dieser Konstellation sehr wahrscheinlich unter dem Zielband.</p><p class='ko'>KO: Fachrolle ohne Mandat (Präferenzordnung), Gehaltsband sehr wahrscheinlich unter Untergrenze</p><p class='links'><a href='https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-4871f606_JB5200358-S' target='_blank' rel='noopener'>Anzeige online öffnen ↗</a><span class='mut'> · Konfidenz: hoch · Quelle: Arbeitsagentur · entdeckt 2026-07-27</span></p><details class='sub'><summary>Original-Anzeige (archivierter Volltext)</summary><div class='dbody'><ul><li><b>Firma:</b> SYNQONY GmbH</li><li><b>Quelle:</b> ba</li><li><b>URL:</b> https://www.arbeitsagentur.de/jobsuche/jobdetail/13635-4871f606_JB5200358-S</li><li><b>Archiviert:</b> 2026-07-27 (Volltext im Original-Wortlaut)</li></ul>
 <hr>
 <p>Künstliche Intelligenz wird die Art und Weise, wie Unternehmen Software entwickeln, Prozesse automatisieren und Entscheidungen treffen, grundlegend verändern. Bei SYNQONY möchten wir diese Entwicklung aktiv mitgestalten. Unser Ziel ist es, moderne AI-Technologien sinnvoll in unsere Produkte, Prozesse und Geschäftsmodelle zu integrieren und daraus nachhaltigen Mehrwert für unsere Kunden und unser Unternehmen zu schaffen. WAS WIRST DU MACHEN?Als AI Solution Lead (m/w/d) übernimmst du eine zentrale Rolle beim Aufbau und der Weiterentwicklung unserer AI-Initiativen. Du identifizierst Potenziale, entwickelst innovative Lösungen und begleitest deren Umsetzung von der ersten Idee bis zum produktiven Einsatz. Dein Aufgabenbereich • Identifikation, Bewertung und Umsetzung innovativer AI-Anwendungsfälle mit messbarem Business Impact • Konzeption und Entwicklung intelligenter Softwarelösungen auf Basis moderner AI-Technologien • Bewertung, Auswahl und Einführung neuer AI-Methoden, Modelle und Plattformen • Entwicklung von Prototypen, Proof-of-Conceptsund produktionsreifen Lösungen • Konzeption von AI-Architekturen und Integration in bestehende Produkte, Prozesse und Systemlandschaften • Zusammenarbeit mit Entwicklung, Produktmanagement und Fachbereichen zur erfolgreichen Umsetzung von AI-Initiativen • Aufbau und Weiterentwicklung von AI-Plattformen, Workflows und wiederverwendbaren Komponenten • Definition von Qualitätsstandards, Evaluationsverfahren und Best Practices für AI-Lösungen • Mitgestaltung unserer AI-Roadmap und technologischen Ausrichtung • Aufbau von AI-Kompetenz im Unternehmen sowie Unterstützung bei der Einführung und Nutzung neuer Technologien</p>
 <p>Das bringst du mit • Mehrjährige Erfahrung in der Entwicklung moderner Softwarelösungen – du hast komplexe Anwendungen konzipiert, entwickelt oder technisch begleitet und verstehst, wie aus Ideen produktive Software entsteht. • Fundierte Erfahrung mit generativer Künstlicher Intelligenz – du hast bereits praktisch mit aktuellen AI-Technologien gearbeitet und weißt, wie sich diese sinnvoll und wirtschaftlich in Geschäftsprozesse und Anwendungen integrieren lassen. • Tiefgehendes Verständnis von Large Language Models und modernen AI-Architekturen – Themen wie LLMs, Retrieval Augmented Generation (RAG), Embeddings, semantische Suche sowie Agenten- und Tool-Integrationen sind für dich nicht nur Theorie, sondern Teil deiner praktischen Arbeit. • Erfahrung im Prompt Engineering sowie der Evaluierung von AI-Systemen – du weißt, wie hochwertige AI-Lösungen entwickelt, getestet und kontinuierlich verbessert werden können, um verlässliche Ergebnisse zu liefern. • Ausgeprägtes Architektur- und Systemverständnis – du denkst ganzheitlich, entwirfst tragfähige Softwarearchitekturen und integrierst neue Technologien sicher und nachhaltig in bestehende Systemlandschaften. • Praktische Erfahrung mit modernen AI- und Entwicklungswerkzeugen – idealerweise hast du bereits mit Technologien wie Python, OpenAI, Azure AI, LangChain, LlamaIndex, n8n oder vergleichbaren Plattformen gearbeitet. • Kommunikationsstärke und Beratungskompetenz – du kannst komplexe technische Zusammenhänge verständlich erklären und unterschiedliche Stakeholder bei der Einführung neuer Technologien erfolgreich begleiten. • Hands-on-Mentalität und Innovationsfreude – du arbeitest pragmatisch, probierst neue Ansätze aus und hast Freude daran, aus Konzepten funktionierende Prototypen und produktive Lösungen zu entwickeln. • Hohe Eigeninitiative und Lernbereitschaft – du verfolgst technologische Entwicklungen aktiv, eignest dir neues Wissen schnell an und bringst dieses gewinnbringend in Projekte ein. • Verhandlungssichere Deutschkenntnisse auf Muttersprachniveau – um komplexe Themen klar, überzeugend und lösungsorientiert zu kommunizieren.</p>
@@ -299,19 +278,16 @@ footer p { margin:4px 0; }
 <p>Was dich erwartet • Eine spannende Tätigkeit in einem zukunftssicheren Umfeld: Softwarelösungen für Umwelt &amp; Nachhaltigkeit • Modernste Technik und spannende Digitalisierungsprojekte • Home-Office &amp; flexible Arbeitszeiten für die perfekte Work-Life-Balance • Flache Hierarchien und kurze Entscheidungswege • Individuelle Weiterbildungsmöglichkeiten für deine persönliche und berufliche Weiterentwicklung • Team-Events und ein offenes Miteinander</p>
 <p>Über uns SYNQONY | digitizing circular economy</p>
 <p>Wir sind eine starke wachsende Gruppe innovativer Softwareunternehmen, die smarte Digitalisierungslösungen für Abfall- und Umweltmanagement entwickeln. Wir unterstützen Unternehmen dabei, effizienter und umweltschonender zu arbeiten. SYNQONY vereint technologische Innovation mit nachhaltigem Denken.Unsere Mission: Den gesamten Lebenszyklus des Abfalls nahtlos zu digitalisieren – von seiner Entstehung bei gewerblichen Abfallerzeugern und den privaten Haushalten, über den Transport bis zum Recycling bzw. der Entsorgung und weiter bis zur Kommunikation mit den Umweltbehörden.</p>
-<p>Mit der SYNQONY-Software-Suite bilden wir die gesamte Wertschöpfungskette der Kreislaufwirtschaft digital ab. Dies umfasst die Entstehung des Abfalls bei den Bürgern und gewerblichen Abfallerzeugern über die Beförderer und Sammler sowie die gewerblichen und kommunalen Entsorger bis hin zu den Umweltämtern. Jedem im Abfall- und Umweltmanagement bieten wir herausragende Produkte mit maximalem Nutzen. Wir schaffen noch deutlich weitergehende Automatisierung und Optimierung durch die Verbindung der beteiligten Akteure.Dieses Ziel erreichen wir mit unserem vielfältigen Team aus Branchenexperten und Innovatoren, Kundenverstehern u</p></div></details>
-</article>
-<article class="job" id="job-2026-07-27-3c-ai-implementation-lead" data-status="verworfen">
-  <div class="jobkopf">
-    <div class="score">5.0</div>
-    <div class="jobtitel">
-      <h3>3C Holding GmbH</h3>
-      <p class="rolle"><a href="https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207256688-S" target="_blank" rel="noopener">AI Implementation Lead (m/w/d)</a></p>
-      <p class="meta">Rheda-Wiedenbrück (OWL) · Quelle: ba · entdeckt 2026-07-27 · Konfidenz: hoch</p>
-    </div>
+<p>Mit der SYNQONY-Software-Suite bilden wir die gesamte Wertschöpfungskette der Kreislaufwirtschaft digital ab. Dies umfasst die Entstehung des Abfalls bei den Bürgern und gewerblichen Abfallerzeugern über die Beförderer und Sammler sowie die gewerblichen und kommunalen Entsorger bis hin zu den Umweltämtern. Jedem im Abfall- und Umweltmanagement bieten wir herausragende Produkte mit maximalem Nutzen. Wir schaffen noch deutlich weitergehende Automatisierung und Optimierung durch die Verbindung der beteiligten Akteure.Dieses Ziel erreichen wir mit unserem vielfältigen Team aus Branchenexperten und Innovatoren, Kundenverstehern u</p></div></details></div>
+</details>
+<details class="jobrow" id="job-2026-07-27-3c-ai-implementation-lead" data-status="verworfen">
+  <summary>
+    <span class="score">5,0</span>
+    <span class="jmain"><b>3C Holding GmbH</b><span class="rolle">AI Implementation Lead (m/w/d)</span>
+      <span class="jmeta">Rheda-Wiedenbrück (OWL)</span></span>
     <span class="pill st-dead">Verworfen</span>
-  </div>
-  <p class='beg'>Rollenzuschnitt (Use-Case-Portfolio, Hands-on-Prototyping, KI-Champions-Enablement, Stabsstelle der Geschäftsführung) ähnelt Moritz&#x27; heutiger Tätigkeit auffallend — aber am Standort Rheda-Wiedenbrück ohne vollwertigen Remote-Ausgleich („teilweise remote&quot;) greift das Standort-KO, und Möbel-Mittelstand dürfte das Gehaltsband deutlich verfehlen.</p><p class='ko'>KO: Standort Provinz ohne Remote-Ausgleich (KO-Kriterium); Gehaltsband sehr wahrscheinlich unter Untergrenze</p><details><summary>Original-Anzeige (archivierter Volltext)</summary><div class='dbody'><ul><li><b>Firma:</b> 3C Holding GmbH</li><li><b>Quelle:</b> ba</li><li><b>URL:</b> https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207256688-S</li><li><b>Archiviert:</b> 2026-07-27 (Volltext im Original-Wortlaut)</li></ul>
+  </summary>
+  <div class="jbody"><p class='beg'>Rollenzuschnitt (Use-Case-Portfolio, Hands-on-Prototyping, KI-Champions-Enablement, Stabsstelle der Geschäftsführung) ähnelt Moritz&#x27; heutiger Tätigkeit auffallend — aber am Standort Rheda-Wiedenbrück ohne vollwertigen Remote-Ausgleich („teilweise remote&quot;) greift das Standort-KO, und Möbel-Mittelstand dürfte das Gehaltsband deutlich verfehlen.</p><p class='ko'>KO: Standort Provinz ohne Remote-Ausgleich (KO-Kriterium); Gehaltsband sehr wahrscheinlich unter Untergrenze</p><p class='links'><a href='https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207256688-S' target='_blank' rel='noopener'>Anzeige online öffnen ↗</a><span class='mut'> · Konfidenz: hoch · Quelle: Arbeitsagentur · entdeckt 2026-07-27</span></p><details class='sub'><summary>Original-Anzeige (archivierter Volltext)</summary><div class='dbody'><ul><li><b>Firma:</b> 3C Holding GmbH</li><li><b>Quelle:</b> ba</li><li><b>URL:</b> https://www.arbeitsagentur.de/jobsuche/jobdetail/10000-1207256688-S</li><li><b>Archiviert:</b> 2026-07-27 (Volltext im Original-Wortlaut)</li></ul>
 <hr>
 <h4>Wir setzen auf Leidenschaft für Produktion und Vermarktung!</h4>
 <p>Wir, die 3C-Gruppe, sind ein leistungsstarker Möbelhersteller mit eigenen Produktionsstätten in Europa, die auf dem internationalen Markt agiert. Mit unserem Firmensitz in Wiedenbrück sind wir tief mit der Möbelregion Ostwestfalen-Lippe verwurzelt.</p>
@@ -322,22 +298,19 @@ footer p { margin:4px 0; }
 <h4>Dein Profil</h4>
 <ul><li><b>Expertise:</b> Erfahrung an der Schnittstelle zwischen Business und Tech mit Fokus auf KI- und Automatisierungsprojekte.</li><li><b>Technisches Fundament:</b> Du beherrschst professionelles Prompt-Engineering und bringst solide Python-Kenntnisse mit, um Prototypen eigenständig zu bauen und APIs sowie KI-Tools selbst anzubinden.</li><li><b>Change-Mentalität:</b> Du verstehst Dich als empathischer Brückenbauer, der komplexe Tech-Themen verständlich für das Top-Management und die Fachbereiche übersetzt.</li><li><b>Sprachniveau:</b> Du kommunizierst sicher auf Deutsch (mind. C1) und besitzt verhandlungssicheres Englisch für den internationalen Rollout.</li></ul>
 <h4>Unser Angebot</h4>
-<ul><li>Eine verantwortungsvolle Rolle in einer wachsenden, zukunftsorientierten Organisation</li><li>Flache Hierarchien, kurze Entscheidungswege und Gestaltungsspielraum</li><li>Flexible Arbeitszeiten und die Möglichkeit zu teilweise remote Arbeit</li><li>Berufliche Weiterentwicklung, Schulungen und regelmäßiges Feedback</li><li><b>Der Start:</b> Individuelles Onboarding im gesamten Betrieb und Schulungen/Einarbeitung in die verwendeten Werkzeuge</li><li><b>Unternehmenskultur:</b> Eine lockere, aber gleichzeitig äußerst professionelle Arbeitsatmosphäre, mit Gestaltungsspielraum für eigene Ideen</li><li><b>Menschlichkeit:&amp;#160;</b>Wir pflegen einen Umgang, der von Respekt und gegenseitiger Achtung geprägt ist. Flache Hierarchien, unbürokratisches Miteinander – Das zeichnet unser Haus aus</li><li><b>Wohlfühlatmosphäre:</b> Ein modernes Ambiente mit zeitgemäßen Arbeitsplätzen und den passenden Tools</li><li><b>Work Life Balance:</b> Als familienfreundlicher Arbeitgeber legen wir besonders großen Wert auf die gesunde Balance von Karriere und Privatleben (Kinderbetreuung, flexible Arbeitszeitgestaltung)</li><li><b>Attraktive Events:</b> Wir feiern Erfolge mit unseren Mitarbeitern, die ohne diese nicht möglich wären</li><li><b>Verpflegung:</b> Wöchentlich frisches Obst und Gemüse in der Winterzeit, sowie täglich kostenlose Tee- und Kaffeespezialitäten und verschiedene Sorten Wasser, Zuschuss zum täglichen Mittagessen bei uns im Bistro</li><li><b>Gesundheitsförderung:</b> Du verbringst einen Gutteil Deiner Lebenszeit am Arbeitsplatz, wir tragen unseren Teil dazu bei, dass Du dabei gesund und fit bleibst (SportNavi und Altersvorsorgemodelle)</li><li><b>Beständigkeit:</b> Wir setzen auf eine langjährige Beziehung zu unseren Mitarbeiterinnen und Mitarbeitern, denn nur ein eingespieltes Team bringt Top-Leistung</li><li><b>Weiterbildung und Coaching:</b> Deine Ideen sind unser Kapital</li><li><b>Mobilität:</b> Wir bieten Bike- Leasing</li></ul></div></details>
-</article>
-<article class="job" id="job-2026-07-27-motelone-manager-it-ai-automation" data-status="verworfen">
-  <div class="jobkopf">
-    <div class="score">4.5</div>
-    <div class="jobtitel">
-      <h3>Motel One GmbH</h3>
-      <p class="rolle"><a href="https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-8R5KFR-Q8M-S" target="_blank" rel="noopener">Manager IT — AI &amp; Automation (m/w/d)</a></p>
-      <p class="meta">München · Quelle: ba · entdeckt 2026-07-27 · Konfidenz: hoch</p>
-    </div>
+<ul><li>Eine verantwortungsvolle Rolle in einer wachsenden, zukunftsorientierten Organisation</li><li>Flache Hierarchien, kurze Entscheidungswege und Gestaltungsspielraum</li><li>Flexible Arbeitszeiten und die Möglichkeit zu teilweise remote Arbeit</li><li>Berufliche Weiterentwicklung, Schulungen und regelmäßiges Feedback</li><li><b>Der Start:</b> Individuelles Onboarding im gesamten Betrieb und Schulungen/Einarbeitung in die verwendeten Werkzeuge</li><li><b>Unternehmenskultur:</b> Eine lockere, aber gleichzeitig äußerst professionelle Arbeitsatmosphäre, mit Gestaltungsspielraum für eigene Ideen</li><li><b>Menschlichkeit:&amp;#160;</b>Wir pflegen einen Umgang, der von Respekt und gegenseitiger Achtung geprägt ist. Flache Hierarchien, unbürokratisches Miteinander – Das zeichnet unser Haus aus</li><li><b>Wohlfühlatmosphäre:</b> Ein modernes Ambiente mit zeitgemäßen Arbeitsplätzen und den passenden Tools</li><li><b>Work Life Balance:</b> Als familienfreundlicher Arbeitgeber legen wir besonders großen Wert auf die gesunde Balance von Karriere und Privatleben (Kinderbetreuung, flexible Arbeitszeitgestaltung)</li><li><b>Attraktive Events:</b> Wir feiern Erfolge mit unseren Mitarbeitern, die ohne diese nicht möglich wären</li><li><b>Verpflegung:</b> Wöchentlich frisches Obst und Gemüse in der Winterzeit, sowie täglich kostenlose Tee- und Kaffeespezialitäten und verschiedene Sorten Wasser, Zuschuss zum täglichen Mittagessen bei uns im Bistro</li><li><b>Gesundheitsförderung:</b> Du verbringst einen Gutteil Deiner Lebenszeit am Arbeitsplatz, wir tragen unseren Teil dazu bei, dass Du dabei gesund und fit bleibst (SportNavi und Altersvorsorgemodelle)</li><li><b>Beständigkeit:</b> Wir setzen auf eine langjährige Beziehung zu unseren Mitarbeiterinnen und Mitarbeitern, denn nur ein eingespieltes Team bringt Top-Leistung</li><li><b>Weiterbildung und Coaching:</b> Deine Ideen sind unser Kapital</li><li><b>Mobilität:</b> Wir bieten Bike- Leasing</li></ul></div></details></div>
+</details>
+<details class="jobrow" id="job-2026-07-27-motelone-manager-it-ai-automation" data-status="verworfen">
+  <summary>
+    <span class="score">4,5</span>
+    <span class="jmain"><b>Motel One GmbH</b><span class="rolle">Manager IT — AI &amp; Automation (m/w/d)</span>
+      <span class="jmeta">München</span></span>
     <span class="pill st-dead">Verworfen</span>
-  </div>
-  <p class='beg'>Thematisch Moritz&#x27; Welt (GenAI-Agenten, Power Automate, Enablement), aber ausgeschrieben auf Einsteiger-Niveau („erste praktische Erfahrungen&quot;) als Einzelrolle in der IT — kein Mandat, kein Team, kein Budget. Für sein Profil ein Rückschritt; Gehalt in Hotellerie-IT sehr wahrscheinlich klar unter dem Zielband.</p><p class='ko'>KO: Level unter Profil, Rolle ohne Mandat; Gehaltsband sehr wahrscheinlich unter Untergrenze</p><details><summary>Original-Anzeige (archivierter Volltext)</summary><div class='dbody'><ul><li><b>Firma:</b> Motel One GmbH</li><li><b>Quelle:</b> ba</li><li><b>URL:</b> https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-8R5KFR-Q8M-S</li><li><b>Archiviert:</b> 2026-07-27 (Volltext im Original-Wortlaut)</li></ul>
+  </summary>
+  <div class="jbody"><p class='beg'>Thematisch Moritz&#x27; Welt (GenAI-Agenten, Power Automate, Enablement), aber ausgeschrieben auf Einsteiger-Niveau („erste praktische Erfahrungen&quot;) als Einzelrolle in der IT — kein Mandat, kein Team, kein Budget. Für sein Profil ein Rückschritt; Gehalt in Hotellerie-IT sehr wahrscheinlich klar unter dem Zielband.</p><p class='ko'>KO: Level unter Profil, Rolle ohne Mandat; Gehaltsband sehr wahrscheinlich unter Untergrenze</p><p class='links'><a href='https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-8R5KFR-Q8M-S' target='_blank' rel='noopener'>Anzeige online öffnen ↗</a><span class='mut'> · Konfidenz: hoch · Quelle: Arbeitsagentur · entdeckt 2026-07-27</span></p><details class='sub'><summary>Original-Anzeige (archivierter Volltext)</summary><div class='dbody'><ul><li><b>Firma:</b> Motel One GmbH</li><li><b>Quelle:</b> ba</li><li><b>URL:</b> https://www.arbeitsagentur.de/jobsuche/jobdetail/12518-8R5KFR-Q8M-S</li><li><b>Archiviert:</b> 2026-07-27 (Volltext im Original-Wortlaut)</li></ul>
 <hr>
-<p>Unser Herz schlägt türkis. Arbeiten bei Motel One ist wie zu Freunden kommen, wo Wertschätzung und Unterstützung großgeschrieben werden und die individuelle Persönlichkeit willkommen ist. Wir begegnen uns auf Augenhöhe und verstehen uns als ein Team: von der Geschäftsführung bis zu den Auszubildenden. Mit unserer gemeinsamen Leidenschaft für modernes Design und hohe Servicequalität schaffen wir für unsere Gäste bei Motel One ein Zuhause für unterwegs. Unsere mehr als 90 Hotels in 13 Ländern überzeugen mit exklusivem Design, hohen Servicestandards und erstklassigen innerstädtischen Standorten zu einem attraktiven Preis. Als Begru?nder und Vorreiter des Budget Design Konzepts expandieren wir erfolgreich in den Metropolen Europas und darüber hinaus. Werden Sie Teil unseres Teams und gestalten Sie gemeinsam mit uns Motel One. Stellenbeschreibung Deine Mission KI verändert die Arbeitswelt ? und bei der Motel One Group wollen wir diese Veränderung aktiv gestalten. Als Manager IT (m/w/d) ? AI &amp; Automation bist du unsere zentrale Ansprechperson für alles rund um Künstliche Intelligenz und Prozessautomatisierung. Du identifizierst Potenziale, entwickelst konkrete Use Cases und setzt diese gemeinsam mit unseren Fachbereichen um. Dabei bewegst du dich sicher zwischen technischer Umsetzung sowie strategischer Gestaltung und bringst so echten Mehrwert für unsere über 100 Hotels und unsere internen Teams. Deine Kernaufgaben AI Use Cases &amp; Lösungsentwicklung Du erkennst frühzeitig, wo KI und Automatisierung echten Mehrwert schaffen - für unsere Gäste, unsere Hotels, unsere internen Teams und entwickelst daraus umsetzbare Konzepte. Du entwickelst und implementierst (Gen) AI- und LLM-basierte Anwendungen sowie KI-Agenten von der Anforderungsanalyse bis zum produktiven Einsatz. Du analysierst Anforderungen aus den Fachbereichen, übersetzt sie in technische Lösungsansätze und begleitest den gesamten Projektzyklus vom Proof of Concept bis zum Go-live. Du hältst dich über aktuelle KI-Technologien und -Plattformen auf dem Laufenden und bringst neue Impulse aktiv ins Team ein. Prozessautomatisierung Du erkennst Automatisierungspotenziale in bestehenden Workflows und setzt diese strukturiert um ? z.B. mit Power Automate oder Robotic Process Automation (RPA). Du entwickelst skalierbare Automatisierungslösungen in enger Abstimmung mit den betroffenen Bereichen und stellst deren Qualität sowie Stabilität sicher. Du dokumentierst Automatisierungsprozesse nachvollziehbar und sorgst für einen sauberen Übergang in den operativen Betrieb. Projektsteuerung &amp; Enablement Du steuerst AI- und Automatisierungsprojekte eigenverantwortlich mit klarem Backlog, strukturierter Roadmap und agilen Methoden (Scrum/Kanban). Du entwickelst Entscheidungsvorlagen und präsentierst Ergebnisse adressatengerecht ? auch auf Management-Ebene. Du treibst den Wissenstransfer rund um KI im Unternehmen aktiv voran. Du konzipierst Enablement-Formate, Workshops und interne Kommunikation, die Neugier wecken und Kompetenz aufbauen. Du bist die Brücke zwischen IT, Fachbereichen und externen Partnern ? lösungsorientiert, kommunikationsstark und mit Blick auf den größtmöglichen Impact. Qualifikationen Dein Profil Abgeschlossenes Studium, z.B. in Wirtschaftsinformatik, Informatik, BWL oder vergleichbar Erste praktische Erfahrungen mit GenAI-Technologien, LLM-Plattformen oder KI-Agenten. Kenntnisse in Automatisierungstools (z.B. Power Automate, RPA) oder Cloud-Plattformen (z.B. Microsoft Azure) von Vorteil. Anwendung agiler Projektmethoden (Scrum/Kanban) und Backlog-Management. Begeisterung für die Hospitalitybranche und ein gutes Gespür für praxisnahe Lösungen sind ein Plus. Was wir erwarten Echte Leidenschaft für KI-Technologien sowie deren praktischen Einsatz im Unternehmensalltag. Analytisches Denkvermögen und eine strukturierte, selbstständige Arbeitsweise. Kommunikationsstärke ? du kannst komplexe Technologie-Themen verständlich und begeisternd vermitteln. Lösungsorientiertes Mindset, hohe Eigeninitiative und Freude daran, Dinge wirklich umzusetzen. Teamgeist und Offenheit für interdisziplinäre Zusammenarbeit auf allen Unternehmensebenen. Dabei arbeitest du flexibel remote - bist jedoch bereit, rund 50% Deiner Arbeitszeit im Head Office München und bei Bedarf in den Hotels präsent zu sein, um enge Abstimmungen und operative Nähe sicherzustellen.   Benefits BONUS-PROGRAM Je besser die Gäste ihren Aufenthalt bewerten, desto höher fällt der Bonus für das ganze Team aus. INTERNATIONAL KARRIERE MACHEN Unsere nationalen und internationalen Hotels oder Neueröffnungen eröffnen zahlreiche Karrieremöglichkeiten. GÜNSTIG ÜBERNACHTEN IN GANZ EUROPA Vorteile sichern! Mit günstigen Personalraten in unseren Hotels in ganz Europa und in New York sowie weitere attraktiven Rabatten. SICH PERSÖNLICH UND FACHLICH WEITERENTWICKELN Mit umfangreichen Einarbeitungen, jährlichen Schulungen und Coachings an der One University, richtig durchstarten. GEMEINSAM FEIERN Ob Sommerfest, Weihnachtsfeier oder unser jährliches internationales Fußballturnier ? Erfolge feiern wir gemeinsam mit dem Team. KOSTENGÜNSTIG UND NACHHALTIG ZUR ARBEIT Es kann zwischen einem Zuschuss zum ÖPNV oder einem kostenlosen Fahrrad gewählt werden.</p></div></details>
-</article></div>
+<p>Unser Herz schlägt türkis. Arbeiten bei Motel One ist wie zu Freunden kommen, wo Wertschätzung und Unterstützung großgeschrieben werden und die individuelle Persönlichkeit willkommen ist. Wir begegnen uns auf Augenhöhe und verstehen uns als ein Team: von der Geschäftsführung bis zu den Auszubildenden. Mit unserer gemeinsamen Leidenschaft für modernes Design und hohe Servicequalität schaffen wir für unsere Gäste bei Motel One ein Zuhause für unterwegs. Unsere mehr als 90 Hotels in 13 Ländern überzeugen mit exklusivem Design, hohen Servicestandards und erstklassigen innerstädtischen Standorten zu einem attraktiven Preis. Als Begru?nder und Vorreiter des Budget Design Konzepts expandieren wir erfolgreich in den Metropolen Europas und darüber hinaus. Werden Sie Teil unseres Teams und gestalten Sie gemeinsam mit uns Motel One. Stellenbeschreibung Deine Mission KI verändert die Arbeitswelt ? und bei der Motel One Group wollen wir diese Veränderung aktiv gestalten. Als Manager IT (m/w/d) ? AI &amp; Automation bist du unsere zentrale Ansprechperson für alles rund um Künstliche Intelligenz und Prozessautomatisierung. Du identifizierst Potenziale, entwickelst konkrete Use Cases und setzt diese gemeinsam mit unseren Fachbereichen um. Dabei bewegst du dich sicher zwischen technischer Umsetzung sowie strategischer Gestaltung und bringst so echten Mehrwert für unsere über 100 Hotels und unsere internen Teams. Deine Kernaufgaben AI Use Cases &amp; Lösungsentwicklung Du erkennst frühzeitig, wo KI und Automatisierung echten Mehrwert schaffen - für unsere Gäste, unsere Hotels, unsere internen Teams und entwickelst daraus umsetzbare Konzepte. Du entwickelst und implementierst (Gen) AI- und LLM-basierte Anwendungen sowie KI-Agenten von der Anforderungsanalyse bis zum produktiven Einsatz. Du analysierst Anforderungen aus den Fachbereichen, übersetzt sie in technische Lösungsansätze und begleitest den gesamten Projektzyklus vom Proof of Concept bis zum Go-live. Du hältst dich über aktuelle KI-Technologien und -Plattformen auf dem Laufenden und bringst neue Impulse aktiv ins Team ein. Prozessautomatisierung Du erkennst Automatisierungspotenziale in bestehenden Workflows und setzt diese strukturiert um ? z.B. mit Power Automate oder Robotic Process Automation (RPA). Du entwickelst skalierbare Automatisierungslösungen in enger Abstimmung mit den betroffenen Bereichen und stellst deren Qualität sowie Stabilität sicher. Du dokumentierst Automatisierungsprozesse nachvollziehbar und sorgst für einen sauberen Übergang in den operativen Betrieb. Projektsteuerung &amp; Enablement Du steuerst AI- und Automatisierungsprojekte eigenverantwortlich mit klarem Backlog, strukturierter Roadmap und agilen Methoden (Scrum/Kanban). Du entwickelst Entscheidungsvorlagen und präsentierst Ergebnisse adressatengerecht ? auch auf Management-Ebene. Du treibst den Wissenstransfer rund um KI im Unternehmen aktiv voran. Du konzipierst Enablement-Formate, Workshops und interne Kommunikation, die Neugier wecken und Kompetenz aufbauen. Du bist die Brücke zwischen IT, Fachbereichen und externen Partnern ? lösungsorientiert, kommunikationsstark und mit Blick auf den größtmöglichen Impact. Qualifikationen Dein Profil Abgeschlossenes Studium, z.B. in Wirtschaftsinformatik, Informatik, BWL oder vergleichbar Erste praktische Erfahrungen mit GenAI-Technologien, LLM-Plattformen oder KI-Agenten. Kenntnisse in Automatisierungstools (z.B. Power Automate, RPA) oder Cloud-Plattformen (z.B. Microsoft Azure) von Vorteil. Anwendung agiler Projektmethoden (Scrum/Kanban) und Backlog-Management. Begeisterung für die Hospitalitybranche und ein gutes Gespür für praxisnahe Lösungen sind ein Plus. Was wir erwarten Echte Leidenschaft für KI-Technologien sowie deren praktischen Einsatz im Unternehmensalltag. Analytisches Denkvermögen und eine strukturierte, selbstständige Arbeitsweise. Kommunikationsstärke ? du kannst komplexe Technologie-Themen verständlich und begeisternd vermitteln. Lösungsorientiertes Mindset, hohe Eigeninitiative und Freude daran, Dinge wirklich umzusetzen. Teamgeist und Offenheit für interdisziplinäre Zusammenarbeit auf allen Unternehmensebenen. Dabei arbeitest du flexibel remote - bist jedoch bereit, rund 50% Deiner Arbeitszeit im Head Office München und bei Bedarf in den Hotels präsent zu sein, um enge Abstimmungen und operative Nähe sicherzustellen.   Benefits BONUS-PROGRAM Je besser die Gäste ihren Aufenthalt bewerten, desto höher fällt der Bonus für das ganze Team aus. INTERNATIONAL KARRIERE MACHEN Unsere nationalen und internationalen Hotels oder Neueröffnungen eröffnen zahlreiche Karrieremöglichkeiten. GÜNSTIG ÜBERNACHTEN IN GANZ EUROPA Vorteile sichern! Mit günstigen Personalraten in unseren Hotels in ganz Europa und in New York sowie weitere attraktiven Rabatten. SICH PERSÖNLICH UND FACHLICH WEITERENTWICKELN Mit umfangreichen Einarbeitungen, jährlichen Schulungen und Coachings an der One University, richtig durchstarten. GEMEINSAM FEIERN Ob Sommerfest, Weihnachtsfeier oder unser jährliches internationales Fußballturnier ? Erfolge feiern wir gemeinsam mit dem Team. KOSTENGÜNSTIG UND NACHHALTIG ZUR ARBEIT Es kann zwischen einem Zuschuss zum ÖPNV oder einem kostenlosen Fahrrad gewählt werden.</p></div></details></div>
+</details>
 </section>
 
 <section id="klaeren">
@@ -345,23 +318,29 @@ footer p { margin:4px 0; }
   <div class="karte"><ol class="klaeren"><li>👍/👎 zu den beiden Kalibrier-Mappen (Sixt, Kelvion) — besonders: Klingt die Stimme nach dir? Score-Einschätzung geteilt?</li><li><code>[KLÄREN]</code> aus <code>career/cv/notizen.md</code>: Monatsgrenze EA→PMO (Alt-CV sagt 06/2025, Dossier 01/2025) und die drei Alt-CV-Initiativen (Sales-Funnel, AI Knowledge Hub, Data-Lake) — belegbar fürs Dossier?</li><li>Internationale Watchlist (Barcelona &amp; Co.) schon in den täglichen Pull nehmen oder erst ab Woche 2?</li></ol></div>
 </section>
 
+<section id="quellen">
+  <h2><span class="eyebrow">Woher die Stellen kommen</span>Quellen</h2>
+  <div class="karte"><ul class="quellen">
+  <li><b>Arbeitsagentur-Jobsuche</b> (offizielle API der BA) — Führungs-/KI-Query-Set, täglich · bisher 174 Titel gesichtet</li>
+  <li><b>Karriereseiten-Feeds der Watchlist</b> — 64 kuratierte Firmen, davon 22 Feeds verifiziert
+      (Greenhouse, Personio, SmartRecruiters, Lever, Recruitee, Ashby — offizielle öffentliche Schnittstellen) · bisher 0 relevante Titel</li>
+  <li><b>Arbeitnow</b> (freies Job-Board mit API, DE-Fokus) — bisher 52 KI-relevante Titel</li>
+  <li><b>Websuche-Sweeps</b> („Head of AI", „AI Lead", „Leiter KI" × Deutschland) — ab dem nächsten Tageslauf; Funde werden auf der Firmenseite verifiziert</li>
+  <li><b>Über dich</b>: LinkedIn-/Xing-/StepStone-Alerts leitest du formlos weiter (AGB-Regel: dort kein automatisierter Zugriff) — fertige Suchstrings bereite ich dir vor</li></ul></div>
+</section>
+
 <footer>
-  <p><b>Wo liegt was?</b> Versandfertige PDFs: <code>mappen/&lt;id&gt;/</code> · Volltext-Archiv: <code>jobs/archiv/</code> ·
-     Schnellblick im Repo: <code>UEBERSICHT.md</code> · Regeln &amp; Log: <code>notes/</code></p>
-  <p>Aktualisiert von Vera nach jedem Arbeitstag. Nichts wird ohne dich versendet — Feedback einfach als Nachricht („Feedback: …").</p>
+  <p><b>Wo liegt was?</b> Versandfertige PDFs: Repo <code>mappen/&lt;id&gt;/</code> · Datenbestand: <code>jobs/jobs.yaml</code> (versioniert in Git) ·
+     Volltext-Archiv: <code>jobs/archiv/</code> · Regeln &amp; Log: <code>notes/</code></p>
+  <p>Aktualisiert von Vera nach jedem Arbeitstag (dieselbe URL). Nichts wird ohne dich versendet — Feedback einfach als Nachricht („Feedback: …").</p>
 </footer>
 </div>
 <script>
-const chips = document.querySelectorAll(".chip"), karten = document.querySelectorAll(".job");
-const AKTIV = ['neu', 'bewertet', 'empfohlen', 'mappe', 'gesendet', 'antwort', 'interview', 'angebot'];
-chips.forEach(c => c.addEventListener("click", () => {
-  chips.forEach(x => x.setAttribute("aria-pressed", x === c ? "true" : "false"));
-  const f = c.dataset.f;
-  karten.forEach(k => {
-    const s = k.dataset.status;
-    k.style.display = (f === "alle" || (f === "aktiv" && AKTIV.includes(s)) ||
-                       (f === "mappe" && s === "mappe") ||
-                       (f === "raus" && !AKTIV.includes(s))) ? "" : "none";
-  });
-}));
+function openTarget() {
+  if (!location.hash) return;
+  const el = document.getElementById(location.hash.slice(1));
+  if (el && el.tagName === "DETAILS") { el.open = true; el.scrollIntoView({block: "start"}); }
+}
+addEventListener("hashchange", openTarget);
+addEventListener("load", openTarget);
 </script>

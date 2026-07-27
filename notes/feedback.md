@@ -5,6 +5,7 @@
 | Datum | Kontext | Feedback | Abgeleitete Änderung | Status |
 |---|---|---|---|---|
 | 2026-07-27 | Onboarding | Ist-Paket bestätigt (80k/35h/38T/kein Var.); **Du**-Präferenz; Alt-CV geliefert (aktueller Job fehlt dort) | preferences.md + style.md aktualisiert; Master-CV mit AI-Rolle aus Dossier gebaut | ✅ eingearbeitet |
+| 2026-07-27 | Cockpit | „Dashboard leider nicht übersichtlich"; Fragen nach genauen Quellen, Vercel-Hosting, „richtiger Datenbank" | Cockpit v2: Master-Detail (kompakte Zeilen, Gruppen nach Handlungsbedarf, Tiefe erst nach Klick), Quellen-Sektion mit Zählern; Hosting-/DB-Linie als D14 dokumentiert und Moritz begründet beantwortet | ✅ umgebaut, gleiche URL |
 
 ## Offene Kalibrier-Fragen an Moritz (aus Tag 1)
 
