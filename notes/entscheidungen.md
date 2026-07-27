@@ -37,5 +37,8 @@ Query-Sets für WebSearch stehen im Runbook (`tools/README.md`). Jeder Fund wird
 ### D11 · Titel-Sichtung ≠ Prüfung
 Die Quellen-Skripte liefern täglich Dutzende Titel; die gelten als *gesichtet* (dedupliziert in `jobs/rohdaten/gesehen.yaml`), nicht als *geprüft*. In `jobs/jobs.yaml` landen nur ernsthaft geprüfte Stellen: Volltext gelesen, Rubrik angewendet, Score + Konfidenz + Begründung. So bleibt die „bewertete Jobliste" ein Qualitätsversprechen, keine Halde.
 
+### D13 · Interaktives Cockpit als privates Claude-Artifact
+Moritz' primäre Ansicht ist das Artifact **https://claude.ai/code/artifact/f4129012-001a-433c-9aac-4fd0414a900a** („Jobpilot — Karriere-Cockpit", Favicon 🧭 — beibehalten!). Es wird aus `dashboard/artifact.html` generiert (`python3 tools/artifact_build.py`) und enthält Pipeline, Scores, Begründungen, Analysen, Anschreiben-Entwürfe und archivierte Original-Anzeigen. **Jeder Arbeitstag endet mit Neu-Bauen + Republish auf DIESELBE URL** (Artifact-Tool mit `url`-Parameter; ohne das Tool in der Session: nur `artifact.html` committen, Republish holt die nächste interaktive Session nach). Diskretion: Artifact ist privat (nur Moritz' Account); Link niemals weitergeben; PDFs bleiben im Repo, nicht im Artifact.
+
 ### D12 · ATS-Probe-Hygiene
 `--probe` kann Namensvettern treffen (am 27.07.: „personio"/„rtl"/„zeiss" auf fremden ATS mit 1–7 Jobs). Verdächtige Treffer (sehr wenige Jobs, Firmenname passt nicht zu Jobtiteln) in `tools/ats_status.yaml` auf `typ: keins` setzen und den echten Kanal per Websuche klären.

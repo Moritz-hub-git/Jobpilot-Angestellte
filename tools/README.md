@@ -40,7 +40,10 @@ Pro Empfehlung `mappen/<id>/`: `analyse.md` (Warum-passt-es · Gehaltseinschätz
 
 ```
 python3 tools/uebersicht.py            # generiert UEBERSICHT.md + dashboard/index.html aus jobs.yaml
+python3 tools/artifact_build.py        # generiert dashboard/artifact.html (interaktives Cockpit)
 ```
+
+Dann das Cockpit-Artifact auf **dieselbe URL** republishen (URL + Regeln: `notes/entscheidungen.md`, D13). Steht das Artifact-Tool in der Session nicht zur Verfügung: `artifact.html` trotzdem committen — die nächste interaktive Session republisht.
 
 Dann: Journal-Eintrag (3–5 Zeilen) → committen, pushen (Branch gemäß Session-Vorgabe) → Statusnachricht an Moritz, beginnend mit „[B]": 3 Sätze — was ist neu, was steht aus, was brauche ich von ihm.
 
