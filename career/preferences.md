@@ -29,7 +29,7 @@
 
 ## Gehalt
 
-- Ist-Paket: ~80.000 € brutto, 35-h-Woche, 38 Urlaubstage, kein variabler Anteil [von Moritz final zu bestätigen].
+- Ist-Paket: ~80.000 € brutto, 35-h-Woche, 38 Urlaubstage, kein variabler Anteil. ✅ Von Moritz bestätigt am 27.07.2026.
 - **Vergleichsbasis („Komfort-Äquivalent"): ~94–95k** (80k auf 40 h hochgerechnet + Urlaubswert). Jedes Angebot ist GEGEN DIESE BASIS zu bewerten, nicht gegen 80k.
 - **Harte Untergrenze: 100k Gesamtpaket.** Zielband: 110–130k je nach Rolle/Stadt; echtes Head-of-AI-Mandat: 120k+. Hochpreisige Städte entsprechend höher.
 - Mandat/Verantwortung kann Geld teilweise aufwiegen — aber nicht unter die Untergrenze.
@@ -65,6 +65,7 @@
 ## Offene Punkte (laufend nachtragen)
 
 - €-Business-Cases der AI-Use-Cases (Moritz priced diese Woche — Zahlen ins Dossier nachziehen)
-- Exakter aktueller HR-Titel (Arbeitsvertrag/Intranet)
-- Ist-Paket final bestätigen (80k/35h/38 Tage/kein Variable)
-- Du/Sie-Präferenz für deutsche Anschreiben (bis dahin: Regel aus style.md)
+- Exakter aktueller HR-Titel (Arbeitsvertrag/Intranet) — bis dahin: „Project Manager AI" laut Dossier
+- Monatsgrenze EA→PMO + drei Alt-CV-Initiativen (siehe `career/cv/notizen.md`)
+- ~~Ist-Paket final bestätigen~~ ✅ bestätigt 27.07.2026
+- ~~Du/Sie-Präferenz~~ ✅ geklärt 27.07.2026: **Grundpräferenz Du**; siezt die Anzeige klar → Sie

@@ -10,7 +10,7 @@
 
 1. **CV: immer auf Englisch.** Anschreiben/Motivationsschreiben: in der Sprache der Stellenanzeige.
 2. **Immer auf die konkrete Ausschreibung zugeschnitten** — jeder Absatz muss erkennbar für DIESE Firma geschrieben sein (Austauschbarkeits-Test des Lektors).
-3. Du/Sie im Deutschen: der Anzeige folgen (duzt die Anzeige → Du; sonst Sie). [Explizite Präferenz von Moritz noch offen.]
+3. Du/Sie im Deutschen: **Grundpräferenz Du** (von Moritz bestätigt 27.07.2026). Siezt die Anzeige durchgehend klar → Sie; im Zweifel oder gemischt → Du.
 4. Jede Eignungs-Behauptung braucht einen Beleg aus dossier.md/stories.md — sonst streichen (Fakten-Gate).
 5. Keine erfundenen oder aufgerundeten Zahlen. Belegte Formulierungen: „~80 % weniger Reporting-Aufwand (von >32 h auf ~6 h)", „€60k internes Funding", „€250k-Projekt", „3 veröffentlichte iOS-Apps", „~30 identifizierte Use Cases, 2 produktiv" [Zahlen-Updates folgen].
 

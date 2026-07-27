@@ -1,0 +1,91 @@
+# Watchlist — Firmen mit echtem KI-Bezug, deren Karriere-Feeds täglich abgefragt werden (tools/quellen_ats.py)
+# ats.typ: greenhouse | lever | personio | smartrecruiters | recruitee | ashby | keins | unbekannt
+# ats.status: bestaetigt (Feed liefert) | vermutet (Slug geraten, noch nicht geprüft) | fehlt (unbekannt, Probe nötig) | keins (kein öffentlicher Feed → Websuche-Kanal)
+# flags: pampa (Standort-Abzug prüfen) | konzern (Mandat-Skepsis) | wettbewerber (Elektrolyse → Diskretions-Flag in Analyse) | beratung (nur ≥ PM-Einstieg)
+# Sperrliste (NIE anfassen): gesamte thyssenkrupp-Gruppe — steht bewusst NICHT auf dieser Liste.
+
+firmen:
+  # ── KI-first / KI-Produkt ─────────────────────────────────────────
+  - {name: Aleph Alpha, ort: Heidelberg, warum: dt. KI-Flaggschiff, Enterprise-LLM/Souveränität, ats: {typ: unbekannt, slug: aleph-alpha, status: fehlt}}
+  - {name: Black Forest Labs, ort: Freiburg, warum: FLUX-Bildmodelle, Weltklasse-Forschung, ats: {typ: unbekannt, slug: black-forest-labs, status: fehlt}}
+  - {name: DeepL, ort: Köln, warum: KI-Übersetzung Weltmarkt, NRW, ats: {typ: greenhouse, slug: deepl, status: fehlt}}
+  - {name: Parloa, ort: Berlin, warum: Contact-Center-AI-Agenten, stark wachsend, ats: {typ: ashby, slug: parloa, status: vermutet}}
+  - {name: Cognigy, ort: Düsseldorf, warum: Conversational/Agentic AI, NRW-Heimspiel, ats: {typ: unbekannt, slug: cognigy, status: fehlt}}
+  - {name: n8n, ort: Berlin, warum: Workflow-Automation (Moritz kennt das Tool), ats: {typ: ashby, slug: n8n, status: vermutet}}
+  - {name: Langdock, ort: Berlin, warum: Enterprise-LLM-Plattform, ats: {typ: ashby, slug: langdock, status: vermutet}}
+  - {name: deepset, ort: Berlin, warum: Haystack/Enterprise-RAG, ats: {typ: unbekannt, slug: deepset, status: fehlt}}
+  - {name: Merantix Momentum, ort: Berlin, warum: KI-Venture-Studio/Consulting, ats: {typ: unbekannt, slug: merantix, status: fehlt}}
+  - {name: Aignostics, ort: Berlin, warum: Pathologie-KI, klarer gesellschaftl. Mehrwert, ats: {typ: unbekannt, slug: aignostics, status: fehlt}}
+  - {name: Ada Health, ort: Berlin, warum: KI-Diagnostik, ats: {typ: greenhouse, slug: adahealth, status: vermutet}}
+  - {name: Helsing, ort: München, warum: Defense-AI (Produkt-Sinn mit Moritz klären), ats: {typ: greenhouse, slug: helsing, status: vermutet}}
+  - {name: Knowunity, ort: Berlin, warum: EdTech mit KI-Lernassistent, ats: {typ: unbekannt, slug: knowunity, status: fehlt}}
+
+  # ── Scale-ups / Tech mit KI-Kern ──────────────────────────────────
+  - {name: Celonis, ort: München, warum: Process Mining Weltmarktführer, massiver AI-Push, ats: {typ: smartrecruiters, slug: celonis, status: bestaetigt}}
+  - {name: Personio, ort: München, warum: HR-SaaS, AI-Agenten-Push, ats: {typ: personio, slug: personio, status: vermutet}}
+  - {name: Zalando, ort: Berlin, warum: größte dt. E-Commerce-Tech, viele AI-Product-Rollen, ats: {typ: unbekannt, slug: zalando, status: fehlt}}
+  - {name: HelloFresh, ort: Berlin, warum: Data/AI-getriebenes Geschäftsmodell, ats: {typ: greenhouse, slug: hellofresh, status: vermutet}}
+  - {name: Delivery Hero, ort: Berlin, warum: großes AI-Org, ats: {typ: greenhouse, slug: deliveryhero, status: vermutet}}
+  - {name: GetYourGuide, ort: Berlin, warum: Travel-Tech, AI-Personalisierung, ats: {typ: greenhouse, slug: getyourguide, status: vermutet}}
+  - {name: About You / Scayle, ort: Hamburg, warum: E-Com + Commerce-SaaS, ats: {typ: unbekannt, slug: aboutyou, status: fehlt}}
+  - {name: Check24, ort: München, warum: Produkt-Maschine, KI-Features überall, ats: {typ: unbekannt, slug: check24, status: fehlt}}
+  - {name: idealo, ort: Berlin, warum: Preisvergleich, Data/AI, ats: {typ: unbekannt, slug: idealo, status: fehlt}}
+  - {name: ImmoScout24, ort: Berlin, warum: Marktplatz, AI-Produkte, ats: {typ: unbekannt, slug: immoscout24, status: fehlt}}
+  - {name: Trade Republic, ort: Berlin, warum: FinTech-Scale-up, ats: {typ: unbekannt, slug: traderepublic, status: fehlt}}
+  - {name: Scalable Capital, ort: München, warum: FinTech, ats: {typ: unbekannt, slug: scalable, status: fehlt}}
+  - {name: Flix, ort: München, warum: Mobility-Tech, Data/AI-Kern, ats: {typ: unbekannt, slug: flix, status: fehlt}}
+  - {name: Sixt, ort: München, warum: starke Tech-Org im Traditionsunternehmen, ats: {typ: unbekannt, slug: sixt, status: fehlt}}
+  - {name: Enpal, ort: Berlin, warum: Energiewende + AI (Passt zu H2-Hintergrund), ats: {typ: unbekannt, slug: enpal, status: fehlt}}
+  - {name: 1Komma5°, ort: Hamburg, warum: Heartbeat-AI/Energiewende — starker thematischer Fit, ats: {typ: unbekannt, slug: 1komma5, status: fehlt}}
+  - {name: Taxfix, ort: Berlin, warum: Consumer-FinTech mit KI, ats: {typ: greenhouse, slug: taxfix, status: vermutet}}
+  - {name: Choco, ort: Berlin, warum: KI für Lebensmittel-Großhandel, ats: {typ: unbekannt, slug: choco, status: fehlt}}
+  - {name: Babbel, ort: Berlin, warum: Sprachlern-KI, ats: {typ: unbekannt, slug: babbel, status: fehlt}}
+
+  # ── Mittelstand & Industrie mit KI-Ambition (sein Sweet Spot) ─────
+  - {name: Kelvion, ort: Herne, warum: "Wärmetauscher-Mittelstand, sucht aktuell Head of AI (BA-Fund 27.07.)", ats: {typ: unbekannt, slug: kelvion, status: fehlt}}
+  - {name: Schwarz Digits / STACKIT, ort: Heilbronn, warum: größter dt. Cloud/KI-Push, IPAI-Campus, ats: {typ: unbekannt, slug: stackit, status: fehlt}, flags: [pampa]}
+  - {name: Henkel dx, ort: Düsseldorf, warum: Digital-Unit mit AI-Programmen, NRW, ats: {typ: unbekannt, slug: henkel, status: fehlt}, flags: [konzern]}
+  - {name: Miele, ort: Gütersloh, warum: Smart Home/Digital-Ambition, ats: {typ: unbekannt, slug: miele, status: fehlt}, flags: [pampa]}
+  - {name: Vorwerk, ort: Wuppertal, warum: Thermomix/Kobold — Produkt + KI, ats: {typ: unbekannt, slug: vorwerk, status: fehlt}}
+  - {name: Claas, ort: Harsewinkel, warum: Agrar-Tech/Autonomie, ats: {typ: unbekannt, slug: claas, status: fehlt}, flags: [pampa]}
+  - {name: Trumpf, ort: Ditzingen, warum: Maschinenbau + KI-Fertigung, ats: {typ: unbekannt, slug: trumpf, status: fehlt}, flags: [pampa]}
+  - {name: ZEISS Digital, ort: Oberkochen/Jena, warum: Optik-Weltmarktführer, Digital-Units, ats: {typ: unbekannt, slug: zeiss, status: fehlt}, flags: [pampa, konzern]}
+  - {name: Wilo, ort: Dortmund, warum: Heimspiel, Smart-Pumpen/Digital, ats: {typ: unbekannt, slug: wilo, status: fehlt}}
+  - {name: Signal Iduna, ort: Dortmund, warum: Heimspiel, Versicherer-Digital-Push, ats: {typ: unbekannt, slug: signal-iduna, status: fehlt}, flags: [konzern]}
+  - {name: adesso, ort: Dortmund, warum: Heimspiel, große GenAI-Practice, ats: {typ: unbekannt, slug: adesso, status: fehlt}, flags: [beratung]}
+  - {name: REWE digital, ort: Köln, warum: Handel-Tech NRW, ats: {typ: unbekannt, slug: rewe-digital, status: fehlt}, flags: [konzern]}
+  - {name: Metro.digital, ort: Düsseldorf, warum: Großhandel-Tech NRW, ats: {typ: unbekannt, slug: metro-digital, status: fehlt}, flags: [konzern]}
+  - {name: DHL Group, ort: Bonn, warum: große AI-Org, NRW, ats: {typ: unbekannt, slug: dhl, status: fehlt}, flags: [konzern]}
+  - {name: Deutsche Telekom, ort: Bonn, warum: AI-Offensive, NRW, ats: {typ: unbekannt, slug: telekom, status: fehlt}, flags: [konzern]}
+  - {name: Vodafone DE, ort: Düsseldorf, warum: TelCo-AI, NRW, ats: {typ: unbekannt, slug: vodafone, status: fehlt}, flags: [konzern]}
+  - {name: E.ON Digital Technology, ort: Essen, warum: Energie + Digital, NRW, ats: {typ: unbekannt, slug: eon, status: fehlt}, flags: [konzern]}
+  - {name: Vonovia, ort: Bochum, warum: Heimspiel, Immobilien-Digitalisierung, ats: {typ: unbekannt, slug: vonovia, status: fehlt}, flags: [konzern]}
+  - {name: Körber Digital, ort: Hamburg/Berlin, warum: Industrie-Digital-Venture-Bau, ats: {typ: unbekannt, slug: koerber, status: fehlt}}
+  - {name: Lufthansa Digital Hangar, ort: Frankfurt, warum: Airline-Digital/AI, ats: {typ: unbekannt, slug: lufthansa, status: fehlt}, flags: [konzern]}
+
+  # ── Medien (seine Domäne) ─────────────────────────────────────────
+  - {name: Hubert Burda Media, ort: München, warum: Ex-Arbeitgeber, kennt Kultur + Netzwerk, ats: {typ: unbekannt, slug: burda, status: fehlt}}
+  - {name: Axel Springer, ort: Berlin, warum: KI-Transformation ausgerufen, ats: {typ: unbekannt, slug: axelspringer, status: fehlt}, flags: [konzern]}
+  - {name: RTL Deutschland, ort: Köln, warum: Medien-KI, NRW, ats: {typ: unbekannt, slug: rtl, status: fehlt}, flags: [konzern]}
+  - {name: ProSiebenSat.1, ort: München, warum: Medien-KI, ats: {typ: unbekannt, slug: prosiebensat1, status: fehlt}, flags: [konzern]}
+  - {name: Bertelsmann / Arvato Systems, ort: Gütersloh, warum: Konzern-KI + IT-Dienstleister, ats: {typ: unbekannt, slug: arvato, status: fehlt}, flags: [konzern, pampa]}
+
+  # ── Big Tech in DE (Mandat + Gehalt möglich, Konzern-Skepsis) ─────
+  - {name: Microsoft Deutschland, ort: München, warum: Copilot-Ökosystem = seine Power-Platform-Stärke, ats: {typ: keins, slug: null, status: keins}, flags: [konzern]}
+  - {name: Google München, ort: München, warum: großer Engineering-Standort, ats: {typ: keins, slug: null, status: keins}, flags: [konzern]}
+  - {name: AWS Deutschland, ort: München/Berlin, warum: GenAI-GTM-Rollen, ats: {typ: keins, slug: null, status: keins}, flags: [konzern]}
+  - {name: OpenAI München, ort: München, warum: DE-Office seit 2025, ats: {typ: keins, slug: null, status: keins}}
+  - {name: SAP, ort: Walldorf, warum: Joule/AI-Org, ats: {typ: keins, slug: null, status: keins}, flags: [konzern, pampa]}
+
+  # ── Elektrolyse-Wettbewerber (erlaubt, aber Diskretions-Flag) ─────
+  - {name: Sunfire, ort: Dresden, warum: SOEC! Sein Strategiewissen passt exakt, ats: {typ: unbekannt, slug: sunfire, status: fehlt}, flags: [wettbewerber]}
+  - {name: H-TEC Systems (Quest One), ort: Augsburg/Hamburg, warum: PEM-Elektrolyse, ats: {typ: unbekannt, slug: h-tec, status: fehlt}, flags: [wettbewerber]}
+
+# ── International (Ausbaustufe — noch nicht im täglichen Pull; erst mit Moritz priorisieren) ──
+international:
+  - {name: Mistral AI, ort: Paris, ats: {typ: lever, slug: mistral, status: vermutet}}
+  - {name: Spotify, ort: Stockholm/Berlin, ats: {typ: lever, slug: spotify, status: vermutet}}
+  - {name: Booking.com, ort: Amsterdam, ats: {typ: unbekannt, slug: booking, status: fehlt}}
+  - {name: Adyen, ort: Amsterdam, ats: {typ: greenhouse, slug: adyen, status: vermutet}}
+  - {name: TravelPerk, ort: Barcelona, ats: {typ: greenhouse, slug: travelperk, status: vermutet}}
+  - {name: Glovo, ort: Barcelona, ats: {typ: greenhouse, slug: glovo, status: vermutet}}

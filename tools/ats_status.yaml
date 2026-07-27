@@ -1,0 +1,187 @@
+Aleph Alpha:
+  typ: ashby
+  slug: alephalpha
+  verifiziert: '2026-07-27'
+  jobs_beim_test: 8
+Black Forest Labs:
+  typ: greenhouse
+  slug: blackforestlabs
+  verifiziert: '2026-07-27'
+  jobs_beim_test: 13
+DeepL:
+  typ: ashby
+  slug: deepl
+  verifiziert: '2026-07-27'
+  jobs_beim_test: 39
+Parloa:
+  typ: greenhouse
+  slug: parloa
+  verifiziert: '2026-07-27'
+  jobs_beim_test: 59
+Cognigy:
+  letzte_probe: '2026-07-27'
+n8n:
+  typ: ashby
+  slug: n8n
+  verifiziert: '2026-07-27'
+  jobs_beim_test: 38
+Langdock:
+  typ: personio
+  slug: langdock
+  verifiziert: '2026-07-27'
+  jobs_beim_test: 3
+deepset:
+  letzte_probe: '2026-07-27'
+Merantix Momentum:
+  typ: personio
+  slug: merantix
+  verifiziert: '2026-07-27'
+  jobs_beim_test: 24
+Aignostics:
+  letzte_probe: '2026-07-27'
+Ada Health:
+  letzte_probe: '2026-07-27'
+Helsing:
+  typ: greenhouse
+  slug: helsing
+  verifiziert: '2026-07-27'
+  jobs_beim_test: 123
+Knowunity:
+  typ: ashby
+  slug: knowunity
+  verifiziert: '2026-07-27'
+  jobs_beim_test: 13
+Personio:
+  typ: keins
+  hinweis: 'Fehltreffer bereinigt 2026-07-27: recruitee/personio = 1 Job, mutmaßlich Namensvetter. Echten Kanal via Websuche
+    klären.'
+Zalando:
+  letzte_probe: '2026-07-27'
+HelloFresh:
+  typ: greenhouse
+  slug: hellofresh
+  verifiziert: '2026-07-27'
+  jobs_beim_test: 352
+Delivery Hero:
+  typ: smartrecruiters
+  slug: deliveryhero
+  verifiziert: '2026-07-27'
+  jobs_beim_test: 100
+GetYourGuide:
+  typ: greenhouse
+  slug: getyourguide
+  verifiziert: '2026-07-27'
+  jobs_beim_test: 55
+About You / Scayle:
+  letzte_probe: '2026-07-27'
+Check24:
+  typ: smartrecruiters
+  slug: check24
+  verifiziert: '2026-07-27'
+  jobs_beim_test: 100
+idealo:
+  letzte_probe: '2026-07-27'
+ImmoScout24:
+  typ: greenhouse
+  slug: immoscout24
+  verifiziert: '2026-07-27'
+  jobs_beim_test: 29
+Trade Republic:
+  typ: greenhouse
+  slug: traderepublic
+  verifiziert: '2026-07-27'
+  jobs_beim_test: 1
+Scalable Capital:
+  letzte_probe: '2026-07-27'
+Flix:
+  typ: greenhouse
+  slug: flix
+  verifiziert: '2026-07-27'
+  jobs_beim_test: 154
+Sixt:
+  typ: smartrecruiters
+  slug: sixt
+  verifiziert: '2026-07-27'
+  jobs_beim_test: 100
+Enpal:
+  typ: ashby
+  slug: enpal
+  verifiziert: '2026-07-27'
+  jobs_beim_test: 314
+1Komma5°:
+  letzte_probe: '2026-07-27'
+Taxfix:
+  letzte_probe: '2026-07-27'
+Choco:
+  typ: ashby
+  slug: choco
+  verifiziert: '2026-07-27'
+  jobs_beim_test: 11
+Babbel:
+  typ: ashby
+  slug: babbel
+  verifiziert: '2026-07-27'
+  jobs_beim_test: 3
+Kelvion:
+  letzte_probe: '2026-07-27'
+Schwarz Digits / STACKIT:
+  letzte_probe: '2026-07-27'
+Henkel dx:
+  letzte_probe: '2026-07-27'
+Miele:
+  letzte_probe: '2026-07-27'
+Vorwerk:
+  letzte_probe: '2026-07-27'
+Claas:
+  letzte_probe: '2026-07-27'
+Trumpf:
+  letzte_probe: '2026-07-27'
+ZEISS Digital:
+  typ: keins
+  hinweis: 'Fehltreffer bereinigt 2026-07-27: lever/zeiss = 3 Jobs, mutmaßlich nicht Carl Zeiss. Echten Kanal via Websuche
+    klären.'
+Wilo:
+  letzte_probe: '2026-07-27'
+Signal Iduna:
+  letzte_probe: '2026-07-27'
+adesso:
+  typ: recruitee
+  slug: adesso
+  verifiziert: '2026-07-27'
+  jobs_beim_test: 28
+REWE digital:
+  letzte_probe: '2026-07-27'
+Metro.digital:
+  letzte_probe: '2026-07-27'
+DHL Group:
+  letzte_probe: '2026-07-27'
+Deutsche Telekom:
+  letzte_probe: '2026-07-27'
+Vodafone DE:
+  letzte_probe: '2026-07-27'
+E.ON Digital Technology:
+  letzte_probe: '2026-07-27'
+Vonovia:
+  letzte_probe: '2026-07-27'
+Körber Digital:
+  letzte_probe: '2026-07-27'
+Lufthansa Digital Hangar:
+  letzte_probe: '2026-07-27'
+Hubert Burda Media:
+  typ: smartrecruiters
+  slug: hubertburdamedia
+  verifiziert: '2026-07-27'
+  jobs_beim_test: 22
+Axel Springer:
+  letzte_probe: '2026-07-27'
+RTL Deutschland:
+  typ: keins
+  hinweis: 'Fehltreffer bereinigt 2026-07-27: recruitee/rtl = 7 Jobs, mutmaßlich nicht RTL DE. Echten Kanal via Websuche klären.'
+ProSiebenSat.1:
+  letzte_probe: '2026-07-27'
+Bertelsmann / Arvato Systems:
+  letzte_probe: '2026-07-27'
+Sunfire:
+  letzte_probe: '2026-07-27'
+H-TEC Systems (Quest One):
+  letzte_probe: '2026-07-27'
